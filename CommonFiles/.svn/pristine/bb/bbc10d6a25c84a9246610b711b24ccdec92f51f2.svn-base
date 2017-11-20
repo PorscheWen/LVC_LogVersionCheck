@@ -1,0 +1,1110 @@
+[ABAQUS_Hexa_Ori]
+ProjName: HexaFEA_Ori
+RunNum: 1
+files: 
+    ABAQUS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_001(1.923977).inp
+    ABAQUS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_002(3.639092).inp
+    ABAQUS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_003(5.274374).inp
+    ABAQUS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_004(8.250000).inp
+    ABAQUS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_005(9.500000).inp
+    ABAQUS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_006(10.750000).inp
+    ABAQUS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_007(13.250000).inp
+    ABAQUS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_008(14.500000).inp
+    ABAQUS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_009(15.750000).inp
+    ABAQUS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_EOC.inp
+    ABAQUS_Moldbase_Ori_HexaFEA_Ori01.inp
+    ABAQUS_Moldbase_Pressure_Ori_HexaFEA_Ori01_EOF.inp
+    ABAQUS_Moldbase_Pressure_Ori_HexaFEA_Ori01_EOP.inp
+    ABAQUS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Fill_001(1.923977).inp
+    ABAQUS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Fill_002(3.639092).inp
+    ABAQUS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Fill_003(5.274374).inp
+    ABAQUS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Fill_004(6.995177).inp
+    ABAQUS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Pack_001(1.271480).inp
+    ABAQUS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Pack_002(2.601723).inp
+    ABAQUS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Pack_003(3.902415).inp
+    ABAQUS_PartInsert_Pressure_Ori_HexaFEA_Ori01_EOF.inp
+    ABAQUS_PartInsert_Pressure_Ori_HexaFEA_Ori01_EOP.inp
+    ABAQUS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Fill_001(1.923977).inp
+    ABAQUS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Fill_002(3.639092).inp
+    ABAQUS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Fill_003(5.274374).inp
+    ABAQUS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Fill_004(6.995177).inp
+    ABAQUS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Pack_001(1.271480).inp
+    ABAQUS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Pack_002(2.601723).inp
+    ABAQUS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Pack_003(3.902415).inp
+    ABAQUS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_001(1.923977).inp
+    ABAQUS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_002(3.639092).inp
+    ABAQUS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_003(5.274374).inp
+    ABAQUS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_004(8.250000).inp
+    ABAQUS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_005(9.500000).inp
+    ABAQUS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_006(10.750000).inp
+    ABAQUS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_007(13.250000).inp
+    ABAQUS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_008(14.500000).inp
+    ABAQUS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_009(15.750000).inp
+    ABAQUS_PartInsert_Temperature_Ori_HexaFEA_Ori01_EOC.inp
+    ABAQUS_Part_CoolTemperature_Ori_HexaFEA_Ori01.inp
+    ABAQUS_Part_InitialStrain_Ori_HexaFEA_Ori01.inp
+    ABAQUS_Part_Ori_HexaFEA_Ori01.inp
+    ABAQUS_Part_PackTemperature_Ori_HexaFEA_Ori01.inp
+    ABaqus_Part_ThermalStress_Ori_HexaFEA_Ori01.sts
+
+[ABAQUS_BLM_Map]
+ProjName: BLMFEA
+RunNum: 2
+files: 
+    ABAQUS_Digimat_Map_BLMFEA02.inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_001(0.045861).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_002(0.091631).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_003(0.135060).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_004(0.205000).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_005(0.230000).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_006(0.255000).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_007(0.530000).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_008(0.780000).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_009(1.030000).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_010(1.405000).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_011(1.530000).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_012(1.655000).inp
+    ABAQUS_Moldbase_CoolTemperature_Map_BLMFEA02_EOC.inp
+    ABAQUS_Moldbase_Map_BLMFEA02.inp
+    ABAQUS_Moldbase_Pressure_Map_BLMFEA02_EOF.inp
+    ABAQUS_Moldbase_Pressure_Map_BLMFEA02_EOP.inp
+    ABAQUS_Moldbase_Pressure_Map_BLMFEA02_Fill_001(0.045861).inp
+    ABAQUS_Moldbase_Pressure_Map_BLMFEA02_Fill_002(0.091631).inp
+    ABAQUS_Moldbase_Pressure_Map_BLMFEA02_Fill_003(0.135060).inp
+    ABAQUS_Moldbase_Pressure_Map_BLMFEA02_Fill_004(0.175371).inp
+    ABAQUS_Moldbase_Pressure_Map_BLMFEA02_Pack_001(0.031844).inp
+    ABAQUS_Moldbase_Pressure_Map_BLMFEA02_Pack_002(0.050835).inp
+    ABAQUS_Moldbase_Pressure_Map_BLMFEA02_Pack_003(0.075951).inp
+    ABAQUS_PartInsert_Pressure_Map_BLMFEA02_EOF.inp
+    ABAQUS_PartInsert_Pressure_Map_BLMFEA02_EOP.inp
+    ABAQUS_PartInsert_Pressure_Map_BLMFEA02_Fill_001(0.045861).inp
+    ABAQUS_PartInsert_Pressure_Map_BLMFEA02_Fill_002(0.091631).inp
+    ABAQUS_PartInsert_Pressure_Map_BLMFEA02_Fill_003(0.135060).inp
+    ABAQUS_PartInsert_Pressure_Map_BLMFEA02_Fill_004(0.175371).inp
+    ABAQUS_PartInsert_Pressure_Map_BLMFEA02_Pack_001(0.031844).inp
+    ABAQUS_PartInsert_Pressure_Map_BLMFEA02_Pack_002(0.050835).inp
+    ABAQUS_PartInsert_Pressure_Map_BLMFEA02_Pack_003(0.075951).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_001(0.045861).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_002(0.091631).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_003(0.135060).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_004(0.205000).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_005(0.230000).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_006(0.255000).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_007(0.530000).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_008(0.780000).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_009(1.030000).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_010(1.405000).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_011(1.530000).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_Cool_012(1.655000).inp
+    ABAQUS_PartInsert_Temperature_Map_BLMFEA02_EOC.inp
+    ABAQUS_Part_CoolTemperature_Map_BLMFEA02.inp
+    ABAQUS_Part_InitialStrain_Map_BLMFEA02.inp
+    ABAQUS_Part_Map_BLMFEA02.inp
+    ABAQUS_Part_PackTemperature_Map_BLMFEA02.inp
+    ABaqus_Part_FlowStress_Map_BLMFEA02.sts
+    ABaqus_Part_ThermalStress_Map_BLMFEA02.sts
+    MicroMechanics_CoolTemperature_Map_BLMFEA02.t2d
+    MicroMechanics_FlowStress_Map_BLMFEA02.s2d
+    MicroMechanics_Orientation_Map_BLMFEA02.o2d
+    MicroMechanics_PackTemperature_Map_BLMFEA02.t2d
+    MicroMechanics_ThermalStress_Map_BLMFEA02.s2d
+    MicroMechanics_Weld_lines_Map_BLMFEA02.nwd
+
+[ABAQUS_eDesign_Map]
+ProjName: eDesignFEA
+RunNum: 2
+files: 
+    ABAQUS_Part_Map_eDesignFEA02.inp
+    ABaqus_Part_ThermalStress_Map_eDesignFEA02.sts
+    ABaqus_Part_FlowStress_Map_eDesignFEA02.sts
+    ABAQUS_Part_InitialStrain_Map_eDesignFEA02.inp
+    ABAQUS_Part_PackTemperature_Map_eDesignFEA02.inp
+    ABAQUS_Part_CoolTemperature_Map_eDesignFEA02.inp
+    MicroMechanics_Weld_lines_Map_eDesignFEA02.nwd
+    ABAQUS_Digimat_Map_eDesignFEA02.inp
+    MicroMechanics_Orientation_Map_eDesignFEA02.o2d
+    MicroMechanics_FlowStress_Map_eDesignFEA02.s2d
+    MicroMechanics_ThermalStress_Map_eDesignFEA02.s2d
+    MicroMechanics_CoolTemperature_Map_eDesignFEA02.t2d
+    MicroMechanics_PackTemperature_Map_eDesignFEA02.t2d
+    ABAQUS_PartInsert_Pressure_Map_eDesignFEA02_EOF.inp
+    ABAQUS_PartInsert_Pressure_Map_eDesignFEA02_EOP.inp
+    ABAQUS_PartInsert_Pressure_Map_eDesignFEA02_Fill_001(0.055069).inp
+    ABAQUS_PartInsert_Pressure_Map_eDesignFEA02_Fill_002(0.102444).inp
+    ABAQUS_PartInsert_Pressure_Map_eDesignFEA02_Fill_003(0.144546).inp
+    ABAQUS_PartInsert_Pressure_Map_eDesignFEA02_Fill_004(0.186387).inp
+    ABAQUS_PartInsert_Pressure_Map_eDesignFEA02_Pack_001(1.979924).inp
+    ABAQUS_PartInsert_Pressure_Map_eDesignFEA02_Pack_002(3.680205).inp
+    ABAQUS_PartInsert_Pressure_Map_eDesignFEA02_Pack_003(5.521366).inp
+    ABAQUS_PartInsert_Temperature_Map_eDesignFEA02_EOC.inp
+
+[ABAQUS_Tetra_Def]
+ProjName: TetraFEA
+RunNum: 1
+files: 
+    ABAQUS_Part_PostMoldCure_TetraFEA01.inp
+    Abaqus_Part_PostMoldCureStress_Ori_TetraFEA01.sts
+
+[ANSYS_Hexa_Ori]
+ProjName: HexaFEA_Ori
+RunNum: 1
+files: 
+    ANSYS_Part_Ori_HexaFEA_Ori01.ans
+    ANSYS_Part_Ori_HexaFEA_Ori01.cdb
+    ANSYS_Part_ThermalStress_Ori_HexaFEA_Ori01.ist
+    ANSYS11_Part_ThermalStress_Ori_HexaFEA_Ori01.ist
+    ANSYS_Part_InitialStrain_Ori_HexaFEA_Ori01.cdb
+    ANSYS_Part_PackTemperature_Ori_HexaFEA_Ori01.cdb
+    ANSYS_Part_CoolTemperature_Ori_HexaFEA_Ori01.cdb
+    ANSYS_PartInsert_Pressure_Ori_HexaFEA_Ori01_EOF.cdb
+    ANSYS_PartInsert_Pressure_Ori_HexaFEA_Ori01_EOP.cdb
+    ANSYS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Fill_001(1.923977).cdb
+    ANSYS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Fill_002(3.639092).cdb
+    ANSYS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Fill_003(5.274374).cdb
+    ANSYS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Fill_004(6.995177).cdb
+    ANSYS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Pack_001(1.271480).cdb
+    ANSYS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Pack_002(2.601723).cdb
+    ANSYS_PartInsert_Pressure_Ori_HexaFEA_Ori01_Pack_003(3.902415).cdb
+    ANSYS_Moldbase_Ori_HexaFEA_Ori01.cdb
+    ANSYS_Moldbase_Pressure_Ori_HexaFEA_Ori01_EOF.cdb
+    ANSYS_Moldbase_Pressure_Ori_HexaFEA_Ori01_EOP.cdb
+    ANSYS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Fill_001(1.923977).cdb
+    ANSYS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Fill_002(3.639092).cdb
+    ANSYS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Fill_003(5.274374).cdb
+    ANSYS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Fill_004(6.995177).cdb
+    ANSYS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Pack_001(1.271480).cdb
+    ANSYS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Pack_002(2.601723).cdb
+    ANSYS_Moldbase_Pressure_Ori_HexaFEA_Ori01_Pack_003(3.902415).cdb
+    ANSYS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_EOC.cdb
+    ANSYS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_001(1.923977).cdb
+    ANSYS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_002(3.639092).cdb
+    ANSYS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_003(5.274374).cdb
+    ANSYS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_004(8.250000).cdb
+    ANSYS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_005(9.500000).cdb
+    ANSYS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_006(10.750000).cdb
+    ANSYS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_007(13.250000).cdb
+    ANSYS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_008(14.500000).cdb
+    ANSYS_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01_Cool_009(15.750000).cdb
+    ANSYS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_001(1.923977).cdb
+    ANSYS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_002(3.639092).cdb
+    ANSYS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_003(5.274374).cdb
+    ANSYS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_004(8.250000).cdb
+    ANSYS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_005(9.500000).cdb
+    ANSYS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_006(10.750000).cdb
+    ANSYS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_007(13.250000).cdb
+    ANSYS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_008(14.500000).cdb
+    ANSYS_PartInsert_Temperature_Ori_HexaFEA_Ori01_Cool_009(15.750000).cdb
+    ANSYS_PartInsert_Temperature_Ori_HexaFEA_Ori01_EOC.cdb
+
+[ANSYS_BLM_Map]
+ProjName: BLMFEA
+RunNum: 2
+files: 
+    ANSYS_Part_Map_BLMFEA02.ans
+    ANSYS_Part_Map_BLMFEA02.cdb
+    ANSYS_Part_ThermalStress_Map_BLMFEA02.ist
+    ANSYS11_Part_ThermalStress_Map_BLMFEA02.ist
+    ANSYS_Part_FlowStress_Map_BLMFEA02.ist
+    ANSYS11_Part_FlowStress_Map_BLMFEA02.ist
+    ANSYS_Part_InitialStrain_Map_BLMFEA02.cdb
+    ANSYS_Part_PackTemperature_Map_BLMFEA02.cdb
+    ANSYS_Part_CoolTemperature_Map_BLMFEA02.cdb
+    MicroMechanics_Weld_lines_Map_BLMFEA02.nwd
+    ANSYS_Digimat_Map_BLMFEA02.cdb
+    MicroMechanics_Orientation_Map_BLMFEA02.o2d
+    MicroMechanics_FlowStress_Map_BLMFEA02.s2d
+    MicroMechanics_ThermalStress_Map_BLMFEA02.s2d
+    MicroMechanics_CoolTemperature_Map_BLMFEA02.t2d
+    MicroMechanics_PackTemperature_Map_BLMFEA02.t2d
+    ANSYS_PartInsert_Pressure_Map_BLMFEA02_EOF.cdb
+    ANSYS_PartInsert_Pressure_Map_BLMFEA02_EOP.cdb
+    ANSYS_PartInsert_Pressure_Map_BLMFEA02_Fill_001(0.045861).cdb
+    ANSYS_PartInsert_Pressure_Map_BLMFEA02_Fill_002(0.091631).cdb
+    ANSYS_PartInsert_Pressure_Map_BLMFEA02_Fill_003(0.135060).cdb
+    ANSYS_PartInsert_Pressure_Map_BLMFEA02_Fill_004(0.175371).cdb
+    ANSYS_PartInsert_Pressure_Map_BLMFEA02_Pack_001(0.031844).cdb
+    ANSYS_PartInsert_Pressure_Map_BLMFEA02_Pack_002(0.050835).cdb
+    ANSYS_PartInsert_Pressure_Map_BLMFEA02_Pack_003(0.075951).cdb
+    ANSYS_Moldbase_Map_BLMFEA02.cdb
+    ANSYS_Moldbase_Pressure_Map_BLMFEA02_EOF.cdb
+    ANSYS_Moldbase_Pressure_Map_BLMFEA02_EOP.cdb
+    ANSYS_Moldbase_Pressure_Map_BLMFEA02_Fill_001(0.045861).cdb
+    ANSYS_Moldbase_Pressure_Map_BLMFEA02_Fill_002(0.091631).cdb
+    ANSYS_Moldbase_Pressure_Map_BLMFEA02_Fill_003(0.135060).cdb
+    ANSYS_Moldbase_Pressure_Map_BLMFEA02_Fill_004(0.175371).cdb
+    ANSYS_Moldbase_Pressure_Map_BLMFEA02_Pack_001(0.031844).cdb
+    ANSYS_Moldbase_Pressure_Map_BLMFEA02_Pack_002(0.050835).cdb
+    ANSYS_Moldbase_Pressure_Map_BLMFEA02_Pack_003(0.075951).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_EOC.cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_001(0.045861).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_002(0.091631).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_003(0.135060).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_004(0.205000).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_005(0.230000).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_006(0.255000).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_007(0.530000).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_008(0.780000).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_009(1.030000).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_010(1.405000).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_011(1.530000).cdb
+    ANSYS_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_012(1.655000).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_001(0.045861).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_002(0.091631).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_003(0.135060).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_004(0.205000).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_005(0.230000).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_006(0.255000).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_007(0.530000).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_008(0.780000).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_009(1.030000).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_010(1.405000).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_011(1.530000).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_Cool_012(1.655000).cdb
+    ANSYS_PartInsert_Temperature_Map_BLMFEA02_EOC.cdb
+
+[ANSYS_eDesign_Map]
+ProjName: eDesignFEA
+RunNum: 2
+files: 
+    ANSYS_Part_Map_eDesignFEA02.ans
+    ANSYS_Part_Map_eDesignFEA02.cdb
+    ANSYS_Part_ThermalStress_Map_eDesignFEA02.ist
+    ANSYS11_Part_ThermalStress_Map_eDesignFEA02.ist
+    ANSYS_Part_FlowStress_Map_eDesignFEA02.ist
+    ANSYS11_Part_FlowStress_Map_eDesignFEA02.ist
+    ANSYS_Part_InitialStrain_Map_eDesignFEA02.cdb
+    ANSYS_Part_PackTemperature_Map_eDesignFEA02.cdb
+    ANSYS_Part_CoolTemperature_Map_eDesignFEA02.cdb
+    MicroMechanics_Weld_lines_Map_eDesignFEA02.nwd
+    ANSYS_Digimat_Map_eDesignFEA02.cdb
+    MicroMechanics_Orientation_Map_eDesignFEA02.o2d
+    MicroMechanics_FlowStress_Map_eDesignFEA02.s2d
+    MicroMechanics_ThermalStress_Map_eDesignFEA02.s2d
+    MicroMechanics_CoolTemperature_Map_eDesignFEA02.t2d
+    MicroMechanics_PackTemperature_Map_eDesignFEA02.t2d
+    ANSYS_PartInsert_Pressure_Map_eDesignFEA02_EOF.cdb
+    ANSYS_PartInsert_Pressure_Map_eDesignFEA02_EOP.cdb
+    ANSYS_PartInsert_Pressure_Map_eDesignFEA02_Fill_001(0.055069).cdb
+    ANSYS_PartInsert_Pressure_Map_eDesignFEA02_Fill_002(0.102444).cdb
+    ANSYS_PartInsert_Pressure_Map_eDesignFEA02_Fill_003(0.144546).cdb
+    ANSYS_PartInsert_Pressure_Map_eDesignFEA02_Fill_004(0.186387).cdb
+    ANSYS_PartInsert_Pressure_Map_eDesignFEA02_Pack_001(1.979924).cdb
+    ANSYS_PartInsert_Pressure_Map_eDesignFEA02_Pack_002(3.680205).cdb
+    ANSYS_PartInsert_Pressure_Map_eDesignFEA02_Pack_003(5.521366).cdb
+    ANSYS_PartInsert_Temperature_Map_eDesignFEA02_EOC.cdb
+
+[ANSYS_Tetra_Def]
+ProjName: TetraFEA
+RunNum: 1
+files: 
+    ANSYS_Part_PostMoldCure_TetraFEA01.ans
+    ANSYS_Part_PostMoldCure_TetraFEA01.cdb
+    ANSYS_Part_PostMoldCure_Ori_TetraFEA01.ist
+    ANSYS11_Part_PostMoldCureStress_Ori_TetraFEA01.ist
+
+[Workbench_Hexa_Map]
+ProjName: HexaFEA-Workbench
+RunNum: 1
+files: 
+    Moldex3DtoANSYS
+    Moldex3DtoANSYS.xml
+    WORKBENCH_Part_Material_Map_HexaFEA-Workbench01.cdb
+    ANSYS11_Part_ThermalStress_Map_HexaFEA-Workbench01.ist
+    WORKBENCH_Part_InitialStrain_Map_HexaFEA-Workbench01.cdb
+    WORKBENCH_Part_PackTemperature_Map_HexaFEA-Workbench01.cdb
+    WORKBENCH_Part_CoolTemperature_Map_HexaFEA-Workbench01.cdb
+
+[Workbench_BLM_Map]
+ProjName: BLMFEA-Workbench
+RunNum: 1
+files: 
+    Moldex3DtoANSYS
+    Moldex3DtoANSYS.xml
+    WORKBENCH_Part_Material_Map_BLMFEA-Workbench01.cdb
+    ANSYS11_Part_ThermalStress_Map_BLMFEA-Workbench01.ist
+    ANSYS11_Part_FlowStress_Map_BLMFEA-Workbench01.ist
+    WORKBENCH_Part_InitialStrain_Map_BLMFEA-Workbench01.cdb
+    WORKBENCH_Part_PackTemperature_Map_BLMFEA-Workbench01.cdb
+    WORKBENCH_Part_CoolTemperature_Map_BLMFEA-Workbench01.cdb
+
+[Workbench_eDesign_Map]
+ProjName: eDesignFEA-Workbench
+RunNum: 1
+files: 
+    Moldex3DtoANSYS
+    Moldex3DtoANSYS.xml
+    WORKBENCH_Part_Material_Map_eDesignFEA-Workbench01.cdb
+    ANSYS11_Part_ThermalStress_Map_eDesignFEA-Workbench01.ist
+    ANSYS11_Part_FlowStress_Map_eDesignFEA-Workbench01.ist
+    WORKBENCH_Part_InitialStrain_Map_eDesignFEA-Workbench01.cdb
+    WORKBENCH_Part_PackTemperature_Map_eDesignFEA-Workbench01.cdb
+    WORKBENCH_Part_CoolTemperature_Map_eDesignFEA-Workbench01.cdb
+
+[Workbench_Tetra_Map]
+ProjName: TetraFEA-Workbench
+RunNum: 1
+files: 
+    Moldex3DtoANSYS
+    Moldex3DtoANSYS.xml
+    WORKBENCH_Part_Material_Map_TetraFEA-Workbench01.cdb
+    ANSYS11_Part_ThermalStress_Map_TetraFEA-Workbench01.ist
+    WORKBENCH_Part_InitialStrain_Map_TetraFEA-Workbench01.cdb
+    WORKBENCH_Part_PackTemperature_Map_TetraFEA-Workbench01.cdb
+    WORKBENCH_Part_CoolTemperature_Map_TetraFEA-Workbench01.cdb
+
+[LSDyna_Hexa_Ori]
+ProjName: HexaFEA_Ori
+RunNum: 1
+files: 
+    LSDYNA_Part_Ori_HexaFEA_Ori01.k
+    LSDYNA_Part_ThermalStress_Ori_HexaFEA_Ori01.k
+    LSDYNA_Part_InitialStrain_Ori_HexaFEA_Ori01.k
+    LSDYNA_Part_PackTemperature_Ori_HexaFEA_Ori01.k
+    LSDYNA_Part_CoolTemperature_Ori_HexaFEA_Ori01.k
+    LSDYNA_PartInsert_Pressure_Ori_HexaFEA_Ori01.dyn
+    LSDYNA_PartInsert_Temperature_Ori_HexaFEA_Ori01.dyn
+    LSDYNA_Moldbase_Ori_HexaFEA_Ori01.k
+    LSDYNA_Moldbase_Pressure_Ori_HexaFEA_Ori01.dyn
+    LSDYNA_Moldbase_CoolTemperature_Ori_HexaFEA_Ori01.dyn
+
+[LSDyna_BLM_Map]
+ProjName: BLMFEA
+RunNum: 2
+files: 
+    LSDYNA_Part_Map_BLMFEA02.k
+    LSDYNA_Part_ThermalStress_Map_BLMFEA02.k
+    LSDYNA_Part_FlowStress_Map_BLMFEA02.k
+    LSDYNA_Part_InitialStrain_Map_BLMFEA02.k
+    LSDYNA_Part_PackTemperature_Map_BLMFEA02.k
+    LSDYNA_Part_CoolTemperature_Map_BLMFEA02.k
+    MicroMechanics_Weld_lines_Map_BLMFEA02.nwd
+    LSDYNA_Digimat_Map_BLMFEA02.k
+    MicroMechanics_Orientation_Map_BLMFEA02.o2d
+    MicroMechanics_FlowStress_Map_BLMFEA02.s2d
+    MicroMechanics_ThermalStress_Map_BLMFEA02.s2d
+    MicroMechanics_CoolTemperature_Map_BLMFEA02.t2d
+    MicroMechanics_PackTemperature_Map_BLMFEA02.t2d
+    LSDYNA_PartInsert_Pressure_Map_BLMFEA02.dyn
+    LSDYNA_Moldbase_Map_BLMFEA02.k
+    LSDYNA_Moldbase_Pressure_Map_BLMFEA02.dyn
+    LSDYNA_Moldbase_CoolTemperature_Map_BLMFEA02.dyn
+    LSDYNA_PartInsert_Temperature_Map_BLMFEA02.dyn
+
+[LSDyna_eDesign_Map]
+ProjName: eDesignFEA
+RunNum: 2
+files: 
+    LSDYNA_Part_Map_eDesignFEA02.k
+    LSDYNA_Part_ThermalStress_Map_eDesignFEA02.k
+    LSDYNA_Part_FlowStress_Map_eDesignFEA02.k
+    LSDYNA_Part_InitialStrain_Map_eDesignFEA02.k
+    LSDYNA_Part_PackTemperature_Map_eDesignFEA02.k
+    LSDYNA_Part_CoolTemperature_Map_eDesignFEA02.k
+    MicroMechanics_Weld_lines_Map_eDesignFEA02.nwd
+    LSDYNA_Digimat_Map_eDesignFEA02.k
+    MicroMechanics_Orientation_Map_eDesignFEA02.o2d
+    MicroMechanics_FlowStress_Map_eDesignFEA02.s2d
+    MicroMechanics_ThermalStress_Map_eDesignFEA02.s2d
+    MicroMechanics_CoolTemperature_Map_eDesignFEA02.t2d
+    MicroMechanics_PackTemperature_Map_eDesignFEA02.t2d
+    LSDYNA_PartInsert_Pressure_Map_eDesignFEA02.dyn
+    LSDYNA_PartInsert_Temperature_Map_eDesignFEA02.dyn
+
+[LSDyna_Tetra_Def]
+ProjName: TetraFEA
+RunNum: 1
+files: 
+    LSDYNA_Part_PostMoldCure_TetraFEA01.k
+    LSDYNA_Part_PostMoldCureStress_Ori_TetraFEA01.k
+
+[LSDyna_BLM_3DMap]
+ProjName: BLMFEA-LSDyna-3DMap
+RunNum: 1
+files: 
+    LSDYNA_Part_Map_BLMFEA-LSDyna-3DMap01.k
+    LSDYNA_Part_InitialStrain_Map_BLMFEA-LSDyna-3DMap01.k
+    LSDYNA_Part_PackTemperature_Map_BLMFEA-LSDyna-3DMap01.k
+    LSDYNA_Part_CoolTemperature_Map_BLMFEA-LSDyna-3DMap01.k
+
+[MARC_Hexa_Ori]
+ProjName: HexaFEA_Pure
+RunNum: 1
+files: 
+    MARC_Part_Ori_HexaFEA_Pure01.dat
+    MARC_Part_ThermalStress_Ori_HexaFEA_Pure01.dat
+    MARC_Part_InitialStrain_Ori_HexaFEA_Pure01.dat
+    MARC_Part_PackTemperature_Ori_HexaFEA_Pure01.dat
+    MARC_Part_CoolTemperature_Ori_HexaFEA_Pure01.dat
+    MARC_PartInsert_Pressure_Ori_HexaFEA_Pure01_EOF.dat
+    MARC_PartInsert_Pressure_Ori_HexaFEA_Pure01_EOP.dat 
+    MARC_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_001(1.873155).dat
+    MARC_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_002(3.817295).dat
+    MARC_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_003(5.645620).dat
+    MARC_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_004(6.998688).dat
+    MARC_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_001(1.271480).dat
+    MARC_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_002(2.601723).dat
+    MARC_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_003(3.902415).dat
+    MARC_Moldbase_Ori_HexaFEA_Pure01.dat
+    MARC_Moldbase_Pressure_Ori_HexaFEA_Pure01_EOF.dat
+    MARC_Moldbase_Pressure_Ori_HexaFEA_Pure01_EOP.dat
+    MARC_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_001(1.873155).dat
+    MARC_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_002(3.817295).dat
+    MARC_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_003(5.645620).dat
+    MARC_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_004(6.998688).dat
+    MARC_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_001(1.271480).dat
+    MARC_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_002(2.601723).dat
+    MARC_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_003(3.902415).dat
+    MARC_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_001(1.873155).dat
+    MARC_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_002(3.817295).dat
+    MARC_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_003(5.645620).dat
+    MARC_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_004(8.250000).dat
+    MARC_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_005(9.500000).dat
+    MARC_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_006(10.750000).dat
+    MARC_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_007(13.250000).dat
+    MARC_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_008(14.500000).dat
+    MARC_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_009(15.750000).dat
+    MARC_PartInsert_Temperature_Ori_HexaFEA_Pure01_EOC.dat
+    MARC_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_001(1.873155).dat
+    MARC_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_002(3.817295).dat
+    MARC_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_003(5.645620).dat
+    MARC_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_004(8.250000).dat
+    MARC_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_005(9.500000).dat
+    MARC_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_006(10.750000).dat
+    MARC_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_007(13.250000).dat
+    MARC_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_008(14.500000).dat
+    MARC_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_009(15.750000).dat
+    MARC_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_EOC.dat
+
+[MARC_BLM_Map]
+ProjName: BLMFEA
+RunNum: 2
+files: 
+    MARC_Part_Map_BLMFEA02.dat
+    MARC_Part_ThermalStress_Map_BLMFEA02.dat
+    MARC_Part_FlowStress_Map_BLMFEA02.dat
+    MARC_Part_InitialStrain_Map_BLMFEA02.dat
+    MARC_Part_PackTemperature_Map_BLMFEA02.dat
+    MARC_Part_CoolTemperature_Map_BLMFEA02.dat
+    MicroMechanics_Weld_lines_Map_BLMFEA02.nwd
+    MARC_Digimat_Map_BLMFEA02.dat
+    MicroMechanics_Orientation_Map_BLMFEA02.o2d
+    MicroMechanics_FlowStress_Map_BLMFEA02.s2d
+    MicroMechanics_ThermalStress_Map_BLMFEA02.s2d
+    MicroMechanics_CoolTemperature_Map_BLMFEA02.t2d
+    MicroMechanics_PackTemperature_Map_BLMFEA02.t2d
+    MARC_PartInsert_Pressure_Map_BLMFEA02_EOF.dat
+    MARC_PartInsert_Pressure_Map_BLMFEA02_EOP.dat
+    MARC_PartInsert_Pressure_Map_BLMFEA02_Fill_001(0.045861).dat
+    MARC_PartInsert_Pressure_Map_BLMFEA02_Fill_002(0.091631).dat
+    MARC_PartInsert_Pressure_Map_BLMFEA02_Fill_003(0.135060).dat
+    MARC_PartInsert_Pressure_Map_BLMFEA02_Fill_004(0.175371).dat
+    MARC_PartInsert_Pressure_Map_BLMFEA02_Pack_001(0.031844).dat
+    MARC_PartInsert_Pressure_Map_BLMFEA02_Pack_002(0.050835).dat
+    MARC_PartInsert_Pressure_Map_BLMFEA02_Pack_003(0.075951).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_001(0.045861).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_002(0.091631).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_003(0.135060).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_004(0.205000).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_005(0.230000).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_006(0.255000).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_007(0.530000).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_008(0.780000).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_009(1.030000).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_010(1.405000).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_011(1.530000).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_Cool_012(1.655000).dat
+    MARC_PartInsert_Temperature_Map_BLMFEA02_EOC.dat
+    MARC_Moldbase_Map_BLMFEA02.dat
+    MARC_Moldbase_Pressure_Map_BLMFEA02_EOF.dat
+    MARC_Moldbase_Pressure_Map_BLMFEA02_EOP.dat
+    MARC_Moldbase_Pressure_Map_BLMFEA02_Fill_001(0.045861).dat
+    MARC_Moldbase_Pressure_Map_BLMFEA02_Fill_002(0.091631).dat
+    MARC_Moldbase_Pressure_Map_BLMFEA02_Fill_003(0.135060).dat
+    MARC_Moldbase_Pressure_Map_BLMFEA02_Fill_004(0.175371).dat
+    MARC_Moldbase_Pressure_Map_BLMFEA02_Pack_001(0.031844).dat
+    MARC_Moldbase_Pressure_Map_BLMFEA02_Pack_002(0.050835).dat
+    MARC_Moldbase_Pressure_Map_BLMFEA02_Pack_003(0.075951).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_001(0.045861).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_002(0.091631).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_003(0.135060).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_004(0.205000).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_005(0.230000).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_006(0.255000).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_007(0.530000).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_008(0.780000).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_009(1.030000).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_010(1.405000).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_011(1.530000).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_012(1.655000).dat
+    MARC_Moldbase_CoolTemperature_Map_BLMFEA02_EOC.dat
+
+[MARC_eDesign_Map]
+ProjName: eDesignFEA
+RunNum: 2
+files: 
+    MARC_Part_Map_eDesignFEA02.dat
+    MARC_Part_ThermalStress_Map_eDesignFEA02.dat
+    MARC_Part_FlowStress_Map_eDesignFEA02.dat
+    MARC_Part_InitialStrain_Map_eDesignFEA02.dat
+    MARC_Part_PackTemperature_Map_eDesignFEA02.dat
+    MARC_Part_CoolTemperature_Map_eDesignFEA02.dat
+    MicroMechanics_Weld_lines_Map_eDesignFEA02.nwd
+    MARC_Digimat_Map_eDesignFEA02.dat
+    MicroMechanics_Orientation_Map_eDesignFEA02.o2d
+    MicroMechanics_FlowStress_Map_eDesignFEA02.s2d
+    MicroMechanics_ThermalStress_Map_eDesignFEA02.s2d
+    MicroMechanics_CoolTemperature_Map_eDesignFEA02.t2d
+    MicroMechanics_PackTemperature_Map_eDesignFEA02.t2d
+    MARC_PartInsert_Pressure_Map_eDesignFEA02_EOF.dat
+    MARC_PartInsert_Pressure_Map_eDesignFEA02_EOP.dat
+    MARC_PartInsert_Pressure_Map_eDesignFEA02_Fill_001(0.055069).dat
+    MARC_PartInsert_Pressure_Map_eDesignFEA02_Fill_002(0.102444).dat
+    MARC_PartInsert_Pressure_Map_eDesignFEA02_Fill_003(0.144546).dat
+    MARC_PartInsert_Pressure_Map_eDesignFEA02_Fill_004(0.186387).dat
+    MARC_PartInsert_Pressure_Map_eDesignFEA02_Pack_001(1.979924).dat
+    MARC_PartInsert_Pressure_Map_eDesignFEA02_Pack_002(3.680205).dat
+    MARC_PartInsert_Pressure_Map_eDesignFEA02_Pack_003(5.521366).dat
+    MARC_PartInsert_Temperature_Map_eDesignFEA02_EOC.dat
+
+[MARC_Tetra_Def]
+ProjName: TetraFEA
+RunNum: 1
+files: 
+    MARC_Part_PostMoldCure_TetraFEA01.dat
+    MARC_Part_PostMoldCureStress_Ori_TetraFEA01.dat
+
+[MSCNastran_Hexa_Ori]
+ProjName: HexaFEA_Pure
+RunNum: 1
+files: 
+    MSCNASTRAN_Part_Ori_HexaFEA_Pure01.bdf
+    MSCNASTRAN_Part_InitialStrain_Ori_HexaFEA_Pure01.bdf
+    MSCNASTRAN_Part_PackTemperature_Ori_HexaFEA_Pure01.bdf
+    MSCNASTRAN_Part_CoolTemperature_Ori_HexaFEA_Pure01.bdf
+    MSCNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_EOF.bdf
+    MSCNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_EOP.bdf
+    MSCNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_001(1.873155).bdf
+    MSCNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_002(3.817295).bdf
+    MSCNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_003(5.645620).bdf
+    MSCNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_004(6.998688).bdf
+    MSCNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_001(1.271480).bdf
+    MSCNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_002(2.601723).bdf
+    MSCNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_003(3.902415).bdf
+    MSCNASTRAN_Moldbase_Ori_HexaFEA_Pure01.bdf
+    MSCNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_EOF.bdf
+    MSCNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_EOP.bdf
+    MSCNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_001(1.873155).bdf
+    MSCNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_002(3.817295).bdf
+    MSCNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_003(5.645620).bdf
+    MSCNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_004(6.998688).bdf
+    MSCNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_001(1.271480).bdf
+    MSCNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_002(2.601723).bdf
+    MSCNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_003(3.902415).bdf
+    MSCNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_001(1.873155).bdf
+    MSCNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_002(3.817295).bdf
+    MSCNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_003(5.645620).bdf
+    MSCNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_004(8.250000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_005(9.500000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_006(10.750000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_007(13.250000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_008(14.500000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_009(15.750000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_EOC.bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_EOC.bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_001(1.873155).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_002(3.817295).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_003(5.645620).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_004(8.250000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_005(9.500000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_006(10.750000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_007(13.250000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_008(14.500000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_009(15.750000).bdf
+
+[MSCNastran_BLM_Map]
+ProjName: BLMFEA
+RunNum: 2
+files: 
+    MSCNASTRAN_Part_Map_BLMFEA02.bdf
+    MSCNASTRAN_Part_InitialStrain_Map_BLMFEA02.bdf
+    MSCNASTRAN_Part_PackTemperature_Map_BLMFEA02.bdf
+    MSCNASTRAN_Part_CoolTemperature_Map_BLMFEA02.bdf
+    MicroMechanics_Weld_lines_Map_BLMFEA02.nwd
+    MSCNASTRAN_Digimat_Map_BLMFEA02.bdf
+    MicroMechanics_Orientation_Map_BLMFEA02.o2d
+    MicroMechanics_FlowStress_Map_BLMFEA02.s2d
+    MicroMechanics_ThermalStress_Map_BLMFEA02.s2d
+    MicroMechanics_CoolTemperature_Map_BLMFEA02.t2d
+    MicroMechanics_PackTemperature_Map_BLMFEA02.t2d
+    MSCNASTRAN_PartInsert_Pressure_Map_BLMFEA02_EOF.bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_BLMFEA02_EOP.bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_001(0.045861).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_002(0.091631).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_003(0.135060).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_004(0.175371).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Pack_001(0.031844).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Pack_002(0.050835).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Pack_003(0.075951).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_001(0.045861).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_002(0.091631).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_003(0.135060).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_004(0.205000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_005(0.230000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_006(0.255000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_007(0.530000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_008(0.780000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_009(1.030000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_010(1.405000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_011(1.530000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_012(1.655000).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_BLMFEA02_EOC.bdf
+    MSCNASTRAN_Moldbase_Map_BLMFEA02.bdf
+    MSCNASTRAN_Moldbase_Pressure_Map_BLMFEA02_EOF.bdf
+    MSCNASTRAN_Moldbase_Pressure_Map_BLMFEA02_EOP.bdf
+    MSCNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_001(0.045861).bdf
+    MSCNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_002(0.091631).bdf
+    MSCNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_003(0.135060).bdf
+    MSCNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_004(0.175371).bdf
+    MSCNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Pack_001(0.031844).bdf
+    MSCNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Pack_002(0.050835).bdf
+    MSCNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Pack_003(0.075951).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_EOC.bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_001(0.045861).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_002(0.091631).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_003(0.135060).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_004(0.205000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_005(0.230000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_006(0.255000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_007(0.530000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_008(0.780000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_009(1.030000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_010(1.405000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_011(1.530000).bdf
+    MSCNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_012(1.655000).bdf
+
+[MSCNastran_eDesign_Map]
+ProjName: eDesignFEA
+RunNum: 2
+files: 
+    MSCNASTRAN_Part_Map_eDesignFEA02.bdf
+    MSCNASTRAN_Part_InitialStrain_Map_eDesignFEA02.bdf
+    MSCNASTRAN_Part_PackTemperature_Map_eDesignFEA02.bdf
+    MSCNASTRAN_Part_CoolTemperature_Map_eDesignFEA02.bdf
+    MicroMechanics_Weld_lines_Map_eDesignFEA02.nwd
+    MSCNASTRAN_Digimat_Map_eDesignFEA02.bdf
+    MicroMechanics_Orientation_Map_eDesignFEA02.o2d
+    MicroMechanics_FlowStress_Map_eDesignFEA02.s2d
+    MicroMechanics_ThermalStress_Map_eDesignFEA02.s2d
+    MicroMechanics_PackTemperature_Map_eDesignFEA02.t2d
+    MicroMechanics_CoolTemperature_Map_eDesignFEA02.t2d
+    MSCNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_EOF.bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_EOP.bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_001(0.055069).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_002(0.102444).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_003(0.144546).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_004(0.186387).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Pack_001(1.979924).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Pack_002(3.680205).bdf
+    MSCNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Pack_003(5.521366).bdf
+    MSCNASTRAN_PartInsert_Temperature_Map_eDesignFEA02_EOC.bdf
+
+[MSCNastran_Tetra_Def]
+ProjName: TetraFEA
+RunNum: 1
+files: 
+    MSCNASTRAN_Part_PostMoldCure_TetraFEA01.bdf
+
+[NENastran_Hexa_Ori]
+ProjName: HexaFEA_Pure
+RunNum: 1
+files: 
+    NENASTRAN_Part_Ori_HexaFEA_Pure01.nas
+    NENASTRAN_Part_InitialStrain_Ori_HexaFEA_Pure01.nas
+    NENASTRAN_Part_PackTemperature_Ori_HexaFEA_Pure01.nas
+    NENASTRAN_Part_CoolTemperature_Ori_HexaFEA_Pure01.nas
+    NENASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_EOF.nas
+    NENASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_EOP.nas
+    NENASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_001(1.873155).nas
+    NENASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_002(3.817295).nas
+    NENASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_003(5.645620).nas
+    NENASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_004(6.998688).nas
+    NENASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_001(1.271480).nas
+    NENASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_002(2.601723).nas
+    NENASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_003(3.902415).nas
+    NENASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_001(1.873155).nas
+    NENASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_002(3.817295).nas
+    NENASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_003(5.645620).nas
+    NENASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_004(8.250000).nas
+    NENASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_005(9.500000).nas
+    NENASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_006(10.750000).nas
+    NENASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_007(13.250000).nas
+    NENASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_008(14.500000).nas
+    NENASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_009(15.750000).nas
+    NENASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_EOC.nas
+    NENASTRAN_Moldbase_Ori_HexaFEA_Pure01.nas
+    NENASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_EOF.nas
+    NENASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_EOP.nas
+    NENASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_001(1.873155).nas
+    NENASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_002(3.817295).nas
+    NENASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_003(5.645620).nas
+    NENASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_004(6.998688).nas
+    NENASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_001(1.271480).nas
+    NENASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_002(2.601723).nas
+    NENASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_003(3.902415).nas
+    NENASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_001(1.873155).nas
+    NENASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_002(3.817295).nas
+    NENASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_003(5.645620).nas
+    NENASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_004(8.250000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_005(9.500000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_006(10.750000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_007(13.250000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_008(14.500000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_009(15.750000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_EOC.nas
+
+[NENastran_BLM_Map]
+ProjName: BLMFEA
+RunNum: 2
+files: 
+    NENASTRAN_Part_Map_BLMFEA02.nas
+    NENASTRAN_Part_InitialStrain_Map_BLMFEA02.nas
+    NENASTRAN_Part_PackTemperature_Map_BLMFEA02.nas
+    NENASTRAN_Part_CoolTemperature_Map_BLMFEA02.nas
+    NENASTRAN_PartInsert_Pressure_Map_BLMFEA02_EOF.nas
+    NENASTRAN_PartInsert_Pressure_Map_BLMFEA02_EOP.nas
+    NENASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_001(0.045861).nas
+    NENASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_002(0.091631).nas
+    NENASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_003(0.135060).nas
+    NENASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_004(0.175371).nas
+    NENASTRAN_PartInsert_Pressure_Map_BLMFEA02_Pack_001(0.031844).nas
+    NENASTRAN_PartInsert_Pressure_Map_BLMFEA02_Pack_002(0.050835).nas
+    NENASTRAN_PartInsert_Pressure_Map_BLMFEA02_Pack_003(0.075951).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_001(0.045861).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_002(0.091631).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_003(0.135060).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_004(0.205000).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_005(0.230000).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_006(0.255000).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_007(0.530000).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_008(0.780000).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_009(1.030000).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_010(1.405000).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_011(1.530000).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_012(1.655000).nas
+    NENASTRAN_PartInsert_Temperature_Map_BLMFEA02_EOC.nas
+    NENASTRAN_Moldbase_Map_BLMFEA02.nas
+    NENASTRAN_Moldbase_Pressure_Map_BLMFEA02_EOF.nas
+    NENASTRAN_Moldbase_Pressure_Map_BLMFEA02_EOP.nas
+    NENASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_001(0.045861).nas
+    NENASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_002(0.091631).nas
+    NENASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_003(0.135060).nas
+    NENASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_004(0.175371).nas
+    NENASTRAN_Moldbase_Pressure_Map_BLMFEA02_Pack_001(0.031844).nas
+    NENASTRAN_Moldbase_Pressure_Map_BLMFEA02_Pack_002(0.050835).nas
+    NENASTRAN_Moldbase_Pressure_Map_BLMFEA02_Pack_003(0.075951).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_EOC.nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_012(1.655000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_011(1.530000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_010(1.405000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_009(1.030000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_008(0.780000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_007(0.530000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_006(0.255000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_005(0.230000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_004(0.205000).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_003(0.135060).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_002(0.091631).nas
+    NENASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_001(0.045861).nas
+
+[NENastran_eDesign_Map]
+ProjName: eDesignFEA
+RunNum: 2
+files: 
+    NENASTRAN_Part_Map_eDesignFEA02.nas
+    NENASTRAN_Part_InitialStrain_Map_eDesignFEA02.nas
+    NENASTRAN_Part_PackTemperature_Map_eDesignFEA02.nas
+    NENASTRAN_Part_CoolTemperature_Map_eDesignFEA02.nas
+    NENASTRAN_PartInsert_Pressure_Map_eDesignFEA02_EOF.nas
+    NENASTRAN_PartInsert_Pressure_Map_eDesignFEA02_EOP.nas
+    NENASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_001(0.055069).nas
+    NENASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_002(0.102444).nas
+    NENASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_003(0.144546).nas
+    NENASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_004(0.186387).nas
+    NENASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Pack_001(1.979924).nas
+    NENASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Pack_002(3.680205).nas
+    NENASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Pack_003(5.521366).nas
+    NENASTRAN_PartInsert_Temperature_Map_eDesignFEA02_EOC.nas
+
+[NENastran_Tetra_Def]
+ProjName: TetraFEA
+RunNum: 1
+files: 
+    NENASTRAN_Part_PostMoldCure_TetraFEA01.nas
+
+[NXNastran_Hexa_Ori]
+ProjName: HexaFEA_Pure
+RunNum: 1
+files: 
+    NXNASTRAN_Part_Ori_HexaFEA_Pure01.dat
+    NXNASTRAN_Part_InitialStrain_Ori_HexaFEA_Pure01.dat
+    NXNASTRAN_Part_CoolTemperature_Ori_HexaFEA_Pure01.dat
+    NXNASTRAN_Part_PackTemperature_Ori_HexaFEA_Pure01.dat
+    NXNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_EOF.dat
+    NXNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_EOP.dat
+    NXNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_001(1.873155).dat
+    NXNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_002(3.817295).dat
+    NXNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_003(5.645620).dat
+    NXNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_004(6.998688).dat
+    NXNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_001(1.271480).dat
+    NXNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_002(2.601723).dat
+    NXNASTRAN_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_003(3.902415).dat
+    NXNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_001(1.873155).dat
+    NXNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_002(3.817295).dat
+    NXNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_003(5.645620).dat
+    NXNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_004(8.250000).dat
+    NXNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_005(9.500000).dat
+    NXNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_006(10.750000).dat
+    NXNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_007(13.250000).dat
+    NXNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_008(14.500000).dat
+    NXNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_009(15.750000).dat
+    NXNASTRAN_PartInsert_Temperature_Ori_HexaFEA_Pure01_EOC.dat
+    NXNASTRAN_Moldbase_Ori_HexaFEA_Pure01.dat
+    NXNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_EOF.dat
+    NXNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_EOP.dat
+    NXNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_001(1.873155).dat
+    NXNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_002(3.817295).dat
+    NXNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_003(5.645620).dat
+    NXNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_004(6.998688).dat
+    NXNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_001(1.271480).dat
+    NXNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_002(2.601723).dat
+    NXNASTRAN_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_003(3.902415).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_001(1.873155).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_002(3.817295).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_003(5.645620).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_004(8.250000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_005(9.500000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_006(10.750000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_007(13.250000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_008(14.500000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_009(15.750000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_EOC.dat
+
+[NXNastran_BLM_Map]
+ProjName: BLMFEA
+RunNum: 2
+files: 
+    NXNASTRAN_Part_Map_BLMFEA02.dat
+    NXNASTRAN_Part_InitialStrain_Map_BLMFEA02.dat
+    NXNASTRAN_Part_PackTemperature_Map_BLMFEA02.dat
+    NXNASTRAN_Part_CoolTemperature_Map_BLMFEA02.dat
+    NXNASTRAN_PartInsert_Pressure_Map_BLMFEA02_EOF.dat
+    NXNASTRAN_PartInsert_Pressure_Map_BLMFEA02_EOP.dat
+    NXNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_001(0.045861).dat
+    NXNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_002(0.091631).dat
+    NXNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_003(0.135060).dat
+    NXNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Fill_004(0.175371).dat
+    NXNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Pack_001(0.031844).dat
+    NXNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Pack_002(0.050835).dat
+    NXNASTRAN_PartInsert_Pressure_Map_BLMFEA02_Pack_003(0.075951).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_001(0.045861).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_002(0.091631).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_003(0.135060).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_004(0.205000).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_005(0.230000).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_006(0.255000).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_007(0.530000).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_008(0.780000).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_009(1.030000).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_010(1.405000).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_011(1.530000).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_Cool_012(1.655000).dat
+    NXNASTRAN_PartInsert_Temperature_Map_BLMFEA02_EOC.dat
+    NXNASTRAN_Moldbase_Map_BLMFEA02.dat
+    NXNASTRAN_Moldbase_Pressure_Map_BLMFEA02_EOF.dat
+    NXNASTRAN_Moldbase_Pressure_Map_BLMFEA02_EOP.dat
+    NXNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_001(0.045861).dat
+    NXNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_002(0.091631).dat
+    NXNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_003(0.135060).dat
+    NXNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Fill_004(0.175371).dat
+    NXNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Pack_001(0.031844).dat
+    NXNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Pack_002(0.050835).dat
+    NXNASTRAN_Moldbase_Pressure_Map_BLMFEA02_Pack_003(0.075951).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_001(0.045861).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_002(0.091631).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_003(0.135060).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_004(0.205000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_005(0.230000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_006(0.255000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_007(0.530000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_008(0.780000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_009(1.030000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_010(1.405000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_011(1.530000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_012(1.655000).dat
+    NXNASTRAN_Moldbase_CoolTemperature_Map_BLMFEA02_EOC.dat
+
+[NXNastran_eDesign_Map]
+ProjName: eDesignFEA
+RunNum: 2
+files: 
+    NXNASTRAN_Part_Map_eDesignFEA02.dat
+    NXNASTRAN_Part_InitialStrain_Map_eDesignFEA02.dat
+    NXNASTRAN_Part_PackTemperature_Map_eDesignFEA02.dat
+    NXNASTRAN_Part_CoolTemperature_Map_eDesignFEA02.dat
+    NXNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_EOF.dat
+    NXNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_EOP.dat
+    NXNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_001(0.055069).dat
+    NXNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_002(0.102444).dat
+    NXNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_003(0.144546).dat
+    NXNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Fill_004(0.186387).dat
+    NXNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Pack_001(1.979924).dat
+    NXNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Pack_002(3.680205).dat
+    NXNASTRAN_PartInsert_Pressure_Map_eDesignFEA02_Pack_003(5.521366).dat
+    NXNASTRAN_PartInsert_Temperature_Map_eDesignFEA02_EOC.dat
+
+[NXNastran_Tetra_Def]
+ProjName: TetraFEA
+RunNum: 1
+files: 
+    NXNASTRAN_Part_PostMoldCure_TetraFEA01.dat
+
+[OptiStruct_Hexa_Ori]
+ProjName: HexaFEA_Pure
+RunNum: 1
+files: 
+    OPTISTRUCT_Part_Ori_HexaFEA_Pure01.fem
+    OPTISTRUCT_Part_InitialStrain_Ori_HexaFEA_Pure01.fem
+    OPTISTRUCT_Part_PackTemperature_Ori_HexaFEA_Pure01.fem
+    OPTISTRUCT_Part_CoolTemperature_Ori_HexaFEA_Pure01.fem
+    OPTISTRUCT_PartInsert_Pressure_Ori_HexaFEA_Pure01_EOF.fem
+    OPTISTRUCT_PartInsert_Pressure_Ori_HexaFEA_Pure01_EOP.fem
+    OPTISTRUCT_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_001(1.873155).fem
+    OPTISTRUCT_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_002(3.817295).fem
+    OPTISTRUCT_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_003(5.645620).fem
+    OPTISTRUCT_PartInsert_Pressure_Ori_HexaFEA_Pure01_Fill_004(6.998688).fem
+    OPTISTRUCT_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_001(1.271480).fem
+    OPTISTRUCT_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_002(2.601723).fem
+    OPTISTRUCT_PartInsert_Pressure_Ori_HexaFEA_Pure01_Pack_003(3.902415).fem
+    OPTISTRUCT_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_001(1.873155).fem
+    OPTISTRUCT_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_002(3.817295).fem
+    OPTISTRUCT_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_003(5.645620).fem
+    OPTISTRUCT_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_004(8.250000).fem
+    OPTISTRUCT_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_005(9.500000).fem
+    OPTISTRUCT_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_006(10.750000).fem
+    OPTISTRUCT_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_007(13.250000).fem
+    OPTISTRUCT_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_008(14.500000).fem
+    OPTISTRUCT_PartInsert_Temperature_Ori_HexaFEA_Pure01_Cool_009(15.750000).fem
+    OPTISTRUCT_PartInsert_Temperature_Ori_HexaFEA_Pure01_EOC.fem
+    OPTISTRUCT_Moldbase_Ori_HexaFEA_Pure01.fem
+    OPTISTRUCT_Moldbase_Pressure_Ori_HexaFEA_Pure01_EOF.fem
+    OPTISTRUCT_Moldbase_Pressure_Ori_HexaFEA_Pure01_EOP.fem
+    OPTISTRUCT_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_001(1.873155).fem
+    OPTISTRUCT_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_002(3.817295).fem
+    OPTISTRUCT_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_003(5.645620).fem
+    OPTISTRUCT_Moldbase_Pressure_Ori_HexaFEA_Pure01_Fill_004(6.998688).fem
+    OPTISTRUCT_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_001(1.271480).fem
+    OPTISTRUCT_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_002(2.601723).fem
+    OPTISTRUCT_Moldbase_Pressure_Ori_HexaFEA_Pure01_Pack_003(3.902415).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_001(1.873155).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_002(3.817295).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_003(5.645620).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_004(8.250000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_005(9.500000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_006(10.750000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_007(13.250000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_008(14.500000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_Cool_009(15.750000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Ori_HexaFEA_Pure01_EOC.fem
+
+[OptiStruct_BLM_Map]
+ProjName: BLMFEA
+RunNum: 2
+files: 
+    OPTISTRUCT_Part_Map_BLMFEA02.fem
+    OPTISTRUCT_Part_InitialStrain_Map_BLMFEA02.fem
+    OPTISTRUCT_Part_PackTemperature_Map_BLMFEA02.fem
+    OPTISTRUCT_Part_CoolTemperature_Map_BLMFEA02.fem
+    MicroMechanics_Weld_lines_Map_BLMFEA02.nwd
+    MicroMechanics_Orientation_Map_BLMFEA02.o2d
+    OPTISTRUCT_Digimat_Map_BLMFEA02.fem
+    MicroMechanics_FlowStress_Map_BLMFEA02.s2d
+    MicroMechanics_ThermalStress_Map_BLMFEA02.s2d
+    MicroMechanics_CoolTemperature_Map_BLMFEA02.t2d
+    MicroMechanics_PackTemperature_Map_BLMFEA02.t2d
+    OPTISTRUCT_PartInsert_Pressure_Map_BLMFEA02_EOF.fem
+    OPTISTRUCT_PartInsert_Pressure_Map_BLMFEA02_EOP.fem
+    OPTISTRUCT_PartInsert_Pressure_Map_BLMFEA02_Fill_001(0.045861).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_BLMFEA02_Fill_002(0.091631).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_BLMFEA02_Fill_003(0.135060).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_BLMFEA02_Fill_004(0.175371).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_BLMFEA02_Pack_001(0.031844).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_BLMFEA02_Pack_002(0.050835).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_BLMFEA02_Pack_003(0.075951).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_001(0.045861).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_002(0.091631).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_003(0.135060).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_004(0.205000).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_005(0.230000).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_006(0.255000).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_007(0.530000).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_008(0.780000).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_009(1.030000).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_010(1.405000).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_011(1.530000).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_Cool_012(1.655000).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_BLMFEA02_EOC.fem
+    OPTISTRUCT_Moldbase_Map_BLMFEA02.fem
+    OPTISTRUCT_Moldbase_Pressure_Map_BLMFEA02_EOF.fem
+    OPTISTRUCT_Moldbase_Pressure_Map_BLMFEA02_EOP.fem
+    OPTISTRUCT_Moldbase_Pressure_Map_BLMFEA02_Fill_001(0.045861).fem
+    OPTISTRUCT_Moldbase_Pressure_Map_BLMFEA02_Fill_002(0.091631).fem
+    OPTISTRUCT_Moldbase_Pressure_Map_BLMFEA02_Fill_003(0.135060).fem
+    OPTISTRUCT_Moldbase_Pressure_Map_BLMFEA02_Fill_004(0.175371).fem
+    OPTISTRUCT_Moldbase_Pressure_Map_BLMFEA02_Pack_001(0.031844).fem
+    OPTISTRUCT_Moldbase_Pressure_Map_BLMFEA02_Pack_002(0.050835).fem
+    OPTISTRUCT_Moldbase_Pressure_Map_BLMFEA02_Pack_003(0.075951).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_EOC.fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_001(0.045861).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_002(0.091631).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_003(0.135060).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_004(0.205000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_005(0.230000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_006(0.255000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_007(0.530000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_008(0.780000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_009(1.030000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_010(1.405000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_011(1.530000).fem
+    OPTISTRUCT_Moldbase_CoolTemperature_Map_BLMFEA02_Cool_012(1.655000).fem
+
+[OptiStruct_eDesign_Map]
+ProjName: eDesignFEA
+RunNum: 2
+files: 
+    OPTISTRUCT_Part_Map_eDesignFEA02.fem
+    OPTISTRUCT_Part_InitialStrain_Map_eDesignFEA02.fem
+    OPTISTRUCT_Part_PackTemperature_Map_eDesignFEA02.fem
+    OPTISTRUCT_Part_CoolTemperature_Map_eDesignFEA02.fem
+    MicroMechanics_Weld_lines_Map_eDesignFEA02.nwd
+    MicroMechanics_Orientation_Map_eDesignFEA02.o2d
+    OPTISTRUCT_Digimat_Map_eDesignFEA02.fem
+    MicroMechanics_FlowStress_Map_eDesignFEA02.s2d
+    MicroMechanics_ThermalStress_Map_eDesignFEA02.s2d
+    MicroMechanics_CoolTemperature_Map_eDesignFEA02.t2d
+    MicroMechanics_PackTemperature_Map_eDesignFEA02.t2d
+    OPTISTRUCT_PartInsert_Pressure_Map_eDesignFEA02_EOF.fem
+    OPTISTRUCT_PartInsert_Pressure_Map_eDesignFEA02_EOP.fem
+    OPTISTRUCT_PartInsert_Pressure_Map_eDesignFEA02_Fill_001(0.055069).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_eDesignFEA02_Fill_002(0.102444).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_eDesignFEA02_Fill_003(0.144546).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_eDesignFEA02_Fill_004(0.186387).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_eDesignFEA02_Pack_001(1.979924).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_eDesignFEA02_Pack_002(3.680205).fem
+    OPTISTRUCT_PartInsert_Pressure_Map_eDesignFEA02_Pack_003(5.521366).fem
+    OPTISTRUCT_PartInsert_Temperature_Map_eDesignFEA02_EOC.fem
+
+[OptiStruct_Tetra_Def]
+ProjName: TetraFEA
+RunNum: 1
+files: 
+    OPTISTRUCT_Part_PostMoldCure_TetraFEA01.fem

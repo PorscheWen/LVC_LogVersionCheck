@@ -1,0 +1,127 @@
+[16:53:21-10-26-2017] Create new project [C:\WorkingFolder\testCase\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:53:21-10-26-2017] Set Display Item= [0/0/0]...OK
+[16:53:21-10-26-2017] Change result to [0],[0]...FAIL!
+[16:53:21-10-26-2017] Change Result Fail= [0/0]...FAIL!
+[16:53:21-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:53:21-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:21-10-26-2017] Change Result= [0/0]...FAIL!
+[16:53:21-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:21-10-26-2017] Compute statistics for result [0], item [0]...OK
+[16:53:21-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:21-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:21-10-26-2017] Change result to [0],[0]...FAIL!
+[16:53:21-10-26-2017] Change result to [0],[0]...FAIL!
+[16:53:21-10-26-2017] Change Result Fail= [0/0]...FAIL!
+[16:53:21-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:53:21-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:21-10-26-2017] Change Result= [0/0]...FAIL!
+[16:53:26-10-26-2017] Create a new run [1]...OK
+[16:53:26-10-26-2017] Change result to [0],[0]...FAIL!
+[16:53:26-10-26-2017] Change result to [0],[0]...FAIL!
+[16:53:26-10-26-2017] Change Result Fail= [0/0]...FAIL!
+[16:53:26-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:53:26-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:26-10-26-2017] Change Result= [0/0]...FAIL!
+[16:53:26-10-26-2017] Load run [1]...OK
+[16:53:26-10-26-2017] Clear result data...OK
+[16:53:26-10-26-2017] Change run to [1]...OK
+[16:53:26-10-26-2017] Change Run= [1]...OK
+[16:53:26-10-26-2017] Save project data...OK
+[16:53:26-10-26-2017] Create a New Run...OK
+[16:53:26-10-26-2017] Check limitation for [C:\WorkingFolder\testCase\TestCase1_Solid_Flow\Mesh\] OK
+...OK
+[16:53:26-10-26-2017] Load mesh file [] of run [1]...FAIL!
+[16:53:26-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:53:26-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:26-10-26-2017] Compute statistics for result [0], item [0]...OK
+[16:53:26-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:34-10-26-2017] Import Mesh file [SolidInjection_ValveGate_SC.mfe]...OK
+[16:53:34-10-26-2017] New a mesh [SolidInjection_ValveGate_SC.mfe] by translating...OK
+[16:53:34-10-26-2017] Load mesh file [SolidInjection_ValveGate_SC.mfe]...OK
+[16:53:34-10-26-2017] Save project data...OK
+[16:53:34-10-26-2017] Set run data:Run[1],nAnalysis[0],mesh[SolidInjection_ValveGate_SC.mfe],matr[],Process[]...OK
+[16:53:34-10-26-2017] Set mesh0 [SolidInjection_ValveGate_SC.mfe] to Run[1] mesh...OK
+[16:53:34-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:53:34-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:34-10-26-2017] Compute statistics for result [0], item [0]...OK
+[16:53:34-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:34-10-26-2017] Check limitation for [C:\WorkingFolder\testCase\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:53:35-10-26-2017] Change result to [0],[0]...OK
+[16:53:35-10-26-2017] Change result to [0],[0]...OK
+[16:53:35-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:53:35-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:35-10-26-2017] Change Result= [0/0]...OK
+[16:53:35-10-26-2017] Change result to [0],[0]...OK
+[16:53:35-10-26-2017] Change result to [0],[0]...OK
+[16:53:35-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:53:35-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:35-10-26-2017] Change Result= [0/0]...OK
+[16:53:35-10-26-2017] Change result to [0],[0]...OK
+[16:53:35-10-26-2017] Change result to [0],[0]...OK
+[16:53:35-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:53:35-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:53:35-10-26-2017] Change Result= [0/0]...OK
+[16:53:37-10-26-2017] Load material file [] of run [1]...FAIL!
+[16:53:41-10-26-2017] Import Material file [ABS_POLYFLAMRABS90950UV5_1.mtr]...OK
+[16:53:42-10-26-2017] Load material file [ABS_POLYFLAMRABS90950UV5_1.mtr] of run [1]...OK
+[16:53:42-10-26-2017] Save project data...OK
+[16:53:42-10-26-2017] Set run data:Run[1],nAnalysis[0],mesh[],matr[ABS_POLYFLAMRABS90950UV5_1.mtr],Process[]...OK
+[16:53:42-10-26-2017] Set material0 [ABS_POLYFLAMRABS90950UV5_1.mtr] to Run[1] mesh...OK
+[16:53:42-10-26-2017] Import Material [ABS_POLYFLAMRABS90950UV5_1.mtr] To Run [1]...OK
+[16:53:52-10-26-2017] Import Material file [PC_Makrolon1095_1.mtr]...OK
+[16:53:53-10-26-2017] Set material1 [PC_Makrolon1095_1.mtr] to Run[1] mesh...OK
+[16:53:53-10-26-2017] Import Material [PC_Makrolon1095_1.mtr] To Run [1]...OK
+[16:54:01-10-26-2017] Import Material file [PP_POLYFORTFPP20GFMHI_1.mtr]...OK
+[16:54:02-10-26-2017] Set material2 [PP_POLYFORTFPP20GFMHI_1.mtr] to Run[1] mesh...OK
+[16:54:02-10-26-2017] Import Material [PP_POLYFORTFPP20GFMHI_1.mtr] To Run [1]...OK
+[16:54:03-10-26-2017] Load process condition file [] of run [1]...FAIL!
+[16:54:03-10-26-2017] Load process condition file [] of run [1]...FAIL!
+[16:54:03-10-26-2017] Load process condition file [] of run [1]...FAIL!
+[16:54:05-10-26-2017] Load process condition file [] of run [1]...FAIL!
+[16:54:09-10-26-2017] Create process file...OK
+[16:54:09-10-26-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[16:54:09-10-26-2017] Save project data...OK
+[16:54:09-10-26-2017] Set run data:Run[1],nAnalysis[0],mesh[],matr[],Process[TestCase1_Solid_Flow_1.pro]...OK
+[16:54:09-10-26-2017] Set process condition0 [TestCase1_Solid_Flow_1.pro] to Run[1] mesh...OK
+[16:54:09-10-26-2017] Clear process data [TestCase1_Solid_Flow_1.pro]...OK
+[16:54:10-10-26-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[16:54:11-10-26-2017] Set Computational Parameter for Run [1]...OK
+[16:54:16-10-26-2017] Set Computational Parameter for Run [1]...OK
+[16:54:17-10-26-2017] Check limitation for [C:\WorkingFolder\testCase\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:54:18-10-26-2017] Check limitation for [C:\WorkingFolder\testCase\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:54:18-10-26-2017] Terminate process : ...OK
+[16:54:19-10-26-2017] Change result to [0],[0]...OK
+[16:54:19-10-26-2017] Change result to [0],[0]...OK
+[16:54:19-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:54:19-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:54:19-10-26-2017] Change Result= [0/0]...OK
+[16:54:19-10-26-2017] Change result to [0],[0]...OK
+[16:54:19-10-26-2017] Change result to [0],[0]...OK
+[16:54:19-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:54:19-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:54:19-10-26-2017] Change Result= [0/0]...OK
+[16:54:19-10-26-2017] Reset Display Range...OK
+[16:54:19-10-26-2017] Stop Play Animation...OK
+[16:54:19-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:54:19-10-26-2017] Compute statistics for result [0], item [0]...OK
+[16:54:19-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:54:19-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:54:20-10-26-2017] Change Display Item= [0]...OK
+[16:54:20-10-26-2017] Clear process data [TestCase1_Solid_Flow_1.pro]...OK
+[16:54:20-10-26-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[16:54:23-10-26-2017] Save project data...OK
+[16:54:29-10-26-2017] Set a scheduled batch run at (04:52:53 PM, October 27 2017)...OK
+[16:54:29-10-26-2017] Define a batch run(1 Jobs)...OK
+[16:54:29-10-26-2017] Check limitation for [C:\WorkingFolder\testCase\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:54:31-10-26-2017] Set Scheduled Batch Job [MDXBatchRun.dat] at [16:52:53-10-27-2017]...OK
+[16:54:49-10-26-2017] Capture Screen To [TestCase1_Solid_Flow.png]...OK
+[16:54:49-10-26-2017] Capture Screen To File=[TestCase1_Solid_Flow.png]...OK
+[16:54:49-10-26-2017] Save project data...OK
+[16:54:49-10-26-2017] Terminat process : ...OK
+[16:54:49-10-26-2017] Close log file.
+----------------------------------------------------------------
+

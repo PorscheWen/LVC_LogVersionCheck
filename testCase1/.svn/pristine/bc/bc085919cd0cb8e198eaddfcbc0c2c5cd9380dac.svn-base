@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<CMX_FILE>
+<SUMMARY>
+File = TestCase1_Solid_Flow01.cmx
+Version = 1005
+Creater = Moldex3D-Project-Engine
+Time = 16:54:10-10-26-2017
+Flag3D = 1
+FlagFill = 1
+FlagHRSteady = 1
+FlagPack = 1
+FlagCool = 1
+FlagWarp = 1
+FlagOptic = 1
+FlagICPackage = 1
+FlagMCM = 1
+FlagStress = 1
+FlagTaskManager = 1
+</SUMMARY>
+
+<SOLID_FILL>
+Version = 1003
+IDSolver = 1
+IDAnalysisMode = 0
+IDEfficiencyFactor = 3.000000
+IDFiberEfficiencyFactor = 1
+FlagSolverAcceleration = 1
+FlagInertia = 1
+FlagNonIsothermal = 1
+FlagNonNewtonian = 1
+FlagViscousHeating = 1
+FlagStabilizer = 1
+FlagCompressibleFlow = 0
+FlagEstimateCoolTime = 0
+FlagEstimateFiber = 1
+FlagEstimateCrystall = 0
+FlagStopPackingAfterGateFreeze = 0
+FlagGateFreezeByTemperature = 0
+ValueGateFreezeByTemperature = 119.850000
+FlagGateFreezeByFlowRate = 0
+ValueGateFreezeByFlowRate = 0.601897
+FlagGateFreezeByWeightDeviation = 0
+ValueGateFreezeByWeightDeviation = 0.100000
+FlagOutputTecplot = 0
+FlagOutputFEMAP = 0
+FlagOutputHyperMesh = 0
+FlagOutputHyperMeshAvi = 0
+UseTemperatureDLL = 0
+ValueGravityX = 0.000000
+ValueGravityY = 0.000000
+ValueGravityZ = 0.000000
+ValueEOFPercent = 0.999609
+ValueUIEOFPercent = 0.999500
+FlagExcludeRunnerEOFPercent = 1
+ValueUnFilledElement = 10
+IDStopCalculateCriterionType = 1
+FlagVentingAnalysis = 0
+VentingTemperature = 30.000000
+VentingPressure = 0.100000
+FlagCoreShiftMethod = 0
+FlagStressSolverVolume = 0.050000
+FlagParticleTracer=0
+ValueParticleGroup = 10
+FlagWeldingLineParticleTracer = 0
+FlagFlowEfficiencyFactor = 0
+Flag2WayPaddleShiftMethod = 0
+FlagConsiderIMDBC = 0
+</SOLID_FILL>
+
+<FILL_ADVANCED_LONGFIBER>
+Version = 1001
+OrthotropicClosureMethod = 2
+ModifiedFactor = 0.700000
+DiffusionModelType = 1
+Cf = 5.000000e-003
+Cm = 0.000000e+000
+FiberType = 1
+AspectRatio = 2.000000e+001
+Weight = 2.000000e+001
+FlagFiberBreakage = 0
+ValueFiberDiameter = 1.700000e+001
+ValueFiberBreakageCD = 3.000000e+000
+ValueFiberBreakageCB = 2.000000e-002
+ValueFiberBreakageS = 2.500000e-001
+FlagScrewFiberBreakage = 0
+FlagConcertration = 0
+ValueParticleDiameter = 1.700000e+001
+ValueAverageConcentration = 2.000000e+001
+ValueParticleFrictionIndex = 3.000000e+000
+</FILL_ADVANCED_LONGFIBER>
+
+<FILL_ADVANCED_HRSteady>
+Version = 1001
+ValueFlowRate = 4.704253
+ValueConvergenceCriteria = 1.000000
+ValueNoHRGate = 0
+ValueHRGateType = 0
+</FILL_ADVANCED_HRSteady>
+
+<FILL_ADVANCED_MCIM>
+Version = 1001
+FlagEstimateBubble = 1
+GasType = 0
+BubbleGrowthModel = 0
+PolymerMolecularWeight = 410000.000000
+GasDiffusionCoefficient = 8.070000e-005
+GasSolubilityParameter = 1.600000e-011
+SurfaceTension = 0.000178
+CorrectionFactorf0 = 9.000000e-023
+CorrectionFactorF = 1.000000e-003
+ThresholdofBubbleFt = 1.000000e-001
+</FILL_ADVANCED_MCIM>
+
+<FILL_ADVANCED_SlipBC>
+Version = 1001
+FlagSlipBC = 0
+FlagSlipExcludeRunner = 1
+ValueSlipCoeff = 1.000000e+000
+ValueSlipFrictionForce = 1.000000e-001
+</FILL_ADVANCED_SlipBC>
+
+<FILL_OUTPUT_TIMES>
+Version = 1001
+FlagAutoLoadIntermediateResult = 0
+FlagFillMultiOutputType = 1
+ValueCheckIntermediteTimeSpan = 60
+ValueNoFillOutputTime = 3
+1 = 0.025
+2 = 0.05
+3 = 0.075
+</FILL_OUTPUT_TIMES>
+
+<SOLID_PACK>
+Version = 1000
+IDSolver = 0
+FlagSolverAcceleration = 1
+FlagexPackingCalculation = 1
+FlagexPackingType = 1
+</SOLID_PACK>
+
+<PACK_OUTPUT_TIMES>
+Version = 1000
+ValueNoPackOutputTime = 3
+1 = 0.85
+2 = 1.7
+3 = 2.55
+</PACK_OUTPUT_TIMES>
+
+<SOLID_COOL>
+Version= 1004
+IDSolver = 0
+FlagSolverAcceleration = 1
+FlagParallelCompute = 0
+FlagNetworkAnalysis = 0
+Flag3DSolidCoolingChannel = 0
+Flag3DSolidCoolingTurbulence = 1
+Value3DSolidCoolingTurbulenceRoughness = 0.02
+FlagAdvancedHotRunner = 0
+FlagSteadyState = 0
+FlagAutoSetCoolTime = 0
+FlagMultipleTimeForAllProc = 0
+ValueAutoSetCoolTimeMaxIteration = 10
+ValueAutoSetCoolTimeTolerance = 0.05
+FlagAutoSetCoolTimeExcludeRunner = 0
+ValueMaxCycleNumber = 10
+ValueConvergeType = 3 (1~3)
+ValueConvergeUnit = 1(1: degree 2: percentage)
+ValueMaxTempVariationTolerance = 1
+ValueMaxPartSurfTempVariationTolerance = 1
+ValueMaxMBInnerTempVariationTolerance = 1
+FlagAutoAdiabaticLayer = 1
+FlagPreheatAverageTemp = 0
+ValuePreheatAverageTempVariation = 50
+FlagPreheatHighestTemp = 0
+ValuePreheatHighestTempVariation = 50
+FlagPreheatLowestTemp = 0
+ValuePreheatLowestTempVariation = 50
+FlagMoldbaseResulationType = 1
+</SOLID_COOL>
+
+<COOL_OUTPUT_TIMES>
+Version=1001
+FlagAutoLoadIntermediateResult=0
+ValueCheckIntermediteTimeSpan=60
+ValueNoCoolOutputTime=3
+1 = 2.825
+2 = 5.65
+3 = 8.475
+</COOL_OUTPUT_TIMES>
+
+<MoldPreheat_OUTPUT_TIMES>
+Version=1001
+FlagAutoLoadIntermediateResult=0
+ValueCheckIntermediteTimeSpan=60
+ValueNoPreheatOutputTime=3
+1 = 28.375
+2 = 56.75
+3 = 85.125
+</MoldPreheat_OUTPUT_TIMES>
+
+<OPEN_OUTPUT_TIMES>
+Version = 1001
+ValueNoOpenOutputTime=3
+1 = 1.25
+2 = 2.5
+3 = 3.75
+</OPEN_OUTPUT_TIMES>
+
+<SOLID_WARP>
+Version = 1001
+IDSolver = 0
+IDCompositeModel = 2
+FlagSolverAcceleration = 1
+FlagRemoveRunner = 1
+FlagFiberEffect = 1
+FlagHighOrderElement = 0
+FlagInMoldConstraint = 0
+FlagMoldThermalDeformation = 0
+FlagVEResidualStress = 0
+FlagRIMShrinkageType = 1
+ValueMaxIteration = 50000
+ValueMinIterativeError = 5.000000e-005
+ValueIMCMedTH = 1.000000e-003
+ValueIMCMedWR = 1.000000e-003
+ValueIMCRelST = 4.000000e-001
+FlagDifferentialEffect = 0
+FlagThermalDisplacement = 0
+</SOLID_WARP>
+
+<SOLID_STRESS>
+Version = 1002
+IDCompositeModel = 2
+FlagSolverAcceleration = 1
+FlagFiberEffect = 1
+ValueMaxIteration = 50000
+ValueMinIterativeError = 5.000000e-005
+ValueGravityX = 0.000000e+000
+ValueGravityY = 0.000000e+000
+ValueGravityZ = 0.000000e+000
+WeldLineEffect = 0
+WeldlineAngle1 = 0.000000e+000
+WeldlineAngle2 = 3.000000e+001
+WeldlineAngle3 = 6.000000e+001
+WeldlineAngle4 = 9.000000e+001
+ReductionRate1 = 8.000000e-001
+ReductionRate2 = 9.000000e-001
+ReductionRate3 = 9.500000e-001
+FlagVEResidualStress = 0
+TransientStressCouplingType = 0
+ValueInitialTemperature = 25.000000
+Valuedt = 0.500000
+ValueTimePeriod = 180.000000
+ValueHTC = 15000.000000
+TempTime = 3
+TT1 = 0.000000	 25.000000
+TT2 = 90.000000	 50.000000
+TT3 = 180.000000	 75.000000
+MatTemp(Part) = 3
+MT1 = 25.000000	 20000000000.000000
+MT2 = 50.000000	 20000000000.000000
+MT3 = 75.000000	 20000000000.000000
+FlagUserDefinedMaterial = 0
+MatTemp(PartInsert-Modulus-1) = 3
+MT1 = 25.000000	 46000000000.000000
+MT2 = 50.000000	 46000000000.000000
+MT3 = 75.000000	 46000000000.000000
+MatTemp(PartInsert-Modulus-2) = 3
+MT1 = 25.000000	 20000000000.000000
+MT2 = 50.000000	 20000000000.000000
+MT3 = 75.000000	 20000000000.000000
+MatTemp(PartInsert-CLTE-1) = 2
+MT1 = 25.000000	 0.000000e+000
+MT2 = 50.000000	 0.000000e+000
+MatTemp(PartInsert-CLTE-2) = 2
+MT1 = 25.000000	 0.000000e+000
+MT2 = 50.000000	 0.000000e+000
+ValueOutPutTiming = 3
+1 = 45.000000
+2 = 90.000000
+3 = 135.000000
+ValueAnnealgingCycleNumber = 1
+</SOLID_STRESS>
+
+<SOLID_VE>
+Version = 1002
+FlagEstimateFlowPackStage = 0
+FlagEstimateCoolStage = 0
+FlagEstimateEjection = 0
+</SOLID_VE>
+
+<SOLID_VE_STRESS>
+Version = 1001
+FlagConsiderStress = 0
+FlagTempSetting = 1
+C1 = 40.160000
+C2 = 51.600000
+Tref = 119.850000
+ValueEaslticRatio = 7.030000e+004
+MTCount = 8
+MT1 = 1.160000e+009	 2.000000e-003
+MT2 = 8.680000e+008	 5.000000e-002
+MT3 = 1.160000e+008	 3.500000e-001
+MT4 = 1.450000e+007	 1.500000e+000
+MT5 = 2.890000e+006	 1.000000e+001
+MT6 = 8.680000e+005	 1.500000e+002
+MT7 = 3.610000e+005	 3.000000e+003
+MT8 = 1.740000e+005	 4.000000e+004
+</SOLID_VE_STRESS>
+
+<SOLID_VE_CURING_STRESS>
+Version = 1001
+ModelType = 0
+PARAConst = -1.676545e+004
+PARACount = 5
+PARA1 = 4.040426e+004	 0.000000e+000
+PARA2 = -1.704046e+005	 0.000000e+000
+PARA3 = 2.867227e+005	 0.000000e+000
+PARA4 = -2.405185e+005	 0.000000e+000
+PARA5 = 1.005616e+005	 0.000000e+000
+</SOLID_VE_CURING_STRESS>
+
+<SOLID_VE_WARP>
+Version = 1001
+FlagConsiderWarp = 0
+FlagTempSetting = 1
+C1 = 4.016000e+001
+C2 = 5.160000e+001
+Tref = 1.198500e+002
+ValueEaslticRatio = 7.030000e+004
+MTCount = 8
+MT1 = 1.160000e+009	 2.000000e-003
+MT2 = 8.680000e+008	 5.000000e-002
+MT3 = 1.160000e+008	 3.500000e-001
+MT4 = 1.450000e+007	 1.500000e+000
+MT5 = 2.890000e+006	 1.000000e+001
+MT6 = 8.680000e+005	 1.500000e+002
+MT7 = 3.610000e+005	 3.000000e+003
+MT8 = 1.740000e+005	 4.000000e+004
+</SOLID_VE_WARP>
+
+<SOLID_OPTIC>
+Version = 1002
+FlagEstimateOpticProperty = 0
+FlagDarkField = 1
+FlagLightField = 0
+FlagWhiteLight = 0
+FlagRemoveRunner = 1
+FlagMonochromaticWaveLength = 1
+ValueMonochromaticWaveLength = 590
+FlagOutputToOpticalSoftware = 0
+</SOLID_OPTIC>
+
+<OPTIC_OUTPUT_DIRECTION>
+Version = 1001
+ValueOpticLightDirection = 0
+</OPTIC_OUTPUT_DIRECTION>
+
+<OPTIC_OUTPUT_TO_SOFTWARE>
+OpticalSoftware = 
+OutputBC = 0
+FlagDeformedShape = 0
+FlagRefractiveindex = 0
+FlagBirefringence = 0
+OutputDirectory =  
+</OPTIC_OUTPUT_TO_SOFTWARE>
+
+<SOLID_IC>
+Version = 1003
+FlagStressSolverType = 1
+FlagANSYSStressSolverAnalysisType = 0
+FlagDragForceModel = 2
+FlagWireSweepNLMatOption =0
+FlagWireSweepNLGEOMOption =1
+FlagPaddleShiftNonLinearOption =0
+ANSYSStressSolverDirectory =
+ABAQUSStressSolverDirectory =
+OutputBatchFileDirectory =
+WireTolerance =0.000000e+000
+</SOLID_IC>
+
+<IC_PADDLE_SHIFT_OUTPUT_TIMES>
+Version = 1001
+FlagAutoLoadIntermediateResult = 0
+ValueCheckIntermediteTimeSpan = 6.000000e+001
+ValueNoPaddleShiftTime = 3
+1 = 2.500000e-002
+2 = 5.000000e-002
+3 = 7.500000e-002
+</IC_PADDLE_SHIFT_OUTPUT_TIMES>
+
+<IC_WIRE_SWEEP_OUTPUT_TIMES>
+Version = 1001
+FlagAutoLoadIntermediateResult = 0
+ValueCheckIntermediteTimeSpan = 6.000000e+001
+ValueNoWireSweepTime = 3
+1 = 2.500000e-002
+2 = 5.000000e-002
+3 = 7.500000e-002
+</IC_WIRE_SWEEP_OUTPUT_TIMES>
+
+<SOLID_MCM>
+Version = 1002
+FlagPrevShot = 0
+ValueShotRunID = -1
+FlagPrevShotProject = 0
+ValueShotProjectPath = 
+ValueShotProjectName = 
+</SOLID_MCM>
+
+<TASKMANAGER>
+Version = 1002
+IDTaskMode = 0
+flagAccelerationType = 0
+ValueNoTask = 1
+ValueLocalNoTask = 1
+ValueConsoleRedirection = 0
+</TASKMANAGER>
+
+<REMOTE_MACHINES>
+Version=1004
+ValueNoMachine=1
+ValueRemoteNoTask=1
+ValueMap= B:
+ValueShareFolderName=
+ValueSharedMoldex3DName=Moldex3D_R16
+ValueParallelWorkingFolder=C:\MDX_WorkingFolder
+ValueLocalHost=192.168.3.26
+ValueMachineSetting=
+ 1 = 192.168.3.26	1	 C:\Moldex3D\R16\
+ValueMachineWeighting = 
+ 1 = 1.000000e+000
+</REMOTE_MACHINES>
+
+<COMPUTING_MANAGER>
+Version = 1000
+ValueComputingManagerNoTask = 1
+</COMPUTING_MANAGER>
+
+</CMX_FILE>

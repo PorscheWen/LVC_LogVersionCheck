@@ -1,0 +1,382 @@
+Commandline=["C:\Moldex3D\R16\Bin\Mdx3DFlowE.exe" moldex3dhomedir="C:\Moldex3D\R16" projectdir="C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow" projectname="TestCase1_Solid_Flow" runname="01" avm="" nprocess=1 weighting="" psrunname="-1" ]
+=========================================================================
+
+     Module Name = Moldex3D/Solid - Enhanced Flow
+     Version     = R16 (Build 160.1.1710.25002) - 64Bit
+     Website     : www.moldex3d.com 
+     (C) 1995-2017 CoreTech System Co., Ltd. All rights reserved.
+
+=========================================================================
+
+
+>>> Analysis Type: Injection Molding
+
+[Mesh Conversion ...   |   2%][Mesh Conversion ...   |   4%][Mesh Conversion ...   |   6%][Mesh Conversion ...   |   8%][Mesh Conversion ...   |  10%][Mesh Conversion ...   |  12%][Mesh Conversion ...   |  14%][Mesh Conversion ...   |  16%][Mesh Conversion ...   |  18%][Mesh Conversion ...   |  20%][Mesh Conversion ...   |  22%][Mesh Conversion ...   |  24%][Mesh Conversion ...   |  26%][Mesh Conversion ...   |  28%][Mesh Conversion ...   |  30%][Mesh Conversion ...   |  32%][Mesh Conversion ...   |  34%][Mesh Conversion ...   |  36%][Mesh Conversion ...   |  38%][Mesh Conversion ...   |  40%][Mesh Conversion ...   |  42%][Mesh Conversion ...   |  44%][Mesh Conversion ...   |  46%][Mesh Conversion ...   |  48%][Mesh Conversion ...   |  51%][Mesh Conversion ...   |  53%][Mesh Conversion ...   |  55%][Mesh Conversion ...   |  57%][Mesh Conversion ...   |  59%][Mesh Conversion ...   |  61%][Mesh Conversion ...   |  63%][Mesh Conversion ...   |  65%][Mesh Conversion ...   |  67%][Mesh Conversion ...   |  69%][Mesh Conversion ...   |  71%][Mesh Conversion ...   |  73%][Mesh Conversion ...   |  75%][Mesh Conversion ...   |  77%][Mesh Conversion ...   |  79%][Mesh Conversion ...   |  81%][Mesh Conversion ...   |  83%][Mesh Conversion ...   |  85%][Mesh Conversion ...   |  87%][Mesh Conversion ...   |  89%][Mesh Conversion ...   |  91%][Mesh Conversion ...   |  93%][Mesh Conversion ...   | 100%]
+>>>  Writing polyhedral mesh file completed!...
+
+
+[Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%][Mesh Data Processing  | 100%]
+
+>>>  Reading MFV file completed!...
+
+End of allocating memory...
+
+>>>  G1002: No existing cooling result.
+	   The default mold temperature will now be used for calculation.
+
+
+
+
+<Mesh_Information>
+
+    <General_Information>
+        Mesh File Name                            = C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe
+        Mesh File Version                         = 13003
+        
+        CreateBy                                  = NULL 
+        Total Element Number of Part              = 3912
+        Total Node Number of Part                 = 2780
+        Total Element Number of Cold Runner       = 1008
+        Total Node Number of Cold Runner          = 784
+        Total Element Number of Hot Runner        = 5544
+        Total Node Number of Hot Runner           = 3906
+        Total Element Number of Part and Runners  = 10464
+        Total Element Number of Moldbase          = 355818
+        Total Node Number of Moldbase             = 69479
+        Volume of Part                            = 0.470425 cc
+        Volume of Overflow                        = 0 cc
+        Volume of Compression Zone                = 0 cc
+        Volume of Cold Runner                     = 0.0124233 cc
+        Volume of Hot Runner                      = 0.119048 cc
+        Total Volume of Part and Runners          = 0.601897 cm^3
+        Total Valve Gate Control Count            = 2
+        Total Number of Inlet Faces               = 72
+        Volume of Part-Insert                     = 0.254029 cc
+        Total Element Number of Part-Insert       = 1260
+        Total Node Number of Part-Insert          = 2016
+        Total Number of Overflow Region           = 0
+        Volume of Overflow Region                 = 0 cm^3
+        Total Number of Inlet Face Groups         = 1
+        ICM                                       = No
+    </General_Information>
+
+    <Element_Type>
+        Tetra Element Count                       = 0
+        Pyramid Element Count                     = 0
+        Prism Element Count                       = 10464
+        Hexa Element Count                        = 0
+    </Element_Type>
+
+    <Mesh_Quality>
+        Worst Quality Element Count               = 0
+        Worse Quality Element Count               = 0
+        Bad Quality Element Count                 = 0
+        Single Layer Element Count                = 0
+        Bi-Layer Element Count                    = 0
+    </Mesh_Quality>
+
+    <Part_Mesh_Geometry>
+        x-coordinate Range                        = (-2, 2) cm
+        y-coordinate Range                        = (-0.5, 0.5) cm
+        z-coordinate Range                        = (-0.15, 1.6) cm
+    </Part_Mesh_Geometry>
+</Mesh_Information>
+
+
+
+<Material_Information>
+
+    <General_Information>
+        Material File                           = C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Material\ABS_POLYFLAMRABS90950UV5_1.mtr
+        Material File Version                   = 9007
+        Polymer Name                            = ABS
+        Producer Name                           = A. Schulman
+        Polymer Trade Name                      = POLYFLAM RABS 90950 UV5
+        Polymer Comment                         = 20%GF ,MVR(220,10)=16 cm3/10min ,D=1.36 g/cc
+        Freeze Temperature                      = 119.85 degree C
+    </General_Information>
+
+    <Viscosity>
+        Viscosity Model                         = Modified Cross Model 2
+        Modified Cross Model 2 - (n)            = 0.291  
+        Modified Cross Model 2 - (Taus)         = 512000 dyne/cm^2
+        Modified Cross Model 2 - (B)            = 3.52e-008 g/(cm.sec) 
+        Modified Cross Model 2 - (Tb)           = 14200 K
+        Modified Cross Model 2 - (D)            = 0 cm^2/dyne
+    </Viscosity>
+
+    <PVT>
+        PVT Model                               = Modified Tait Model 2
+        Modified Tait Model 2 - (b1L)           = 0.832 cc/g
+        Modified Tait Model 2 - (b2L)           = 0.000359 cc/g.K
+        Modified Tait Model 2 - (b3L)           = 2.98e+009 dyne/cm^2
+        Modified Tait Model 2 - (b4L)           = 0.00417 1/K
+        Modified Tait Model 2 - (b1S)           = 0.831 cc/g
+        Modified Tait Model 2 - (b2S)           = 0.00018 cc/g.K
+        Modified Tait Model 2 - (b3S)           = 3.83e+009 dyne/cm^2
+        Modified Tait Model 2 - (b4S)           = 0.00395 1/K
+        Modified Tait Model 2 - (b5)            = 373 K
+        Modified Tait Model 2 - (b6)            = 2e-008 cm^2.K/dyne
+        Modified Tait Model 2 - (b7)            = 0 cc/g
+        Modified Tait Model 2 - (b8)            = 0 1/K
+        Modified Tait Model 2 - (b9)            = 0 cm^2/dyne
+    </PVT>
+
+    <Crystallinity>
+        Crystallinity Model                     = None
+    </Crystallinity>
+
+    <Heat_Capacity>
+        Heat Capacity Model                     = Constant Cp
+        Constant Cp - (Cp0)                     = 2.08e+007 erg/(g.oC) 
+    </Heat_Capacity>
+
+    <Thermal_Conductivity>
+        Thermal Conductivity Model              = Constant K
+        Constant K - (K0)                       = 20300 erg/(sec.cm.oC)
+    </Thermal_Conductivity>
+
+    <Polymer_Mechanical_Properties>
+        Mechanical Type                         = Fiber-reinforced polymer(Theoretical,Customize)
+        Polymer density                         = 1.04 g/cc
+        Polymer Poisson's ratio                 = 0.3  
+        Polymer Modulus E                       = 2e+010 dyne/cm^2
+        Polymer CLTE                            = 7.2e-005 1/K
+        Fiber Weight Percentage                 = 20 %
+        Fiber density                           = 2.55 g/cc
+        Fiber Poisson's ratio                   = 0.2  
+        Fiber Modulus E1(fiber direction)       = 7e+011 dyne/cm^2
+        Fiber Modulus E2(transverse direction)  = 7e+011 dyne/cm^2
+        Fiber Shear Modulus G                   = 3e+011 dyne/cm^2
+        Fiber CLTE a1(fiber direction)          = 5e-006 1/K
+        Fiber CLTE a2(transverse direction)     = 5e-006 1/K
+        Fiber Length/Diameter                   = 20  
+        Interaction Coefficient                 = 0.01  
+    </Polymer_Mechanical_Properties>
+
+    <Viscoelasticity>
+        VE Model                                = White-Metzner Model
+        G                                       = 2.1e+006 dyne/cm^2
+    </Viscoelasticity>
+
+    <Structure Viscoelasticity>
+        Structure VE Model                      = No Structure VE data
+    </Structure Viscoelasticity>
+    Checking_Polymer_Data_Warning
+</Material_Information>
+
+
+<Process_Condition_Information>
+
+    <General_Information>
+      Process File                     = TestCase1_Solid_Flow_1
+      File Version                     = 1041
+      Analysis Type                    = Injection Molding
+      File Type                        = CAE Analysis Interface
+      Setting Mode                     = Classic Mode
+    </General_Information>
+
+    <Filling>
+      Filling Time                     = 0.1 sec
+      Melt Temperature                 = 230 degree C
+      Mold Temperature                 = 50 degree C
+      Max. Injection Pressure          = 155 MPa
+      VP Switch-over Type              = By volume(%) filled
+      VP Switch-over as                = 98 %
+      Hot Runner Temperature Difference= 0 degree C
+    </Filling>
+
+    <Packing>
+      Packing Time                     = 3.4 sec
+      Packing Pressure Setting         = Refer to end of filling pressure
+    </Packing>
+
+    <Boundary_Condition>
+      Mold Thermal Boundary Condition Type= Automatically Determined
+    </Boundary_Condition>
+
+    <Flow_Rate_Profile_Setting>
+      Section No.                      = 2
+      Node ID                 Time(%)		Flow Rate(%)
+      Node-1                  0     		50    
+      Node-2                  100   		50    
+    </Flow_Rate_Profile_Setting>
+
+    <Injection_Pressure_Profile_Setting>
+      Section No.                      = 2
+      Node ID                 Time(%)		Injection Pressure(%)
+      Node-1                  0     		100   
+      Node-2                  100   		100   
+    </Injection_Pressure_Profile_Setting>
+
+</Process_Condition_Information>
+
+
+<Multiple Time Step Output Information in Filling Analysis>
+    Total Multiple Time Step Outputs          = 3
+        Time #1                               = 0.025 sec
+        Time #2                               = 0.05 sec
+        Time #3                               = 0.075 sec
+</Multiple Time Step Output Information in Filling Analysis>
+
+<Fiber_Parameter>
+    Aspect ratio                  = 20 
+    Weight percentage             = 20 
+    4th orientation tensor closure= IBOF
+    Rotary Diffusion Modelling    = iARD
+        Ci                        = 0.005 
+        Cm                        = 0 
+    RPR model alpha factor        = 0.7 
+    ObjectiveARD                   = ON
+    ImproveRPR                     = ON
+</Fiber_Parameter>
+
+
+<Solver_Options_Information>
+    Flow  Solver Accuracy/Performance Options = 3
+    Fiber Computation                         = ON
+    Non-Isothermal                            = ON
+    Viscous Heating                           = ON
+    Consider crystallization effect           = OFF
+    Non-Newtonian Fluid Effect                = ON
+    Estimate Cooling Time                     = OFF
+    Flow-induced Residual Stress Computation  = OFF
+    Compressible Flow                         = OFF
+    Mesh Type                                 = Solid mesh file
+    Criterion of Stopping Calculation Type    = Filling percentage(99.9609%)
+    Stabilized Calculation                    = ON
+    Projection Area On Mold-Opening Direction = 3.13616 cm^2
+    Number of Computation Processes           = 1
+    Auto HTC Mode                             = ON
+    Support Flow/Pack mode                    = ON
+    Particle Tracer Analysis                  = OFF
+    Weld line Particle Tracer Analysis        = OFF
+
+</Solver_Options_Information>
+
+
+>>>  Valve Gate #1 is opened at time = 1e-010 (Type: Timing)
+
+
+
+>>>  Valve Gate #2 is opened at time = 1e-010 (Type: Timing)
+
+
+---------------------------------------------------------------
+   No   Time(sec)   Pres(MPa) Q(cc/sec) Fill(%)    CPU(sec) 
+---------------------------------------------------------------
+    1   1.000e-05    12.68     1.93      0.000         0
+    2   1.819e-04     8.74     3.09      0.069         0
+    3   4.043e-04     8.65     4.20      0.211         0
+    4   6.245e-04     8.23     4.75      0.403         1
+    5   8.464e-04     8.50     4.83      0.621         1
+    6   1.130e-03     8.51     4.83      0.905         2
+    7   1.433e-03     8.41     4.83      1.207         2
+    8   1.718e-03     8.79     4.83      1.492         2
+    9   2.042e-03     9.05     4.83      1.816         2
+   10   2.355e-03     9.54     4.83      2.130         3
+---------------------------------------------------------------
+   No   Time(sec)   Pres(MPa) Q(cc/sec) Fill(%)    CPU(sec) 
+---------------------------------------------------------------
+   11   2.676e-03    10.29     4.83      2.451         3
+   12   2.987e-03    10.23     4.83      2.762         4
+   13   3.448e-03    10.69     4.83      3.223         4
+   14   3.987e-03    10.82     4.83      3.762         4
+   15   4.586e-03    10.81     4.83      4.361         5
+   16   5.184e-03    11.05     4.83      4.958         5
+   17   5.646e-03    11.47     4.83      5.420         5
+   18   6.115e-03    12.00     4.83      5.890         6
+   19   6.691e-03    12.71     4.83      6.466         6
+   20   7.402e-03    13.40     4.83      7.177         7
+---------------------------------------------------------------
+   No   Time(sec)   Pres(MPa) Q(cc/sec) Fill(%)    CPU(sec) 
+---------------------------------------------------------------
+   21   8.209e-03    13.76     4.83      7.983         7
+   22   9.154e-03    14.04     4.83      8.928         8
+   23   1.013e-02    14.48     4.83      9.908         8
+   24   1.132e-02    15.27     4.83     11.091         9
+   25   1.265e-02    15.95     4.83     12.424        10
+   26   1.431e-02    17.06     4.83     14.087        10
+   27   1.635e-02    19.12     4.83     16.128        11
+   28   1.874e-02    23.90     4.83     18.517        12
+   29   2.175e-02    24.35     4.83     21.526        13
+   30   2.517e-02    24.60     4.83     24.949        14
+---------------------------------------------------------------
+   No   Time(sec)   Pres(MPa) Q(cc/sec) Fill(%)    CPU(sec) 
+---------------------------------------------------------------
+Writing data, please wait....
+Dumping Fiber Orientation on Nodes
+   31   2.945e-02    24.83     4.83     29.221        16
+   32   3.448e-02    25.09     4.83     34.252        18
+   33   3.993e-02    25.32     4.83     39.707        19
+   34   4.593e-02    25.73     4.83     45.704        20
+   35   5.215e-02    26.26     4.83     51.929        22
+Writing data, please wait....
+Dumping Fiber Orientation on Nodes
+   36   5.913e-02    27.19     4.83     58.902        24
+   37   6.750e-02    28.10     4.83     67.277        25
+   38   7.669e-02    29.24     4.83     76.463        27
+Writing data, please wait....
+Dumping Fiber Orientation on Nodes
+   39   8.634e-02    30.65     4.83     86.110        29
+   40   9.436e-02    32.47     4.83     94.132        31
+---------------------------------------------------------------
+   No   Time(sec)   Pres(MPa) Q(cc/sec) Fill(%)    CPU(sec) 
+---------------------------------------------------------------
+   41   9.839e-02    54.25     4.83     98.166        33
+
+>>>  Switching over from filling to packing phase 
+
+Writing data, please wait....
+Dumping Fiber Orientation on Nodes
+--------------------------------------------------
+   42   9.839e-02    54.25     4.83     100.000        33
+
+--------------------------------------------------------
+<Summary>
+    CPU Time for Fill Analysis =        33.0 sec
+    Mold-Opening Direction     =          Z-axis
+    Clamping Force at EOF      =         0.8 Ton
+
+    Part Weight of Cavity #1          =   0.542 g
+    Cavity #1 full filled at time     = 0.09839 sec
+    Total Weight(Cold runner + Parts) =   0.556 g
+
+    Volume filled from Gate #1-1          =    0.24 cc, (  49.99%)
+    Volume filled from Gate #1-2          =    0.24 cc, (  50.01%)
+</Summary>
+
+
+<Application_Information>
+    <Current_Process_Information>
+      Process Name              = Mdx3DFlowE.exe
+      Process ID                = 11668   
+      Process Owner             = Porsche   
+      Process Owner Domain      = DESKTOP-1F0OJ3G   
+      Consumed CPU Time         = 40 sec
+      Memory Usage              = 73004 KB
+      Peak Memory Usage         = 83588 KB
+    </Current_Process_Information>
+
+
+Total process peak memory usage of solver: 83588 KB (81.629 MB; 0.080 GB)
+
+
+
+</Application_Information>
+
+=========================================================================
+  Moldex3D/Solid - Enhanced Flow  R16 (Build 160.1.1710.25002) - 64Bit
+  (c) 1995-2017 CoreTech System. All rights reserved.
+  http://www.moldex3d.com 
+=========================================================================
+
+
+
+[EOF]
+
+
+
+Writing data, please wait....Dumping Fiber Orientation on Nodes
+Finalize complete.
+>>> Return value of C:\Moldex3D\R16\Bin\Mdx3DFlowE.exe = 0

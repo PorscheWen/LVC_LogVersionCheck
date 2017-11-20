@@ -1,0 +1,12 @@
+[Setting]
+# ProductLine: "Moldex3D"
+# TestCaseModule: "FEAOutput"
+# testCaseName: "Hexa"
+# sourceParentPath: "C:\WorkingFolder\testCase\testModel\HexaFEA_Ori\Report\Run01"
+# BackupTargetPath: "\\172.16.0.31\QA3Test\AutoTest_Backup"
+[/Setting]
+
+
+[Stage_002]
+C:\WorkingFolder\testCase\testModel\HexaFEA_Ori\Report\Run01
+[/Stage_002]

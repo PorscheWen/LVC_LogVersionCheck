@@ -1,0 +1,13 @@
+<HEADER>
+Version = 11002
+FlagFillMultiOutputType = 1
+Time = Wed Nov 08 17:01:52 2017
+</HEADER>
+
+<Output_Info>
+Time= TestCase1_Solid_Flow01_001.m3f 0.0251749 39.7936%
+Time= TestCase1_Solid_Flow01_002.m3f 0.0521543 61.4368%
+Time= TestCase1_Solid_Flow01_003.m3f 0.0766888 81.1187%
+Time= TestCase1_Solid_Flow01_004.m3f 0.0983919 98.5291% PackSwitch
+</Output_Info>
+[EOF]

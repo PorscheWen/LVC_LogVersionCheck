@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{AF796281-D44B-46AF-B78E-92CB0E3C5786}"/>
+			</Node>
+			<Node name="{381208c6-84ac-4ab7-b625-83ce5d0d5dd3}">
+				<Prp name="relpath" type="S" value="OpenMDXProject\OpenMDXProject.mds.tcLS"/>
+			</Node>
+			<Node name="{4ca70f25-c389-4155-a8aa-0efe38017f76}">
+				<Prp name="relpath" type="S" value="Sample\SharedComponents_.mds.tcLS"/>
+			</Node>
+			<Node name="{af796281-d44b-46af-b78e-92cb0e3c5786}">
+				<Prp name="relpath" type="S" value="SharedComponents\SharedComponents.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{C6BF20CB-6647-49D9-B2C6-6607C71B5A2D}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

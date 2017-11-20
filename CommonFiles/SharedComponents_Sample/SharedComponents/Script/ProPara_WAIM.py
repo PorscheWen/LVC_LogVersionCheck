@@ -1,0 +1,351 @@
+﻿ModelPath = r"C:\WorkingFolder\testCase\testModel"
+sec = 1000
+
+"""
+def FlowPackTime(tFlow=None, tPack=None):
+    Obj = Aliases.MdxPro.wndAfx.SysTabControl32.SetFP
+    if tFlow != None:
+        Obj.FlowTime.SetText(str(tFlow))
+    if tPack != None:
+        Obj.PackTime.SetText(str(tPack))
+
+def tpMeltMoldTemp(tMelt=None, tMold=None):
+    Obj = Aliases.MdxPro.wndAfx.SysTabControl32.SetFP.Temp
+    # Modify Melt Temp.
+    if tMelt != None:
+        Obj.Click(196, 15)
+        Obj.Keys("[F2]")
+        Obj.Edit.SetText(str(tMelt))
+    # Modify Mold Temp.
+    if tMold != None:
+        Obj.Click(193, 50)
+        Obj.Keys("[F2]")
+        Obj.Edit.SetText(str(tMold))
+
+def tsMeltMoldTemp(tMelt=None, tMold=None, tInital=None):
+    pass
+
+def CAE_Profile(ProfileTag, tupTime, tupValue, **dicProfile):
+    tupParaKey = ("TypeTag", "SectionNo", "ptTypeTag")
+    def ActionProfileTag():
+        if ProfileTag == "FlowRate":
+            Aliases.MdxPro.wndAfx.SysTabControl32.SetFP.ProfileFlowRate.ClickButton()
+        elif ProfileTag == "InjactionPressure":
+            Aliases.MdxPro.wndAfx.SysTabControl32.SetFP.ProfileInjectionPressure.ClickButton()
+        elif ProfileTag == "PackPressure":
+            Aliases.MdxPro.wndAfx.SysTabControl32.SetFP.ProfilePackingPressure.ClickButton()
+        else:
+            Log.Error("ProfileTag Parameter Error")
+        ActionTypeTag(dicProfile.get(tupParaKey[0]))
+        ActionSectionNo(dicProfile.get(tupParaKey[1]))
+        ActionptTypeTag(dicProfile.get(tupParaKey[2]))
+        CAE_ModifyProfileValue(tupTime, tupValue)
+        Aliases.MdxPro.dlgProfile.btn_OK.ClickButton()
+    def ActionTypeTag(GetParam):
+        # GetParam = dicProfile.get(tupParaKey[0])
+        if GetParam != None:
+            Aliases.MdxPro.dlgProfile.Type.ClickItem(GetParam)
+        else:
+            Log.Message("Profile Type do not changed")
+
+    def ActionSectionNo(GetParam):
+        # GetParam = dicProfile.get(tupParaKey[1])
+        if GetParam != None:
+            Aliases.MdxPro.dlgProfile.SectionNo.SetText(str(GetParam))
+        else:
+            Log.Message("Section No. do not changed")
+
+    def ActionptTypeTag(GetParam):
+        # GetParam = dicProfile.get(tupParaKey[2])
+        if GetParam == "Stepwise":
+            Aliases.MdxPro.dlgProfile.ptStepwise.ClickButton()
+        elif GetParam == "Polyline":
+            Aliases.MdxPro.dlgProfile.ptPolyline.ClickButton()
+        else:
+            Log.Message("Section No. do not changed")
+    ActionProfileTag()
+
+def CAE_ModifyProfileValue(tupTime, tupValue):
+
+    Obj = Aliases.MdxPro.dlgProfile.TableEdit
+    Obj.Click(473, 47)
+    i = 0
+    while i < len(tupTime) - 1:
+        Obj.Keys("[F2]")
+        Obj.Edit.SetText(str(tupTime[i]))
+        Obj.Edit.Keys("[Enter]")
+        Obj.Keys("[Left]")
+        i += 1
+    Obj.Click(473, 74)
+    i = 0
+    while i < len(tupValue) - 1:
+        Obj.Keys("[F2]")
+        Obj.Edit.SetText(str(tupValue[i]))
+        Obj.Edit.Keys("[Enter]")
+        Obj.Keys("[Left]")
+        i += 1
+"""
+def CAE_MaxPressure(maxpInjection=None, maxpPacking=None):
+    Obj = Aliases.MdxPro.wndAfx.SysTabControl32.SetBasic.MaxP
+    # Modify Maximun Injection Pressure
+    if maxpInjection != None:
+        Obj.Click(245, 22)
+        Obj.Keys("[F2]")
+        Obj.Edit.SetText(str(maxpInjection))
+    # Click Maximun Packing Pressure
+    if maxpPacking != None:
+        Obj.Click(245, 57)
+        Obj.Keys("[F2]")
+        Obj.Edit.SetText(str(maxpPacking))
+
+class InletSetting:
+
+    def __init__(self, InletNum):
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetFP.SysListView32.ClickItem(
+            "Inlet %s" % InletNum, 0)
+        self.WndObj = Aliases.MdxPro.wndAfx.SysTabControl32.SetFP.Temp
+
+    def Set_InletType(self, Type):
+        self.iDown = 0
+        #self.WndObj.VScroll.Pos = 0
+        #self.WndObj.Click(255, 13)
+        #self.WndObj.Keys("[F2]")
+        self.click_Item(Type)
+        self.WndObj.Keys("[Down]")
+        dicDownPos = {
+            "Melt": [(3, 12, 13), (6, 7)],
+            "Water": [(5, 6, 8, 10), (4, 7)],
+            "M&W": [[3, 14, 15, 8, 9, 11, 13], (7, 10)]}
+        if Type != "Melt and Water":
+            self.lstMeltDown = dicDownPos["Melt"]
+            self.lstWaterDown = dicDownPos["Water"]
+        else:
+            self.lstMeltDown = [dicDownPos["M&W"][0][0:3]]
+            self.lstWaterDown = [dicDownPos["M&W"][0][3:7], dicDownPos["M&W"][1]]
+#==============================================================
+
+    def Set_FlowTime(self, tFlow):
+        self.iDown = self.lstMeltDown[0][0]
+        self.set_Text(tFlow)
+
+    def Set_MeltTemp(self, tMelt):
+        self.iDown = self.lstMeltDown[0][1]
+        self.set_Text(tMelt)
+
+    def Set_MoldTemp(self, tMold):
+        self.iDown = self.lstMeltDown[0][2]
+        self.set_Text(tMold)
+#==============================================================
+
+    def Set_WaterDelayTime(self, tWaterDelay):
+        self.iDown = self.lstWaterDown[0][0]
+        self.set_Text(tWaterDelay)
+
+    def Set_WaterDurationTime(self, tWaterDuration):
+        self.iDown = self.lstWaterDown[0][1]
+        self.set_Text(tWaterDuration)
+
+    def Set_WaterPressure(self, maxpWater):
+        self.iDown = self.lstWaterDown[0][2]
+        self.set_Text(maxpWater)
+
+    def Set_WaterTemp(self, tWater):
+        self.iDown = self.lstWaterDown[0][3]
+        self.set_Text(tWater)
+#==============================================================
+
+    def Set_Nozzle(self, Shutoff):
+        self.iDown = self.lstMeltDown[1][0]
+        self.click_Item(Shutoff)
+    def Set_VPSwitch(self, Type):
+        self.iDown = self.lstMeltDown[1][1]
+        self.click_Item(Type)
+#==============================================================
+
+    def Set_WaterEnterTime(self, tWaterEnter):
+        self.iDown = self.lstWaterDown[1][0]
+        self.click_Item(tWaterEnter)
+
+    def Set_WaterEnterType(self, Type):
+        self.iDown = self.lstWaterDown[1][1]
+        self.click_Item(Type)
+#==============================================================
+
+    def move_Row(self):
+        self.WndObj.VScroll.Pos = 0
+        self.WndObj.Click(255, 13)
+        if self.iDown != 0:
+            self.WndObj.Keys("[Down]" * self.iDown)
+
+    def set_Text(self, Val):
+        self.move_Row()
+        self.WndObj.Keys("[F2]")
+        self.WndObj.Edit.SetText(str(Val))
+        self.WndObj.Keys("[Enter]")
+
+    def click_Item(self, Item):
+        self.move_Row()
+        self.WndObj.Keys("[F2]")
+        self.WndObj.ComboBox.ClickItem(Item)
+
+class ProfileSetting():
+
+    def __init__(self, Type):
+        self.WndObj = Aliases.MdxPro.wndAfx.SysTabControl32.SetFP.Temp
+        if Type == "Melt":
+            self.dicProfilePos = {
+                "FlowRate": [0, (255, 96)],
+                "InjactionPressure": [0, (255, 117)],
+                "PackPressure": [132, (255, 96)]}
+        elif Type == "Water":
+            self.dicProfilePos = {
+                "WaterPressure": [69, (256, 117)]}
+        else:
+            self.dicProfilePos = {
+                "FlowRate": [0, (256, 96)],
+                "WaterPressure": [174, (256, 75)]}
+
+    def Set_CAEProfile(self, ProfileTag, tupTime=None, tupValue=None, **dicProfile):
+        tupParaKey = ("TypeTag", "SectionNo", "ptTypeTag")
+        self.WndObj.VScroll.Pos = self.dicProfilePos.get(ProfileTag)[0]
+        self.WndObj.Click(self.dicProfilePos.get(ProfileTag)[1][0], self.dicProfilePos.get(ProfileTag)[1][1])
+        self.modify_TypeTag(dicProfile.get(tupParaKey[0]))
+        self.modify_SectionNo(dicProfile.get(tupParaKey[1]))
+        self.modify_ptTypeTag(dicProfile.get(tupParaKey[2]))
+        self.modify_ProfileValue(tupTime, tupValue)
+        Aliases.MdxPro.dlgProfile.btn_OK.ClickButton()
+
+    def modify_SectionNo(self, GetParam):
+        if GetParam:
+            Aliases.MdxPro.dlgProfile.SectionNo.SetText(str(GetParam))
+
+    def modify_TypeTag(self, GetParam):
+        if GetParam:
+            Aliases.MdxPro.dlgProfile.Type.ClickItem(GetParam)
+
+    def modify_ptTypeTag(self, GetParam):
+        if GetParam == "Stepwise":
+            Aliases.MdxPro.dlgProfile.ptStepwise.ClickButton()
+        elif GetParam == "Polyline":
+            Aliases.MdxPro.dlgProfile.ptPolyline.ClickButton()
+
+    def modify_ProfileValue(self, tupTime, tupValue):
+        if tupTime and tupValue:
+            Obj = Aliases.MdxPro.dlgProfile.TableEdit
+            Obj.Click(473, 47)
+            i = 0
+            while i < len(tupTime) - 1:
+                Obj.Keys("[F2]")
+                Obj.Edit.SetText(str(tupTime[i]))
+                Obj.Edit.Keys("[Enter]")
+                Obj.Keys("[Left]")
+                i += 1
+            Obj.Click(473, 74)
+            i = 0
+            while i < len(tupValue) - 1:
+                Obj.Keys("[F2]")
+                Obj.Edit.SetText(str(tupValue[i]))
+                Obj.Edit.Keys("[Enter]")
+                Obj.Keys("[Left]")
+                i += 1
+
+def CoolPara(MBFlag, **dicParaValue):
+    def Action():
+        i = 0
+        for k in tupParaKey:
+            l = dicParaValue.get(k)
+            if l != None:
+                Obj.Click(cp1st[0], cp1st[1] + i)
+                Obj.Keys("[F2]")
+                Obj.Edit.SetText(str(l))
+                Obj.Edit.Keys("[Enter]")
+                W = Aliases.MdxPro.WaitAliasChild("dlgMdxpro", 0.5*sec)
+                if W.Exists:
+                    Aliases.MdxPro.dlgMdxpro.btn_OK.ClickButton()
+            i += 23
+    Obj = Aliases.MdxPro.wndAfx.SysTabControl32.SetCool.Custom1
+    if MBFlag == 1:
+        cp1st = (282, 82)
+        tupParaKey = ("AirTemp", "EjTemp", "tCool", "tMBOpen")
+        Action()
+    elif MBFlag == 0:
+        cp1st = (285, 36)
+        tupParaKey = ("AirTemp", "EjTemp", "tCool", "tMBOpen")
+        Action()
+
+class CoolPara_Adv():
+
+    def __init__(self):
+        pass
+
+    def CC(self, iEC, lstT=None, lstQ=None, lstCCCoolant=None):
+        self.iCont = iEC
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetCool.CoolingChannelHeatingRod.ClickButton()
+        self.objCustom = Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page32770.CC
+        if lstT:
+            self.lstValue = lstT
+            self.custom_Edit((136, 36))
+        if lstQ:
+            self.lstValue = lstQ
+            self.custom_Edit((210, 36))
+        if lstCCCoolant:
+            self.lstItem = lstCCCoolant
+            self.custom_Combobox((300, 36))
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.btn_OK.ClickButton()
+
+    def HR(self, iRod, lstMethod=None, lstT=None):
+        self.iCont = iRod
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetCool.CoolingChannelHeatingRod.ClickButton()
+        self.objCustom = Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page32770.HR
+        if lstMethod:
+            self.lstItem = lstMethod
+            self.custom_Combobox((215, 36))
+        if lstValue:
+            self.lstValue = lstT
+            self.custom_Edit((342, 36))
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.btn_OK.ClickButton()
+
+    def custom_Edit(self, tupXY):
+        self.objCustom.Click(tupXY[0], tupXY[1])
+        if self.iCont > 6:
+            self.objCustom.Keys("[Up]")
+        for i in range(self.iCont):
+            self.objCustom.Keys("[F2]")
+            self.objCustom.Edit.SetText(str(self.lstValue[i]))
+            self.objCustom.Keys("[Enter]")
+            self.objCustom.Keys("[Down]")
+
+    def custom_Combobox(self, tupXY):
+        for i in range(self.iCont):
+            self.objCustom.Click(tupXY[0], tupXY[1] + i * 24)
+            self.objCustom.Keys("[F2]")
+            self.objCustom.ComboBox.ClickItem(self.lstItem[i])
+
+    def MoldMetalMTR(self, xthMTR, CutomizeMTR):
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetCool.MoldMetalMaterial.ClickButton()
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327702.MoldMetalMTR.Click(
+            362, 36 + (xthMTR - 1) * 24)
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327702.MoldMetalMTR.Keys(
+            "[F2]")
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327702.MoldMetalMTR.ComboBox.ClickItem(
+            CutomizeMTR)
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.btn_OK.ClickButton()
+
+    def EjectCriteria(self, numSNID, lstCriteria):
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetCool.EjectCriteria.ClickButton()
+        for i in range(numSNID):
+            Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327703.SNID.Click(
+                70, 36 + i * 22)
+            Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327703.btn_Add.ClickButton()
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327703.CriTemp.Click(
+            202, 36)
+        for i in range(numSNID):
+            Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327703.CriTemp.Keys(
+                "[F2]")
+            Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327703.CriTemp.Edit.SetText(
+                str(lstCriteria[i]))
+            Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327703.CriTemp.Edit.Keys(
+                "[Enter]")
+            Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327703.CriTemp.Keys(
+                "[Down]")
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.btn_OK.ClickButton()

@@ -1,0 +1,145 @@
+1
+[HEADER]
+File   = TestCase1_Solid_Flow01.run
+Version= 1021
+Remark = TestCase1_Solid_Flow
+
+[SUMMARY]
+iRun= 1
+iProject= 0
+iSolver = 0
+iRunMode = 0
+Mesh     = SolidInjection_ValveGate_SC.mfe
+Material = ABS_POLYFLAMRABS90950UV5_1.mat
+Process  = TestCase1_Solid_Flow_1.pro
+Parameter= TestCase1_Solid_Flow01.cmx
+RunType  = 0
+
+[MESH]
+MeshCount=1
+1 = SolidInjection_ValveGate_SC.mfe
+
+[MESH_BC]
+BCCount= 0
+
+[MATERIAL]
+MaterialCount=3
+1 = ABS_POLYFLAMRABS90950UV5_1.mtr
+2 = PC_Makrolon1095_1.mtr
+3 = PP_POLYFORTFPP20GFMHI_1.mtr
+
+[PARTMATERIAL]
+MaterialCount = 1
+1 = ABS_POLYFLAMRABS90950UV5_1.mtr
+
+[PARTINSERTMATERIAL]
+MaterialCount = 2
+1 = PC_Makrolon1095_1.mtr
+2 = PP_POLYFORTFPP20GFMHI_1.mtr
+
+[WIREMATERIAL]
+MaterialCount = 0
+
+[IMDMATERIAL]
+MaterialCount = 0
+
+[PLYMATERIAL]
+MaterialCount = 0
+
+[PROCESS]
+ProcessCount=1
+1 = TestCase1_Solid_Flow_1.pro
+
+[RUNDATA]
+bMesh     = 1
+bMaterial = 1
+bProcess  = 1
+CoolSolver= 0
+FlowSolver= 1
+
+[ANALYSIS]
+AnalysisHistory = -F-F-F-F-F-F-F-F
+AnalysisCount=1
+Analysis1=1
+
+[RESULT]
+bFlow = 1
+bPack = 0
+bCool = 0
+bWarp = 0
+bStress = 0
+bOptic = 0
+bWireSweep = 0
+bPaddleShift = 0
+bMoldPreheat = 0
+bMoldDeformation = 0
+bHotRunnerSteady = 0
+FlowResult= TestCase1_Solid_Flow01.m3f
+PackResult= TestCase1_Solid_Flow01.m3p
+CoolResult= TestCase1_Solid_Flow01.m3c
+WarpResult= TestCase1_Solid_Flow01.m3w
+StressResult= TestCase1_Solid_Flow01.m3s
+OpticResult= TestCase1_Solid_Flow01.optic
+WireSweepResult= TestCase1_Solid_Flow01.mws
+PaddleShiftResult= TestCase1_Solid_Flow01.mps
+MoldPreheatResult = TestCase1_Solid_Flow01.m3hc
+MoldDeformationResult = TestCase1_Solid_Flow01.mbd
+HotRunnerSteadyResult = TestCase1_Solid_Flow01.m3sf
+bHTMLReport= 0
+ResultMesh = SolidInjection_ValveGate_SC.mfe
+ResultMatr = ABS_POLYFLAMRABS90950UV5_1.mat
+ResultProc = TestCase1_Solid_Flow_1.pro
+
+[POST_ANALYSIS_REPORT]
+Generate= 0
+Template= ReportSetting_SolidInjection.csv
+CompanyLogo= C:\Moldex3D\R16\Template\Moldex3D.gif
+ReportType= 0
+Output3DPDF= 0
+ReportName= HTML Report
+CompanyName= Moldex3D User
+AuthorName= Porsche
+AuthorEMail= 
+Remark= Summary of the project
+ExportItemStatic= 0
+ExportXYCurve= 0
+ExportAnimation= 0
+AnimationType= GIF
+AnimationTime= 5
+AnimationFramePerSec= 5
+AnimationResolution= 640X480
+ImageType= PNG
+ImageResolution= 640X480
+OutputModel= 0
+OutputFlow= 0
+OutputPack= 0
+OutputMoldPreheat= 0
+OutputCool= 0
+OutputWarp= 0
+OutputMoldDeformation= 0
+OutputStress= 0
+OutputOptic= 0
+OutputWireSweep= 0
+OutputPaddleShift= 0
+OutputHotRunnerSteady= 0
+
+[POST_ANALYSIS_RSV_CONVERSION]
+Convert = 0
+
+[VIEW]
+RotateX= 0
+RotateY= 0
+RotateZ= 0
+MoveX= 0.000000
+MoveY= 0.000000
+MoveZ= 0.000000
+Scale= 1.000000
+SpecialNodeSize= 0.644000
+SpecialNodeSizeEx= 0.644000
+ArrowSize= 1.000000
+ArrowSizeEx= 1.000000
+
+[SAVERESULTS]
+nSavedResult=0
+
+[EOF]

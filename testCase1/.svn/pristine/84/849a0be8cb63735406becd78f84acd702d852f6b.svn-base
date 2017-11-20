@@ -1,0 +1,7 @@
+[PARAM]
+1003                 // File version
+   0                 // Task mode
+   1                 // Total no. task
+   1                 // Total no. machine
+		            // Share Folder Name
+[EOF]

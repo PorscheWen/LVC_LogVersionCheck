@@ -1,0 +1,23 @@
+[Header]
+Version=1001
+Pressure=MPa
+Force=ton
+Volume=cc
+Weight=g
+[Part weight]
+NCavity=1
+CavityWeight-1=5.41651e-001
+RunnerWeight=1.43973e-002
+[Part volume]
+NCavity=1
+CavityVolume-1=4.70424e-001
+ColdRunnerVolume=1.24233e-002
+HotRunnerVolume=1.19048e-001
+CavityXRan=(-2.000000e+000,2.000000e+000)
+CavityYRan=(-5.000000e-001,5.000000e-001)
+CavityZRan=(-1.500000e-001,2.766284e-021)
+[Pressure]
+MaxInjectionPressure=5.46101e+001
+VPswitchPressure=5.42480e+001
+RunnerPressDrop=2.05976e+001
+MaxClampingForce=7.73795e-001

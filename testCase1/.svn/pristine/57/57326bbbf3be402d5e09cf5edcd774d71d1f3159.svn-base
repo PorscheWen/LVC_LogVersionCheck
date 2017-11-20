@@ -1,0 +1,35 @@
+[HEADER]
+Version = 2001
+Switch = 0
+[/HEADER]
+
+[ParallelConfig]
+AutoDisableParallel = 0
+[/ParallelConfig]
+
+[SolverAcc]
+Config00 = -1
+Config01 = -1
+Config02 = -1
+Config03 = -1
+Config04 = -1
+Config05 = -1
+Config06 = -1
+Config07 = -1
+Config08 = -1
+Config09 = -1
+[/SolverAcc]
+
+[SolverAccParallel]
+Config00 = -1
+Config01 = -1
+Config02 = -1
+Config03 = -1
+Config04 = -1
+Config05 = -1
+Config06 = -1
+Config07 = -1
+Config08 = -1
+Config09 = -1
+[/SolverAccParallel]
+[EOF]

@@ -1,0 +1,71 @@
+﻿import sys
+sys.path.append("../../CommonFiles")
+from PythonScript import RunMDXProject
+from PythonScript import ReadMoldexVersion_py27
+from PythonScript import LVC_CheckLogVersion
+import _winreg, re
+#Fill your project path(.m3j). If yuor file type is not a .m3j, please revise mdxProjM3JPath
+mdxProM3JPath = r"C:\WorkingFolder\testCase\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j"
+
+"""
+#Fill your MDX3DRunJob.log path
+siteForLog = "C:\\WorkingFolder\\testCase\\testModel\\Case01_SolidIM\\MDX3DRunJob.log"
+#Fill your AnalysisLog path
+siteForStatus = "C:\\WorkingFolder\\testCase\\testModel\\Case01_SolidIM\\Analysis\\Run01\\Case01_SolidIM"
+#Fill your Exception Mark , 0=is not an exception ; 1= is an exception
+SpecialCase = "0"
+"""
+# Get Log Version from single log file ex.160.1.1710.25002
+def Stage1_GetLogVersion():
+    # Create StageResult.ini to record results by each stage.
+    LVC_CheckLogVersion.WriteToResultTxt("Create StageResult.ini", " ......Done")
+    strLogVersion = "None"
+    mdxProM3JPath = LVC_CheckLogVersion.GetProjectM3JPath()
+    # Launch MDX by script
+    LVC_CheckLogVersion.WriteToResultTxt("Start to Launch Mold3D Analysis", " ......Done")
+    RunMDXProject.LounchBatchRun(mdxProM3JPath)
+    # If Crash, Stage1 is Fail
+    file = open(r'C:\WorkingFolder\testCase\MDXdata.ini', 'r')
+    MDXcontent = file.read()
+    file.close()
+    if "Fail" in MDXcontent:
+        Result = "Stage1_Failed"
+    else:
+        strLogVersion = LVC_CheckLogVersion.GetLogVersion(mdxProM3JPath)
+        Result = "Stage1_Done"
+    LVC_CheckLogVersion.WriteToResultTxt(Result, strLogVersion)
+    return Result, strLogVersion
+ 
+# Get Installation MDX Version from Registor ex.R16Beta3Build1710.2422
+def Stage2_GetInstallMDX3DVersion():
+    Result = "Stage2_Done"   
+    strInsVersion = LVC_CheckLogVersion.AutoReadMoldexVersion()
+    if "None" in strInsVersion:
+        Result = "Stage2_Failed"
+    LVC_CheckLogVersion.WriteToResultTxt(Result, strInsVersion)  
+    return Result, strInsVersion
+
+
+def Stage3_CheckLogAndInstallVersionMatched(strLogVersion, strInstalVersion):
+    Result = "Stage3_Failed" 
+    strCompareResutl = LVC_CheckLogVersion.CompareVersionMatched(strLogVersion, strInstalVersion)
+    if "not" not in strCompareResutl:
+        Result = "Stage3_Done"
+    LVC_CheckLogVersion.WriteToResultTxt(Result, strCompareResutl)        
+    return Result, strCompareResutl    
+
+     
+
+
+if __name__ == '__main__':
+    
+    #Lauch Project by Moldex Script 
+    #tr,strLogVersion = Stage1_GetLogVersion()
+    #print " tr strLogVersion  ", tr,strLogVersion 
+    #Get Installation Moldex3D Version
+    tr,strInstalVersion = Stage2_GetInstallMDX3DVersion()
+    print " tr strInstalVersion  ", tr,strInstalVersion     
+    
+    #Check Log and Installation Moldex3D Version are matched
+    #tr = Stage3_CheckLogAndInstallVersionMatched(strLogVersion, strInstalVersion)  
+    # print " tr strInstalVersion  ", tr, strCompareResutl 

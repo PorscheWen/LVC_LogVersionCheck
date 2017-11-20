@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="fea_function">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="FEA_Function.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{2CFA2909-45F7-4FA4-B296-7F91E37C8089}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="reportoutput">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ReportOutput.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{3E7A7463-033F-44B4-A8AC-A4B494EAF15B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="runmdxproject">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RunMDXProject.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{E93E8AD3-943F-4A97-80DD-2F0CC20FD005}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="unit1_runmdxproject">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Unit1_RunMDXProject.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{67A4F8E8-6285-40D1-9AD4-CF5DD424E503}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

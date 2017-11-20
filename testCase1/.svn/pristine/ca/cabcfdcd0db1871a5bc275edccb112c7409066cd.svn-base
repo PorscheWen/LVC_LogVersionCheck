@@ -1,0 +1,88 @@
+1
+[FILE]
+File    = TestCase1_Solid_Flow.m3j
+Version = 1032
+
+[HEADER]
+Project = TestCase1_Solid_Flow
+Folder  = C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow
+Company = Moldex3D User
+Engineer= Porsche
+Client = 
+Purpose= Case Study
+SecurityLevel= 
+ApplicationField= General
+Date = 11/08/17-17:02:46 0
+ID =           0001
+Password= 
+LogFile= 1
+
+[SUMMARY]
+FileType= 0 (M3J)
+CAEProject= 0 (Regular CAE project)
+Type   = 0 (Injection molding)
+Solver = 0 (3D-Solid model solver)
+Unit   = 0 
+Summary= Summary of the project|
+
+[INFO]
+Info1   = 13036 2030 21587 27660 7502 9406 28353 10093 6455 18244
+Info2   = 2030 29214 28424 9599 21471 12869 9406 23672 126 20997
+Info3   = 8200 21143 25563 11139 9406 18244 4799 16390 26258 14582
+
+[RUN]
+TotalRun  = 1
+CurrentRun= 1
+Run1  = F      , SolidInjection_ValveGate_SC.mfe ABS_POLYFLAMRABS90950UV5_1.mtr TestCase1_Solid_Flow_1.pro
+
+[PRE]
+
+[POST]
+nPreferView=0
+iPreferView=0
+ColorBack=0 0 102
+ColorMesh=0 0 102
+ColorModel=255 255 200
+ColorNode=255 0 0
+ColorText=0 0 255
+ColorMeltFront=40 102 157
+ColorHighlight=255 96 0
+ColorContour=0 0 255
+ColorFeatureLine=0 0 0
+ColorMoldBase=192 192 192
+ColorCoolChannel=0 164 242
+ColorMeltEntrance=255 0 0
+ColorCoolantEntrance=0 0 255
+ColorSensorNode=255 0 255
+ColorMeasureNode=0 255 0
+ColorInterior=234 205 250
+ColorAirTrap=0 255 255
+ColorWeldLine=255 0 0
+ColorHotRunner=255 127 60
+ColorColdRunner=170 170 255
+ColorGasEntrance=204 255 255
+ColorGate=250 160 30
+ColorSymmetry=128 0 128
+ColorFixedNode=64 128 128
+UseWhiteBKColor=1
+UseGradientBK =1
+FeatureLineType=0
+CADFeatureLineFlag=1
+HidenParameters=-0.500  -0.500
+VectorLength   =0.966
+SpecialNodeSize= 0.644
+SpecialNodeSizeEx= 0.644
+RoatateMode   =4
+LightPosition =1.000 1.000 1.000 0.000
+RodElementEndType=0
+nMoldInsertColor=2
+ColorMoldInsert_1=255 128 255
+ColorMoldInsert_2=220 200 180
+nPartInsertColor=2
+ColorPartInsert_1=220 200 100
+ColorPartInsert_2=128 64 0
+nValveGateColor=2
+ColorValveGate_1=139 0 0
+ColorValveGate_2=255 255 255
+
+[EOF]

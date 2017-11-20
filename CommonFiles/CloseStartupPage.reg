@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\CoreTechSystem\Moldex3D R16]
+"UEPEMail"=""
+"UEPSendLogFile"="0"
+"UEPSendMDGFile"="0"
+"ShowStartPage"="0"
+
+[HKEY_CURRENT_USER\Software\CoreTechSystem\Moldex3D R16\Moldex3D-Designer\Application]
+"InfoSendBackAgreed"=dword:00000001
+"InfoSendBackAskedOnce"=dword:00000001
+"InfoSendBackEmail"=""
+"InfoSendBackMDGAgreed"=dword:00000000

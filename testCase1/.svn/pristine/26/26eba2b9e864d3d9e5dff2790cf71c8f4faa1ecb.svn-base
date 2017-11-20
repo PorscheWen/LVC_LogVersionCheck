@@ -1,0 +1,99 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@ Start Mesh Conversion!
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+       Stage 1-timeElapsed = 0.153 sec
+<Application_Information>
+    <Current_Process_Information>
+      Process Name              = MDXFE2FVExe.exe
+      Process ID                = 13152   
+      Process Owner             = Porsche   
+      Process Owner Domain      = DESKTOP-1F0OJ3G   
+      Consumed CPU Time         = 0 sec
+      Memory Usage              = 10636 KB
+      Peak Memory Usage         = 10636 KB
+    </Current_Process_Information>
+
+
+Total process peak memory usage of solver: 10636 KB (10.387 MB; 0.010 GB)
+
+
+
+</Application_Information>
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ReadMFE()
+    Mesh file: C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+       Stage 2-timeElapsed = 0.009 sec
+<Application_Information>
+    <Current_Process_Information>
+      Process Name              = MDXFE2FVExe.exe
+      Process ID                = 13152   
+      Process Owner             = Porsche   
+      Process Owner Domain      = DESKTOP-1F0OJ3G   
+      Consumed CPU Time         = 0 sec
+      Memory Usage              = 11236 KB
+      Peak Memory Usage         = 11236 KB
+    </Current_Process_Information>
+
+
+Total process peak memory usage of solver: 21872 KB (21.359 MB; 0.021 GB)
+
+
+
+</Application_Information>
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+MFVStatus=1,TMPStatus=0(1=valid, 2=invalid),CTG Version=0
+@@@ MFV Information
+    Version         : MDX160000201709281611
+    PartitionID     : 0
+    ParallelFlag    : 0
+    CartesianFlag   : 0
+    FastCoolFlag    : 0
+    NCavityCell     : 10464
+    NTotalNode      : 91467
+    NCavityNode     : 7274
+    NCavityFace     : 28754
+    NWall           : 5116
+    NInlet          : 72
+    NSymm           : 0
+    NOutlet         : 0
+    SynVolRatio     : 1
+    VolumeP         : 0.601897
+    HRVolume        : 0.119048
+    xmaxP           : 2
+    ymaxP           : 0.5
+    zmaxP           : 1.6
+    xminP           : -2
+    yminP           : -0.5
+    zminP           : -0.15
+    InnerCellType   : 0
+    UnitFactor      : 0.1
+    NCavity         : 0
+    NGate           : 0
+    NClampingFace   : 1304
+    PartingDIR_X    : 0
+    PartingDIR_Y    : 0
+    PartingDIR_Z    : 1
+@@@
+@@@ Bypass Mesh Conversion !
+Time Elapsed: 0.095 (sec)
+<Application_Information>
+    <Current_Process_Information>
+      Process Name              = MDXFE2FVExe.exe
+      Process ID                = 13152   
+      Process Owner             = Porsche   
+      Process Owner Domain      = DESKTOP-1F0OJ3G   
+      Consumed CPU Time         = 0 sec
+      Memory Usage              = 11264 KB
+      Peak Memory Usage         = 11280 KB
+    </Current_Process_Information>
+
+
+Total process peak memory usage of solver: 11280 KB (11.016 MB; 0.011 GB)
+
+
+
+</Application_Information>
+@@@ End Mesh Conversion!
+Log Time {2017-11-08}-[17:01:41]
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

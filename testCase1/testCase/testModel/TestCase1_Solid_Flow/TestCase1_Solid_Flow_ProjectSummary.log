@@ -1,0 +1,32 @@
+[FILE]
+File    = TestCase1_Solid_Flow.m3j
+Version = 1032
+
+[HEADER]
+Project = TestCase1_Solid_Flow
+Folder  = C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow
+Company = Moldex3D User
+Engineer= Porsche
+Client = 
+Purpose= Case Study
+SecurityLevel= 
+ApplicationField= General
+Date = 11/08/17-17:02:46 0
+ID =           0001
+Password= 
+LogFile= 1
+
+[SUMMARY]
+FileType= 0 (M3J)
+CAEProject= 0 (Regular CAE project)
+Type   = 0 (Injection molding)
+Solver = 0 (3D-Solid model solver)
+Unit   = 0 
+Summary= Summary of the project|
+
+[RUN]
+TotalRun  = 1
+CurrentRun= 1
+Run1  = F      , SolidInjection_ValveGate_SC.mfe ABS_POLYFLAMRABS90950UV5_1.mtr TestCase1_Solid_Flow_1.pro
+
+[EOF]

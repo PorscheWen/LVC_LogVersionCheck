@@ -1,0 +1,332 @@
+﻿import os
+import re
+import subprocess
+from winreg import *
+import time
+def LunchMDX3DI2(mdxProjFolder,mdxProjName,RunNum):
+    MDX3DI2Path = "C:\\Moldex3D\\R16\\Bin\\MDX3DI2.exe"
+    Passphrase = "R11_autotest"
+    InputI2 = "C:\\Moldex3D\\R16\\*" + mdxProjFolder + "*" + mdxProjName + "*" + "0" + "*" + RunNum + "*C:\\ProgramData\\Moldex3D"
+    Arg = [Passphrase , InputI2]
+    os.system(MDX3DI2Path + " " + Arg[0] + " " + Arg[1])
+
+def checkFEALog(site):
+    if os.path.exists(site) == True:
+        f = open(site)
+        file_data = f.read()
+        f.close()
+        checkEndProg = 'End Program' in file_data
+        if checkEndProg == True:
+            Log.Message("Check End Program Normal!")
+        else:
+            Log.Error("Test Fail!")
+        checkError = 'ERROR' in file_data
+        if checkError == False:
+            Log.Message("Check no Error!")
+        else:
+            Log.Error("Test Fail!")
+        checkWarning = 'WARNING' in file_data
+        if checkWarning == False:
+            Log.Message("Check no Warning!")
+        else:
+            Log.Error("Test Fail!")
+    else:
+          Log.Error("Test Fail!")
+
+def checkFEAOutputExists(FEAOutPutFolder,files):
+    #Double Check FEA Output files no. = check list no. + 1(log file )
+    checkclrFEAOutPutFolder = os.listdir(FEAOutPutFolder)
+    if len(checkclrFEAOutPutFolder) == len(files) + 1:
+        Log.Message("FEA Output files match checking files")
+    else:
+        Log.Error("FEA Output files don't match checking files")
+    #Check FEA Output file exists one by one    
+    for i in range(len(files)):
+        files[i] = FEAOutPutFolder + files[i]
+        if os.path.exists(files[i]) == True:
+            Log.Message("Check output file exist!")
+            filesize = os.path.getsize(files[i])
+            if filesize >= 4*1024:
+                Log.Message("Filesize is reasonable")
+            else:
+                if files[i] == (FEAOutPutFolder + "Moldex3DtoANSYS.xml") or files[i] == (FEAOutPutFolder + "Moldex3DtoANSYS"):
+                    Log.Message("It's an extension!")
+                else:
+                    Log.Error("Filesize is unreasonable")
+        else:
+            Log.Error("Test Fail!")
+    BackupOutputMesh(FEAOutPutFolder)
+
+def CreateMSPFile(RunID):
+    # ~~input~~
+    # RunID: string
+    # example: "01"
+
+    # check and create folder
+    chkPath = r"C:\work"
+    if not os.path.isdir(chkPath):
+        os.makedirs(chkPath)
+
+    # *.msp file content
+    mspContent = """<?xml version="1.0"?>\n<MDX_SCRIPT_DATA>\n<SCRIPT>\n#CHANGE_RUN = %s\n</SCRIPT>\n</MDX_SCRIPT_DATA>""" % (RunID)
+    
+    # write file
+    NewPath = os.path.join(chkPath,"RunMDXProj.msp")
+    mspFile = open(NewPath ,"w")
+    mspFile.write(mspContent)
+    mspFile.close()
+    
+def ModifyMDXProjectReg():
+    # modify Moldex3D Project register, turn off "UEP" items.
+
+    # modify register
+    keyVal = r'SOFTWARE\CoreTechSystem\Moldex3D R16'
+    try:
+        key = OpenKey(HKEY_CURRENT_USER, keyVal, 0, KEY_ALL_ACCESS)
+    except:
+        key = CreateKey(HKEY_CURRENT_USER, keyVal)
+    SetValueEx(key, "UEPEMail", 0, REG_SZ, "")
+    
+    try:
+        key = OpenKey(HKEY_CURRENT_USER, keyVal, 0, KEY_ALL_ACCESS)
+    except:
+        key = CreateKey(HKEY_CURRENT_USER, keyVal)
+    SetValueEx(key, "UEPSendLogFile", 0, REG_SZ, "0")
+    
+    try:
+        key = OpenKey(HKEY_CURRENT_USER, keyVal, 0, KEY_ALL_ACCESS)
+    except:
+        key = CreateKey(HKEY_CURRENT_USER, keyVal)
+    SetValueEx(key, "UEPSendMDGFile", 0, REG_SZ, "0")    
+ 
+    CloseKey(key)  
+    
+def LounchMXDProject(mdxProjPath):
+    # ~~input~~
+    # ProjExePath: MDX Project.exe location
+    # example: "C:\Program Files\Moldex3D\R14.0\Bin\MDXProject.exe"
+    # mdxProjPath: Test Project file location
+    # example: "C:\Users\Archer\Downloads\Gear\Gear.m3j"
+    # RunID: string
+    # example: "01"
+    ProjExePath = "C:\\Moldex3D\\R16\\Bin\\MDXProject.exe"
+    # Create msp file
+    # CreateMSPFile(RunID)
+    # Modify Moldex3D Project register
+    ModifyMDXProjectReg()
+    # Run MDX Script Wizard
+    #cmdStr = '"' + ProjExePath + '" "' + mdxProjPath + '"' #+ ' + '"C:\\work\\RunMDXProj.msp"'
+    #runPara = os.system('"' + cmdStr + '"')
+    #runPara = os.popen('"' + cmdStr + '"')
+    #runPara = subprocess.call(cmdStr)
+    #runPara = subprocess.Popen(cmdStr, shell=True, stdout=subprocess.PIPE)
+    # Wait for the application for 100 seconds, close mdx script window
+    # if Sys.WaitProcess("MDXProject", 100000).Exists:
+    # if Sys.Process("MDXProject").WaitWindow("#32770","Script Wizard",-1,100000).Exists:
+    # if Aliases.MDXProject.dlgScriptWizard.waitProperty("Exists", True, 100000):
+    #time.sleep(15)
+        # Aliases.MDXProject.dlgScriptWizard.Close()
+    # else:
+        # Log.Error("can not find mdx script window")
+    app = TestedApps.MDXProject
+    app.Params.SimpleParams.CommandLineParameters = mdxProjPath
+    app.Run(1, True)
+    Aliases.MDXProject.WaitAliasChild("wndAfx", 60*1000)
+    Aliases.MDXProject.wndAfx.WaitProperty("Visible", True, 60*1000)
+        
+def BackupOutputMesh(FEAOutputDir):
+    Log.Message(">>> start Backup FEA Output Mesh Files...")
+    backupInfo_Template = r"C:\WorkingFolder\CommonFiles\PythonScript\FEA_Backup_template.ini" 
+    backupInfo_Address = r"C:\WorkingFolder\testCase\testModel\backUp_Information.ini" 
+    temp = os.listdir(r"C:\WorkingFolder\testCase\testScript\TestCompleteProject\AutoTest\Script")
+    repltable = {"1":None,"2":None,"3":None,"4":None,"5":None,"6":None,"7":None,"8":None,"9":None,"0":None,"_":None}
+    for i in temp:
+        if "Test_" in i and ".bak" not in i:
+            TypeFolder = i.rstrip(".py")
+            TypeFolder = TypeFolder.lstrip("Test")
+            TypeFolder = TypeFolder.translate(str.maketrans(repltable))
+            """         
+            if "Nastran" in i or "OpitStruct" in i:
+                Log.Message(">>> Nastran/OpitStruct do not backup mesh files")
+                return
+            """
+    with open(backupInfo_Template, mode="r") as tempfile:
+        temp = tempfile.readlines()
+        temp[3] = "# testCaseName: \"%s\"\n" % TypeFolder
+        temp[4] = "sourceParentPath: \"%s\"\n" % FEAOutputDir[:-1]
+        temp[10] = "%s\n" % FEAOutputDir[:-1]
+    with open(backupInfo_Address, mode="w") as inifile:
+        inifile.writelines(temp)
+
+    ReadVersion_Py = "Py3.4" # Py2.7
+    backUplabel = "Stage_002"
+    xFileNameLabel = "" # xFileName1    
+    backupPoint = BackupTestingResult(backupInfo_Address, ReadVersion_Py, backUplabel, xFileNameLabel)    
+    print(backupPoint)
+    """
+    NetPath = "\\\\192.168.3.229\\QAData\\QAPublicData\\AutoTestBackup\\FEA_Output\%s\%s"
+    # Looking for DailyBuild Version
+    with open(r"C:\Moldex3D\R16\Moldex3D.ver", "r") as file :
+        VerData = file.readlines()
+    Ver = VerData[1].split(" ")
+    Ver[3] = Ver[3].lstrip("(")
+    Ver[3] = Ver[3].rstrip(")\n")
+    BuildFolder = Ver[1]+Ver[3]
+    # Looking for the Type of Test
+    temp = os.listdir(r"C:\WorkingFolder\testCase\testScript\TestCompleteProject\AutoTest\Script")
+    repltable = {"1":None,"2":None,"3":None,"4":None,"5":None,"6":None,"7":None,"8":None,"9":None,"0":None,"_":None}
+    for i in temp:
+        if "Test_" in i and ".bak" not in i:
+            TypeFolder = i.rstrip(".py")
+            TypeFolder = TypeFolder.lstrip("Test")
+            TypeFolder = TypeFolder.translate(str.maketrans(repltable))         
+            if "Nastran" in i or "OpitStruct" in i:
+                Log.Message(">>> Nastran/OpitStruct do not backup mesh files")
+                return
+
+    DistinationFolder = NetPath % (BuildFolder,TypeFolder)
+    RebuildOutputFolder(DistinationFolder)
+    Test(FEAOutputDir,DistinationFolder)
+    """
+
+def Test(FEAOutputDir,DistinationFolder):    
+    # FEAOutPutFolder = r"D:\Desktop\temp\Ori\Run02"
+    List = os.listdir(FEAOutputDir)
+    for i in List:
+        if "Moldex3DtoANSYS" not in i:
+            FileDir = FEAOutputDir + "\\" + i
+            BackupDir = DistinationFolder + "\\" + i
+            os.popen("copy /y \"%s\" \"%s\"" % (FileDir,BackupDir))
+        else:
+            pass
+            
+def RebuildOutputFolder(Folder):
+    Folder = Folder.rstrip("\\")
+    removeOutputFolder = os.system("rmdir /s /q \"%s\"" % Folder)
+    try:
+        if removeOutputFolder == 0 :
+            Log.Message(">>> Remove folder sucessfully!")
+            makeOutputFolder = os.popen("mkdir \"%s\"" % Folder)
+        else:
+            Log.Message(">>> Folder not exist, making folder")
+            makeOutputFolder = os.popen("mkdir \"%s\"" % Folder)
+        Result = makeOutputFolder
+    except:
+        Result = "Failed"
+    return Result
+
+def GetBackUpItemList(backupInfo_Address, label):
+    try:
+        with open(backupInfo_Address, "r") as backUpInfoFile :
+            backUpInfo = backUpInfoFile.read().split('\n')    
+        startPoint = backUpInfo.index("[{}]".format( label))
+        endPoint = backUpInfo.index("[/{}]".format( label))
+        backupItemList = backUpInfo[startPoint + 1 : endPoint]
+        return(backupItemList) 
+    except:
+        return(0)
+
+def BackupTestingResult(backupInfo_Address, ReadVersion_Py, backUplabel, xFileNameLabel):
+    # Read the DailyBuild version   
+    if "Py3" in ReadVersion_Py: 
+        #from ReadMoldexVersion_py34 import AutoReadMoldexVersion
+        version = AutoReadMoldexVersion()
+    elif "Py2" in ReadVersion_Py: 
+        #from ReadMoldexVersion_py27 import AutoReadMoldexVersion
+        version = AutoReadMoldexVersion()
+
+    # Read & check the specific step backup address
+    backupItemList = GetBackUpItemList(backupInfo_Address, backUplabel) 
+    if backupItemList == 0:
+        return("BackUp_infomation.ini_path setting | [{}] label_name setting Error !!".format(backUplabel))
+
+    # Read the setting infomation from backupInfo_Address
+    with open(backupInfo_Address, "r") as backUpInfoFile :
+        backUpInfo = backUpInfoFile.read()
+    [ProductLine, TestCaseModule, testCaseName, sourceParentPath, BackupTargetPath] = ["ProductLine", "TestCaseModule", "testCaseName", "sourceParentPath", "BackupTargetPath"]
+    settingInfo_List = []
+    for parameter in [ProductLine, TestCaseModule, testCaseName, sourceParentPath, BackupTargetPath]:
+        patten = r"{}.+\".+\"\n".format( parameter)
+        parameterLine = re.search(patten, backUpInfo).group()
+        parameter = re.search("\".+\"", parameterLine).group().replace( "\"", "") 
+        settingInfo_List.append(parameter)
+    [ProductLine, TestCaseModule, testCaseName, sourceParentPath, BackupTargetPath] = settingInfo_List 
+    
+    # Change the default source parent path
+    if "sourceParentPath:" in backupItemList[0]:
+        patten2 = r"sourceParentPath: \".+\""
+        sourceParentPathLine = re.search(patten2, backupItemList[0]).group()
+        sourceParentPath = re.search("\".+\"", sourceParentPathLine).group().replace("\"", "") 
+        del(backupItemList[0])
+    
+    # Check if the source parent path exist
+    for path in [sourceParentPath, BackupTargetPath]:
+        if not os.path.exists(path):
+            return ("sourceParentPath | BackupTargetPath setting Error !!")
+
+    # Build the DailyBuild folder under TestCase Module folder
+    targetPath_parent = r"{}\{}\{}\{}\{}\{}".format(BackupTargetPath, ProductLine, TestCaseModule, version, testCaseName, sourceParentPath.split("\\")[-1])
+    
+    # Start backup
+    try:
+        for backupItem in backupItemList:
+            # Pass the empty line in backUplabel
+            if backupItem =="":
+                pass
+            # Check if the backup_address exist            
+            elif not os.path.exists(backupItem):
+                return ("[{}] address Error(some address no exist) !!".format(backUplabel))
+            
+            # Case 1: if the backupItem is a file
+            if os.path.isfile(backupItem):
+                # Build the son_folder path
+                singleSourcePath = os.path.dirname(backupItem)
+                fileName = os.path.basename(backupItem)
+                targetPath_son = os.path.dirname(backupItem).replace(sourceParentPath, "")
+                targetPath = targetPath_parent + targetPath_son
+                
+                #shutil.copy( backupItem, targetPath)
+                os.system("ROBOCOPY \"{}\" \"{}\" /e /lev:1 /xo /nfl /ndl /njh /njs \"{}\"".format(singleSourcePath, targetPath, fileName)) 
+            
+            # Case 2: if the backupItem is a folder
+            elif os.path.isdir(backupItem):
+                # Build the son_folder path
+                targetPath_son = backupItem.replace(sourceParentPath, "")
+                if targetPath_son == "":
+                    targetPath = targetPath_parent
+                else:
+                    targetPath = targetPath_parent + targetPath_son
+                
+                # Case 2-1: Backup a folder without unwanted key words 
+                if xFileNameLabel == "":
+                    os.system("ROBOCOPY \"{}\" \"{}\" /e /xo /nfl /ndl /njh /njs".format(backupItem, targetPath)) 
+                # Case 2-2: Backup a folder including unwanted key words 
+                else:
+                    noNeedBackupItem = GetBackUpItemList(backupInfo_Address, xFileNameLabel)
+                    if noNeedBackupItem == 0:
+                        return("[{}] Unwanted_keywords_label_setting Error !!".format(xFileNameLabel))
+                    else:
+                        noNeedFile = "/xf"
+                        for fileName in noNeedBackupItem:
+                            #noNeedFile = noNeedFile +  " " + fileName
+                            noNeedFile = "{} \"{}\"".format(noNeedFile, fileName)
+                        os.system("ROBOCOPY \"{}\" \"{}\" /e /xo /nfl /ndl /njh /njs {}".format(backupItem, targetPath, noNeedFile)) 
+        
+        return("\"{}\" backup Done.".format(backUplabel))
+    except:
+        return("\"{}\" backup Failed !!".format(backUplabel))
+        
+def AutoReadMoldexVersion():
+    # Read the Moldex3D installing address 
+    a = os.popen("reg query \"%s\"" % r"HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\CoreTechSystem\MDX_ParallelComputing")
+    b = a.readlines()
+    for i in b:
+        if "_INSTALLDIR" in i:
+            versionParentPath = i.split("    ")[3].rstrip("\n")  
+    # Read the DailyBuild version   
+    with open(r"{}\Moldex3D.ver".format(versionParentPath), "r") as localfile :
+        VerData = localfile.readlines()
+    Ver = VerData[1].split(" ")
+    Ver[3] = Ver[3].strip("()\n")
+    version = Ver[1]+Ver[3]
+    return(version)

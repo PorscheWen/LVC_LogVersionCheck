@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="analysissequence">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="AnalysisSequence.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{13425486-17C2-45A0-8E93-8900AB22F091}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="cmxpara_biim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CMXPara_BiIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{FF3680BD-36E9-49B1-BAF6-599BF17DA01A}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="cmxpara_coim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CMXPara_CoIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{8C8950CC-56B3-4A46-B73C-BBA648D20A8F}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="cmxpara_encapsulation">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CMXPara_Encapsulation.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{5A48ED1B-CB0F-4F7D-96AF-83E846906D3A}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="cmxpara_gaim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CMXPara_GAIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{9B3543A0-73F2-4F46-8ED2-9BF4A8600EE4}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="cmxpara_icm">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CMXPara_ICM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{EA7931A7-5F15-4F4F-93C1-4D9FEBEEB852}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="cmxpara_im">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CMXPara_IM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{C62FEFB3-F727-4B7B-B72E-37101FABB4CD}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="cmxpara_mcim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CMXPara_MCIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{56FA2E91-D19D-4577-81BD-E8E45FB39E8D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="cmxpara_pim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CMXPara_PIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{DF91E595-00F1-45A3-B727-0C9AE5FE5215}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="cmxpara_rim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CMXPara_RIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{34E67D6F-9318-4B2B-9A99-4EE06CE30ADD}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="cmxpara_waim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CMXPara_WAIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{5055E53B-16AF-4260-9FE8-8C6FDDE884EA}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="exportmesh">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ExportMesh.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{22E1B08C-A8BB-449D-A3A8-28279B542B93}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="getstatistic">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="GetStatistic.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{46BA74A8-0AC5-4777-B431-F55C0A94A9A6}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="newprojwizard">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NewProjWizard.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{203C406C-3699-477B-A966-5E05F5F39ADF}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="newrunwizard">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NewRunWizard.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{4892B4BE-CDF4-4D48-8583-30A16AE3CD3E}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="prepareenvfunction">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="PrepareEnvFunction.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{A234CD99-1EB8-4B08-96CE-3808534A55B5}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="propara_biim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProPara_BiIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{8F23F536-96AE-41B2-A162-9795A8B7DBCA}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="propara_coim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProPara_CoIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{C99C676F-C550-4042-BB18-BEF760F3D5A4}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="propara_encapsulation">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProPara_Encapsulation.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{F3BD4BA9-0FE1-4A8D-B97C-7C0D8612D375}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="propara_gaim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProPara_GAIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{96E39746-8CE4-4A55-B015-FDB4ECF51F44}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="propara_icm">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProPara_ICM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{C734B9E9-78AE-4DD3-B250-2E3C5B876EC3}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="propara_im">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProPara_IM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{666CFF14-F578-4FAB-B2E5-F1070EE102C9}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="propara_mcim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProPara_MCIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{9A498AE4-3E64-45CE-A164-A35D8C1502E8}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="propara_pim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProPara_PIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{F9441A17-51C9-4FF4-B1AD-7AFF0D2AE05B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="propara_rim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProPara_RIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{B0487B65-88F0-424A-AF96-0DAB65575747}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="propara_waim">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ProPara_WAIM.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{D668D508-68E1-49DE-B9F5-B5C6CCD75ADF}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_01_gear">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_01_Gear.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{1C724DB7-A510-4FBD-94D1-6179DEBEA50A}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_02_lampholder">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_02_Lampholder.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{C9A100D0-95AA-4ACC-99A9-0530AEDA3958}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_03_lens">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_03_Lens.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{DE402C9C-5999-44CE-8C9A-6BCC7B399855}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_04_multicomponent">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_04_Multicomponent.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{9D60DF99-408F-415C-A9B8-C4BA1E748039}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_05_screwdriver">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_05_ScrewDriver.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{47A8E147-982D-484F-8301-4F3F360DD0F8}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_06_handle">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_06_Handle.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{BEDB059E-EB9B-4360-953B-F917F2150443}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_07_plates">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_07_Plates.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{07275F3E-65F1-4F95-949B-E34D0EA3A7C8}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_08_headset">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_08_Headset.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{115091E3-CDEE-4411-8C74-ADBF54A1B017}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_09_ic">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_09_IC.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{5F6D32ED-2B86-41C8-B2EB-12BD0E3B58AC}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_10_handlegas">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_10_Handlegas.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{B8C8F8C4-3DA3-4F98-AB41-9AE9B30A6A36}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_11_disk">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_11_Disk.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{888589E7-6FD3-40AA-8F49-4D2E65042D66}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_12_turbocharger">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_12_Turbocharger.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{F0E9DAF9-793D-4752-BE8A-E1A8022B6B6C}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_13_fishingbuoy">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_13_FishingBuoy.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{91AC2979-2614-4EC2-AEA8-489C83CB88EE}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_14_fan">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_14_Fan.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{B2AF5D56-2FA9-44E8-ADE2-46A2166A4781}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_15_keypad">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_15_Keypad.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{B89E5C31-9ED6-49A0-9EB6-ADF7FE0DD8A0}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_16_medicalbox">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_16_Medicalbox.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{656D9384-4A16-44C3-8772-BBC7446A61FB}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_17_mobilephonecover">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_17_MobilePhoneCover.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{E02A6029-35BD-4DA4-93BD-CBF420B8DCAA}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_18_specimen">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_18_Specimen.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{709B0385-6B6C-42F2-954F-CEF5C38B45E8}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_19_rechargercover">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_19_Rechargercover.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{F8CEAD15-2C1A-4672-B007-EF58C017465F}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_20_metal">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_20_Metal.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{1754173F-69A1-4668-9507-205598EFE35B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_21_cellphone">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_21_CellPhone.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{5772F32B-821D-4C62-87C2-233D5101AB98}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_22_dashboard">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_22_Dashboard.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{B4E4E965-EEA1-4C1E-9234-FA8427DB5FF8}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_23_frontcover">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_23_FrontCover.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{E04F7AC3-92B7-4DC2-9442-E8279B2F5AF3}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_24_bumper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_24_Bumper.py"/>
+				</Node>
+				<Prp name="key" type="S" value="{7D2A1747-6DF1-488B-A2E2-F34AD04C925D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="cmxpara">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{34e67d6f-9318-4b2b-9a99-4ee06ce30add}" type="S" value=""/>
+					<Prp name="{5055e53b-16af-4260-9fe8-8c6fdde884ea}" type="S" value=""/>
+					<Prp name="{56fa2e91-d19d-4577-81bd-e8e45fb39e8d}" type="S" value=""/>
+					<Prp name="{5a48ed1b-cb0f-4f7d-96af-83e846906d3a}" type="S" value=""/>
+					<Prp name="{8c8950cc-56b3-4a46-b73c-bba648d20a8f}" type="S" value=""/>
+					<Prp name="{9b3543a0-73f2-4f46-8ed2-9bf4a8600ee4}" type="S" value=""/>
+					<Prp name="{c62fefb3-f727-4b7b-b72e-37101fabb4cd}" type="S" value=""/>
+					<Prp name="{df91e595-00f1-45a3-b727-0c9ae5fe5215}" type="S" value=""/>
+					<Prp name="{ea7931a7-5f15-4f4f-93c1-4d9febeeb852}" type="S" value=""/>
+					<Prp name="{ff3680bd-36e9-49b1-baf6-599bf17da01a}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="CMXPara"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="customstage">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{07275f3e-65f1-4f95-949b-e34d0ea3a7c8}" type="S" value=""/>
+					<Prp name="{115091e3-cdee-4411-8c74-adbf54a1b017}" type="S" value=""/>
+					<Prp name="{1754173f-69a1-4668-9507-205598efe35b}" type="S" value=""/>
+					<Prp name="{1c724db7-a510-4fbd-94d1-6179debea50a}" type="S" value=""/>
+					<Prp name="{47a8e147-982d-484f-8301-4f3f360dd0f8}" type="S" value=""/>
+					<Prp name="{5772f32b-821d-4c62-87c2-233d5101ab98}" type="S" value=""/>
+					<Prp name="{5f6d32ed-2b86-41c8-b2eb-12bd0e3b58ac}" type="S" value=""/>
+					<Prp name="{656d9384-4a16-44c3-8772-bbc7446a61fb}" type="S" value=""/>
+					<Prp name="{709b0385-6b6c-42f2-954f-cef5c38b45e8}" type="S" value=""/>
+					<Prp name="{7d2a1747-6df1-488b-a2e2-f34ad04c925d}" type="S" value=""/>
+					<Prp name="{888589e7-6fd3-40aa-8f49-4d2e65042d66}" type="S" value=""/>
+					<Prp name="{91ac2979-2614-4ec2-aea8-489c83cb88ee}" type="S" value=""/>
+					<Prp name="{9d60df99-408f-415c-a9b8-c4ba1e748039}" type="S" value=""/>
+					<Prp name="{b2af5d56-2fa9-44e8-ade2-46a2166a4781}" type="S" value=""/>
+					<Prp name="{b4e4e965-eea1-4c1e-9234-fa8427db5ff8}" type="S" value=""/>
+					<Prp name="{b89e5c31-9ed6-49a0-9eb6-adf7fe0dd8a0}" type="S" value=""/>
+					<Prp name="{b8c8f8c4-3da3-4f98-ab41-9ae9b30a6a36}" type="S" value=""/>
+					<Prp name="{bedb059e-eb9b-4360-953b-f917f2150443}" type="S" value=""/>
+					<Prp name="{c9a100d0-95aa-4acc-99a9-0530aeda3958}" type="S" value=""/>
+					<Prp name="{de402c9c-5999-44ce-8c9a-6bcc7b399855}" type="S" value=""/>
+					<Prp name="{e02a6029-35bd-4da4-93bd-cbf420b8dcaa}" type="S" value=""/>
+					<Prp name="{e04f7ac3-92b7-4dc2-9442-e8279b2f5af3}" type="S" value=""/>
+					<Prp name="{f0e9daf9-793d-4752-be8a-e1a8022b6b6c}" type="S" value=""/>
+					<Prp name="{f8cead15-2c1a-4672-b007-ef58c017465f}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="CustomStage"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="propara">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{666cff14-f578-4fab-b2e5-f1070ee102c9}" type="S" value=""/>
+					<Prp name="{8f23f536-96ae-41b2-a162-9795a8b7dbca}" type="S" value=""/>
+					<Prp name="{96e39746-8ce4-4a55-b015-fdb4ecf51f44}" type="S" value=""/>
+					<Prp name="{9a498ae4-3e64-45ce-a164-a35d8c1502e8}" type="S" value=""/>
+					<Prp name="{b0487b65-88f0-424a-af96-0dab65575747}" type="S" value=""/>
+					<Prp name="{c734b9e9-78ae-4dd3-b250-2e3c5b876ec3}" type="S" value=""/>
+					<Prp name="{c99c676f-c550-4042-bb18-bef760f3d5a4}" type="S" value=""/>
+					<Prp name="{d668d508-68e1-49de-b9f5-b5c6ccd75adf}" type="S" value=""/>
+					<Prp name="{f3bd4ba9-0fe1-4a8d-b97c-7c0d8612d375}" type="S" value=""/>
+					<Prp name="{f9441a17-51c9-4ff4-b1ad-7aff0d2ae05b}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="ProPara"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

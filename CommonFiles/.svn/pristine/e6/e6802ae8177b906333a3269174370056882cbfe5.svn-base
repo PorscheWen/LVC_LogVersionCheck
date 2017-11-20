@@ -1,0 +1,15 @@
+共用元件說明
+
+*SharedComponents(TC專案)包含
+-1. RunMDXProject.py: 用 Script Wizard 開啟 Project 的 Function
+-2. FEA_Function.py: FEA 呼叫 I2 輸出的 Function
+-3. CheckAnalysisResult.py: Solver Function Test 檢查 Log 的 Function
+-4. ReportOutput.py: 報告輸出的 Function
+
+*ReportSettingModify(MDX Report樣板)
+
+*ReportSettingModify_3DPDF(MDX Report 3D PDF 樣板)
+
+*pdf_template.ini(各模組 PDF 報告輸出結果項樣板)
+
+*html_template.ini(各模組 HTML 報告輸出結果項樣板)

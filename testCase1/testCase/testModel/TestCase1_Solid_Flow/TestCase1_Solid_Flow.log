@@ -1,0 +1,1004 @@
+---------- Moldex-Project log file ----------
+Project     = TestCase1_Solid_Flow (R16 Build:160.0)
+User ID     = 0 (Porsche@DESKTOP-1F0OJ3G)
+Create Time = 16:53:21-10-26-2017
+---------------------------------------------
+[16:53:26-10-26-2017]...Create a new run (Run1)
+----------------------------------------------------------------
+Porsche@DESKTOP-1F0OJ3G
+[16:55:18-10-26-2017] Load Solid project [TestCase1_Solid_Flow] (No. runs=[1]) by [R16] Build [160.0]
+[16:55:19-10-26-2017] Set log file path to []...OK
+[16:55:19-10-26-2017] Load run [1]...OK
+[16:55:19-10-26-2017] Check limitation for [SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:55:19-10-26-2017] Load MFE file [SolidInjection_ValveGate_SC.mfe]...OK
+[16:55:19-10-26-2017] Load mesh file [SolidInjection_ValveGate_SC.mfe] of run [1]...OK
+[16:55:19-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:55:19-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:19-10-26-2017] Compute statistics for result [0], item [0]...OK
+[16:55:19-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:19-10-26-2017] Load material file [ABS_POLYFLAMRABS90950UV5_1.mtr] of run [1]...OK
+[16:55:20-10-26-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[16:55:20-10-26-2017] Clear result data...OK
+[16:55:20-10-26-2017] Change run to [1]...OK
+[16:55:20-10-26-2017] Load project file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:55:20-10-26-2017] Load file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:55:20-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Compute statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Set Display Item= [0/0/0]...OK
+[16:55:20-10-26-2017] Change result to [0],[0]...OK
+[16:55:20-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Change Result= [0/0]...OK
+[16:55:20-10-26-2017] Reset Display Range...OK
+[16:55:20-10-26-2017] Stop Play Animation...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Compute statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Change Display Item= [0]...OK
+[16:55:20-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Compute statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Set Display Item= [0/0/0]...OK
+[16:55:20-10-26-2017] Change result to [0],[0]...OK
+[16:55:20-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Change Result= [0/0]...OK
+[16:55:20-10-26-2017] Reset Display Range...OK
+[16:55:20-10-26-2017] Stop Play Animation...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Compute statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Change Display Item= [0]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Compute statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:20-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:21-10-26-2017] Reset Display Range...OK
+[16:55:21-10-26-2017] Stop Play Animation...OK
+[16:55:21-10-26-2017] Change result to [0],[0]...OK
+[16:55:21-10-26-2017] Change result to [0],[0]...OK
+[16:55:21-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:55:21-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:21-10-26-2017] Change Result= [0/0]...OK
+[16:55:21-10-26-2017] Change result to [0],[0]...OK
+[16:55:21-10-26-2017] Change result to [0],[0]...OK
+[16:55:21-10-26-2017] Compute statistics for result [0], item [-1]...OK
+[16:55:21-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:21-10-26-2017] Change Result= [0/0]...OK
+[16:55:21-10-26-2017] Reset Display Range...OK
+[16:55:21-10-26-2017] Stop Play Animation...OK
+[16:55:21-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:21-10-26-2017] Compute statistics for result [0], item [0]...OK
+[16:55:21-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:21-10-26-2017] Set statistics for result [0], item [0]...OK
+[16:55:22-10-26-2017] Change Display Item= [0]...OK
+[16:55:22-10-26-2017] Reset Display Range...OK
+[16:55:22-10-26-2017] Stop Play Animation...OK
+[16:55:22-10-26-2017] Reset Display Range...OK
+[16:55:22-10-26-2017] Stop Play Animation...OK
+[16:55:34-10-26-2017] Save project data...OK
+[16:55:34-10-26-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:55:34-10-26-2017] Run [Flow] analysis for run [1]...OK
+[16:55:34-10-26-2017] Clear run [1] result [1] files...OK
+[16:55:34-10-26-2017] Call solver=C:\Moldex3D\R16\bin\MDXSolverLauncher.exe...OK
+[16:55:35-10-26-2017] Run Analysis Start: 1  1  SolidInjection_ValveGate_SC.mfe ABS_POLYFLAMRABS90950UV5_1.mtr TestCase1_Solid_Flow_1.pro 1 Flow  @16:55:35-10-26-2017
+[16:56:35-10-26-2017] Update Flow Result...OK
+[16:56:50-10-26-2017] Run Analysis End:  @16:56:50-10-26-2017 [Processing Time=00:01:15.062]...OK
+[16:56:50-10-26-2017] Update Flow Result...OK
+[16:56:50-10-26-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:57:20-10-26-2017] Before Running Process...OK
+[16:57:20-10-26-2017] Update Flow Result...OK
+[16:57:20-10-26-2017] After Running Process...OK
+[17:59:59-10-26-2017] Capture Screen To File=[TestCase1_Solid_Flow.png]...OK
+[17:59:59-10-26-2017] Save project data...OK
+[17:59:59-10-26-2017] Clear mesh data [SolidInjection_ValveGate_SC.mfe]...OK
+[17:59:59-10-26-2017] Terminat process : ...OK
+[17:59:59-10-26-2017] Close log file.
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Porsche@DESKTOP-1F0OJ3G
+[15:15:21-11-08-2017] Load Solid project [TestCase1_Solid_Flow] (No. runs=[1]) by [R16] Build [160.0]
+[15:15:22-11-08-2017] Set log file path to []...OK
+[15:15:22-11-08-2017] Load run [1]...OK
+[15:15:22-11-08-2017] Check limitation for [SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[15:15:22-11-08-2017] Load MFE file [SolidInjection_ValveGate_SC.mfe]...OK
+[15:15:22-11-08-2017] Load mesh file [SolidInjection_ValveGate_SC.mfe] of run [1]...OK
+[15:15:22-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:15:22-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:22-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:15:22-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:22-11-08-2017] Load material file [ABS_POLYFLAMRABS90950UV5_1.mtr] of run [1]...OK
+[15:15:23-11-08-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[15:15:23-11-08-2017] Clear result data...OK
+[15:15:23-11-08-2017] Change run to [1]...OK
+[15:15:23-11-08-2017] Load project file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[15:15:23-11-08-2017] Load file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[15:15:23-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Set Display Item= [0/0/0]...OK
+[15:15:23-11-08-2017] Change result to [0],[0]...OK
+[15:15:23-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Change Result= [0/0]...OK
+[15:15:23-11-08-2017] Reset Display Range...OK
+[15:15:23-11-08-2017] Stop Play Animation...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Change Display Item= [0]...OK
+[15:15:23-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Set Display Item= [0/0/0]...OK
+[15:15:23-11-08-2017] Change result to [0],[0]...OK
+[15:15:23-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Change Result= [0/0]...OK
+[15:15:23-11-08-2017] Reset Display Range...OK
+[15:15:23-11-08-2017] Stop Play Animation...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Change Display Item= [0]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:23-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:24-11-08-2017] Change result to [0],[0]...OK
+[15:15:24-11-08-2017] Change result to [0],[0]...OK
+[15:15:24-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:15:24-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:24-11-08-2017] Change Result= [0/0]...OK
+[15:15:24-11-08-2017] Update Flow Result...OK
+[15:15:24-11-08-2017] Change result to [0],[0]...OK
+[15:15:24-11-08-2017] Change result to [0],[0]...OK
+[15:15:24-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:15:24-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:24-11-08-2017] Change Result= [0/0]...OK
+[15:15:24-11-08-2017] Reset Display Range...OK
+[15:15:24-11-08-2017] Stop Play Animation...OK
+[15:15:25-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:25-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:15:25-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:25-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:25-11-08-2017] Change Display Item= [0]...OK
+[15:15:25-11-08-2017] Reset Display Range...OK
+[15:15:25-11-08-2017] Stop Play Animation...OK
+[15:15:25-11-08-2017] Reset Display Range...OK
+[15:15:25-11-08-2017] Stop Play Animation...OK
+[15:15:25-11-08-2017] Reset Display Range...OK
+[15:15:25-11-08-2017] Stop Play Animation...OK
+[15:15:43-11-08-2017] Clear run [1] result [1] files...OK
+[15:15:43-11-08-2017] Change result to [0],[0]...OK
+[15:15:43-11-08-2017] Change result to [0],[0]...OK
+[15:15:43-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:15:43-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:43-11-08-2017] Change Result= [0/0]...OK
+[15:15:43-11-08-2017] Reset Display Range...OK
+[15:15:43-11-08-2017] Stop Play Animation...OK
+[15:15:43-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:43-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:15:43-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:43-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:15:43-11-08-2017] Change Display Item= [0]...OK
+[15:15:46-11-08-2017] Capture Screen To File=[TestCase1_Solid_Flow.png]...OK
+[15:15:46-11-08-2017] Save project data...OK
+[15:15:46-11-08-2017] Clear mesh data [SolidInjection_ValveGate_SC.mfe]...OK
+[15:15:46-11-08-2017] Terminat process : ...OK
+[15:15:46-11-08-2017] Close log file.
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Porsche@DESKTOP-1F0OJ3G
+[15:51:03-11-08-2017] Load Solid project [TestCase1_Solid_Flow] (No. runs=[1]) by [R16] Build [160.0]
+[15:51:04-11-08-2017] Set log file path to []...OK
+[15:51:04-11-08-2017] Load run [1]...OK
+[15:51:04-11-08-2017] Check limitation for [SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[15:51:04-11-08-2017] Load MFE file [SolidInjection_ValveGate_SC.mfe]...OK
+[15:51:04-11-08-2017] Load mesh file [SolidInjection_ValveGate_SC.mfe] of run [1]...OK
+[15:51:04-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:51:04-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:04-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:51:04-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:04-11-08-2017] Load material file [ABS_POLYFLAMRABS90950UV5_1.mtr] of run [1]...OK
+[15:51:04-11-08-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[15:51:04-11-08-2017] Clear result data...OK
+[15:51:04-11-08-2017] Change run to [1]...OK
+[15:51:04-11-08-2017] Load project file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[15:51:04-11-08-2017] Load file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[15:51:04-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:51:04-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:04-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:51:04-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:04-11-08-2017] Set Display Item= [0/0/0]...OK
+[15:51:05-11-08-2017] Change result to [0],[0]...OK
+[15:51:05-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Change Result= [0/0]...OK
+[15:51:05-11-08-2017] Reset Display Range...OK
+[15:51:05-11-08-2017] Stop Play Animation...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Change Display Item= [0]...OK
+[15:51:05-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Set Display Item= [0/0/0]...OK
+[15:51:05-11-08-2017] Change result to [0],[0]...OK
+[15:51:05-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Change Result= [0/0]...OK
+[15:51:05-11-08-2017] Reset Display Range...OK
+[15:51:05-11-08-2017] Stop Play Animation...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Change Display Item= [0]...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:05-11-08-2017] Reset Display Range...OK
+[15:51:05-11-08-2017] Stop Play Animation...OK
+[15:51:06-11-08-2017] Change result to [0],[0]...OK
+[15:51:06-11-08-2017] Change result to [0],[0]...OK
+[15:51:06-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:51:06-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:06-11-08-2017] Change Result= [0/0]...OK
+[15:51:06-11-08-2017] Change result to [0],[0]...OK
+[15:51:06-11-08-2017] Change result to [0],[0]...OK
+[15:51:06-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[15:51:06-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:06-11-08-2017] Change Result= [0/0]...OK
+[15:51:06-11-08-2017] Reset Display Range...OK
+[15:51:06-11-08-2017] Stop Play Animation...OK
+[15:51:06-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:06-11-08-2017] Compute statistics for result [0], item [0]...OK
+[15:51:06-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:06-11-08-2017] Set statistics for result [0], item [0]...OK
+[15:51:06-11-08-2017] Change Display Item= [0]...OK
+[15:51:06-11-08-2017] Reset Display Range...OK
+[15:51:06-11-08-2017] Stop Play Animation...OK
+[15:51:06-11-08-2017] Reset Display Range...OK
+[15:51:06-11-08-2017] Stop Play Animation...OK
+[15:51:07-11-08-2017] Set Run Batch Job:MDXBatchRun.dat...OK
+[15:51:07-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[15:51:07-11-08-2017] Run [Flow] analysis for run [1]...OK
+[15:51:07-11-08-2017] Clear run [1] result [1] files...OK
+[15:51:07-11-08-2017] Call solver=C:\Moldex3D\R16\bin\MDXSolverLauncher.exe...OK
+[15:51:08-11-08-2017] Run Analysis Start: 1  1  SolidInjection_ValveGate_SC.mfe ABS_POLYFLAMRABS90950UV5_1.mtr TestCase1_Solid_Flow_1.pro 1 Flow  @15:51:08-11-08-2017
+[15:51:15-11-08-2017] Capture Screen To File=[TestCase1_Solid_Flow.png]...OK
+[15:51:15-11-08-2017] Save project data...OK
+[15:51:15-11-08-2017] Clear mesh data [SolidInjection_ValveGate_SC.mfe]...OK
+[15:51:15-11-08-2017] Set Stop Run...OK
+[15:51:16-11-08-2017] Terminat process : Analysis ...OK
+[15:51:16-11-08-2017] Close log file.
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Porsche@DESKTOP-1F0OJ3G
+[16:25:30-11-08-2017] Load Solid project [TestCase1_Solid_Flow] (No. runs=[1]) by [R16] Build [160.0]
+[16:25:31-11-08-2017] Set log file path to []...OK
+[16:25:31-11-08-2017] Load run [1]...OK
+[16:25:31-11-08-2017] Check limitation for [SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:25:31-11-08-2017] Load MFE file [SolidInjection_ValveGate_SC.mfe]...OK
+[16:25:31-11-08-2017] Load mesh file [SolidInjection_ValveGate_SC.mfe] of run [1]...OK
+[16:25:31-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:25:31-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:31-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:25:31-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:31-11-08-2017] Load material file [ABS_POLYFLAMRABS90950UV5_1.mtr] of run [1]...OK
+[16:25:32-11-08-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[16:25:32-11-08-2017] Clear result data...OK
+[16:25:32-11-08-2017] Change run to [1]...OK
+[16:25:32-11-08-2017] Load project file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:25:32-11-08-2017] Load file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:25:32-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:25:32-11-08-2017] Change result to [0],[0]...OK
+[16:25:32-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Change Result= [0/0]...OK
+[16:25:32-11-08-2017] Reset Display Range...OK
+[16:25:32-11-08-2017] Stop Play Animation...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Change Display Item= [0]...OK
+[16:25:32-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:25:32-11-08-2017] Change result to [0],[0]...OK
+[16:25:32-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Change Result= [0/0]...OK
+[16:25:32-11-08-2017] Reset Display Range...OK
+[16:25:32-11-08-2017] Stop Play Animation...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Change Display Item= [0]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:32-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:33-11-08-2017] Reset Display Range...OK
+[16:25:33-11-08-2017] Stop Play Animation...OK
+[16:25:33-11-08-2017] Change result to [0],[0]...OK
+[16:25:33-11-08-2017] Change result to [0],[0]...OK
+[16:25:33-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:25:33-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:33-11-08-2017] Change Result= [0/0]...OK
+[16:25:33-11-08-2017] Change result to [0],[0]...OK
+[16:25:33-11-08-2017] Change result to [0],[0]...OK
+[16:25:33-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:25:33-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:33-11-08-2017] Change Result= [0/0]...OK
+[16:25:33-11-08-2017] Reset Display Range...OK
+[16:25:33-11-08-2017] Stop Play Animation...OK
+[16:25:33-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:33-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:25:33-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:33-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:25:34-11-08-2017] Change Display Item= [0]...OK
+[16:25:34-11-08-2017] Reset Display Range...OK
+[16:25:34-11-08-2017] Stop Play Animation...OK
+[16:25:34-11-08-2017] Reset Display Range...OK
+[16:25:34-11-08-2017] Stop Play Animation...OK
+[16:25:35-11-08-2017] Set Run Batch Job:MDXBatchRun.dat...OK
+[16:25:35-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:25:35-11-08-2017] Run [Flow] analysis for run [1]...OK
+[16:25:35-11-08-2017] Clear run [1] result [1] files...OK
+[16:25:35-11-08-2017] Call solver=C:\Moldex3D\R16\bin\MDXSolverLauncher.exe...OK
+[16:25:36-11-08-2017] Run Analysis Start: 1  1  SolidInjection_ValveGate_SC.mfe ABS_POLYFLAMRABS90950UV5_1.mtr TestCase1_Solid_Flow_1.pro 1 Flow  @16:25:36-11-08-2017
+[16:26:36-11-08-2017] Update Flow Result...OK
+[16:26:48-11-08-2017] Run Analysis End:  @16:26:48-11-08-2017 [Processing Time=00:01:12.094]...OK
+[16:26:48-11-08-2017] Update Flow Result...OK
+[16:26:48-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:26:48-11-08-2017] Before Running Process...OK
+[16:26:48-11-08-2017] Update Flow Result...OK
+[16:26:48-11-08-2017] After Running Process...OK
+[16:26:50-11-08-2017] Capture Screen To File=[TestCase1_Solid_Flow.png]...OK
+[16:26:50-11-08-2017] Save project data...OK
+[16:26:50-11-08-2017] Clear mesh data [SolidInjection_ValveGate_SC.mfe]...OK
+[16:26:50-11-08-2017] Terminat process : ...OK
+[16:26:50-11-08-2017] Close log file.
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Porsche@DESKTOP-1F0OJ3G
+[16:28:17-11-08-2017] Load Solid project [TestCase1_Solid_Flow] (No. runs=[1]) by [R16] Build [160.0]
+[16:28:18-11-08-2017] Set log file path to []...OK
+[16:28:18-11-08-2017] Load run [1]...OK
+[16:28:18-11-08-2017] Check limitation for [SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:28:18-11-08-2017] Load MFE file [SolidInjection_ValveGate_SC.mfe]...OK
+[16:28:18-11-08-2017] Load mesh file [SolidInjection_ValveGate_SC.mfe] of run [1]...OK
+[16:28:18-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:28:18-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:18-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:28:18-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:18-11-08-2017] Load material file [ABS_POLYFLAMRABS90950UV5_1.mtr] of run [1]...OK
+[16:28:18-11-08-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[16:28:18-11-08-2017] Clear result data...OK
+[16:28:19-11-08-2017] Change run to [1]...OK
+[16:28:19-11-08-2017] Load project file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:28:19-11-08-2017] Load file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:28:19-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:28:19-11-08-2017] Change result to [0],[0]...OK
+[16:28:19-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Change Result= [0/0]...OK
+[16:28:19-11-08-2017] Reset Display Range...OK
+[16:28:19-11-08-2017] Stop Play Animation...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Change Display Item= [0]...OK
+[16:28:19-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:28:19-11-08-2017] Change result to [0],[0]...OK
+[16:28:19-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Change Result= [0/0]...OK
+[16:28:19-11-08-2017] Reset Display Range...OK
+[16:28:19-11-08-2017] Stop Play Animation...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Change Display Item= [0]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:19-11-08-2017] Reset Display Range...OK
+[16:28:19-11-08-2017] Stop Play Animation...OK
+[16:28:20-11-08-2017] Change result to [0],[0]...OK
+[16:28:20-11-08-2017] Change result to [0],[0]...OK
+[16:28:20-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:28:20-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:20-11-08-2017] Change Result= [0/0]...OK
+[16:28:20-11-08-2017] Update Flow Result...OK
+[16:28:20-11-08-2017] Change result to [0],[0]...OK
+[16:28:20-11-08-2017] Change result to [0],[0]...OK
+[16:28:20-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:28:20-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:20-11-08-2017] Change Result= [0/0]...OK
+[16:28:20-11-08-2017] Reset Display Range...OK
+[16:28:20-11-08-2017] Stop Play Animation...OK
+[16:28:20-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:20-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:28:20-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:20-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:28:20-11-08-2017] Change Display Item= [0]...OK
+[16:28:20-11-08-2017] Reset Display Range...OK
+[16:28:20-11-08-2017] Stop Play Animation...OK
+[16:28:20-11-08-2017] Reset Display Range...OK
+[16:28:20-11-08-2017] Stop Play Animation...OK
+[16:28:21-11-08-2017] Set Run Batch Job:MDXBatchRun.dat...OK
+[16:28:22-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:28:22-11-08-2017] Run [Flow] analysis for run [1]...OK
+[16:28:22-11-08-2017] Clear run [1] result [1] files...OK
+[16:28:22-11-08-2017] Call solver=C:\Moldex3D\R16\bin\MDXSolverLauncher.exe...OK
+[16:28:23-11-08-2017] Run Analysis Start: 1  1  SolidInjection_ValveGate_SC.mfe ABS_POLYFLAMRABS90950UV5_1.mtr TestCase1_Solid_Flow_1.pro 1 Flow  @16:28:23-11-08-2017
+[16:29:23-11-08-2017] Update Flow Result...OK
+[16:29:33-11-08-2017] Run Analysis End:  @16:29:33-11-08-2017 [Processing Time=00:01:10.531]...OK
+[16:29:33-11-08-2017] Update Flow Result...OK
+[16:29:33-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:29:33-11-08-2017] Before Running Process...OK
+[16:29:34-11-08-2017] Update Flow Result...OK
+[16:29:34-11-08-2017] After Running Process...OK
+[16:29:35-11-08-2017] Capture Screen To File=[TestCase1_Solid_Flow.png]...OK
+[16:29:35-11-08-2017] Save project data...OK
+[16:29:35-11-08-2017] Clear mesh data [SolidInjection_ValveGate_SC.mfe]...OK
+[16:29:35-11-08-2017] Terminat process : ...OK
+[16:29:35-11-08-2017] Close log file.
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Porsche@DESKTOP-1F0OJ3G
+[16:30:53-11-08-2017] Load Solid project [TestCase1_Solid_Flow] (No. runs=[1]) by [R16] Build [160.0]
+[16:30:54-11-08-2017] Set log file path to []...OK
+[16:30:54-11-08-2017] Load run [1]...OK
+[16:30:54-11-08-2017] Check limitation for [SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:30:54-11-08-2017] Load MFE file [SolidInjection_ValveGate_SC.mfe]...OK
+[16:30:54-11-08-2017] Load mesh file [SolidInjection_ValveGate_SC.mfe] of run [1]...OK
+[16:30:54-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:30:54-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:54-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:30:54-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:54-11-08-2017] Load material file [ABS_POLYFLAMRABS90950UV5_1.mtr] of run [1]...OK
+[16:30:54-11-08-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[16:30:54-11-08-2017] Clear result data...OK
+[16:30:54-11-08-2017] Change run to [1]...OK
+[16:30:54-11-08-2017] Load project file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:30:54-11-08-2017] Load file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:30:54-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:30:54-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:54-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:30:54-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:30:55-11-08-2017] Change result to [0],[0]...OK
+[16:30:55-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Change Result= [0/0]...OK
+[16:30:55-11-08-2017] Reset Display Range...OK
+[16:30:55-11-08-2017] Stop Play Animation...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Change Display Item= [0]...OK
+[16:30:55-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:30:55-11-08-2017] Change result to [0],[0]...OK
+[16:30:55-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Change Result= [0/0]...OK
+[16:30:55-11-08-2017] Reset Display Range...OK
+[16:30:55-11-08-2017] Stop Play Animation...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Change Display Item= [0]...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:55-11-08-2017] Reset Display Range...OK
+[16:30:55-11-08-2017] Stop Play Animation...OK
+[16:30:56-11-08-2017] Change result to [0],[0]...OK
+[16:30:56-11-08-2017] Change result to [0],[0]...OK
+[16:30:56-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:30:56-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:56-11-08-2017] Change Result= [0/0]...OK
+[16:30:56-11-08-2017] Update Flow Result...OK
+[16:30:56-11-08-2017] Change result to [0],[0]...OK
+[16:30:56-11-08-2017] Change result to [0],[0]...OK
+[16:30:56-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:30:56-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:56-11-08-2017] Change Result= [0/0]...OK
+[16:30:56-11-08-2017] Reset Display Range...OK
+[16:30:56-11-08-2017] Stop Play Animation...OK
+[16:30:56-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:56-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:30:56-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:56-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:30:56-11-08-2017] Change Display Item= [0]...OK
+[16:30:56-11-08-2017] Reset Display Range...OK
+[16:30:56-11-08-2017] Stop Play Animation...OK
+[16:30:56-11-08-2017] Reset Display Range...OK
+[16:30:56-11-08-2017] Stop Play Animation...OK
+[16:30:57-11-08-2017] Set Run Batch Job:MDXBatchRun.dat...OK
+[16:30:57-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:30:57-11-08-2017] Run [Flow] analysis for run [1]...OK
+[16:30:57-11-08-2017] Clear run [1] result [1] files...OK
+[16:30:57-11-08-2017] Call solver=C:\Moldex3D\R16\bin\MDXSolverLauncher.exe...OK
+[16:30:58-11-08-2017] Run Analysis Start: 1  1  SolidInjection_ValveGate_SC.mfe ABS_POLYFLAMRABS90950UV5_1.mtr TestCase1_Solid_Flow_1.pro 1 Flow  @16:30:58-11-08-2017
+[16:31:58-11-08-2017] Update Flow Result...OK
+[16:32:10-11-08-2017] Run Analysis End:  @16:32:10-11-08-2017 [Processing Time=00:01:11.078]...OK
+[16:32:10-11-08-2017] Update Flow Result...OK
+[16:32:10-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:32:10-11-08-2017] Before Running Process...OK
+[16:32:10-11-08-2017] Update Flow Result...OK
+[16:32:10-11-08-2017] After Running Process...OK
+[16:32:12-11-08-2017] Capture Screen To File=[TestCase1_Solid_Flow.png]...OK
+[16:32:12-11-08-2017] Save project data...OK
+[16:32:12-11-08-2017] Clear mesh data [SolidInjection_ValveGate_SC.mfe]...OK
+[16:32:12-11-08-2017] Terminat process : ...OK
+[16:32:12-11-08-2017] Close log file.
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Porsche@DESKTOP-1F0OJ3G
+[16:33:11-11-08-2017] Load Solid project [TestCase1_Solid_Flow] (No. runs=[1]) by [R16] Build [160.0]
+[16:33:12-11-08-2017] Set log file path to []...OK
+[16:33:12-11-08-2017] Load run [1]...OK
+[16:33:12-11-08-2017] Check limitation for [SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:33:13-11-08-2017] Load MFE file [SolidInjection_ValveGate_SC.mfe]...OK
+[16:33:13-11-08-2017] Load mesh file [SolidInjection_ValveGate_SC.mfe] of run [1]...OK
+[16:33:13-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Load material file [ABS_POLYFLAMRABS90950UV5_1.mtr] of run [1]...OK
+[16:33:13-11-08-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[16:33:13-11-08-2017] Clear result data...OK
+[16:33:13-11-08-2017] Change run to [1]...OK
+[16:33:13-11-08-2017] Load project file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:33:13-11-08-2017] Load file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:33:13-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:33:13-11-08-2017] Change result to [0],[0]...OK
+[16:33:13-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Change Result= [0/0]...OK
+[16:33:13-11-08-2017] Reset Display Range...OK
+[16:33:13-11-08-2017] Stop Play Animation...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Change Display Item= [0]...OK
+[16:33:13-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:33:13-11-08-2017] Change result to [0],[0]...OK
+[16:33:13-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Change Result= [0/0]...OK
+[16:33:13-11-08-2017] Reset Display Range...OK
+[16:33:13-11-08-2017] Stop Play Animation...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:13-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:14-11-08-2017] Change Display Item= [0]...OK
+[16:33:14-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:14-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:33:14-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:14-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:14-11-08-2017] Reset Display Range...OK
+[16:33:14-11-08-2017] Stop Play Animation...OK
+[16:33:14-11-08-2017] Change result to [0],[0]...OK
+[16:33:14-11-08-2017] Change result to [0],[0]...OK
+[16:33:14-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:33:14-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:14-11-08-2017] Change Result= [0/0]...OK
+[16:33:14-11-08-2017] Update Flow Result...OK
+[16:33:14-11-08-2017] Change result to [0],[0]...OK
+[16:33:15-11-08-2017] Change result to [0],[0]...OK
+[16:33:15-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:33:15-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:15-11-08-2017] Change Result= [0/0]...OK
+[16:33:15-11-08-2017] Reset Display Range...OK
+[16:33:15-11-08-2017] Stop Play Animation...OK
+[16:33:15-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:15-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:33:15-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:15-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:33:15-11-08-2017] Change Display Item= [0]...OK
+[16:33:15-11-08-2017] Reset Display Range...OK
+[16:33:15-11-08-2017] Stop Play Animation...OK
+[16:33:15-11-08-2017] Reset Display Range...OK
+[16:33:15-11-08-2017] Stop Play Animation...OK
+[16:33:16-11-08-2017] Set Run Batch Job:MDXBatchRun.dat...OK
+[16:33:16-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:33:16-11-08-2017] Run [Flow] analysis for run [1]...OK
+[16:33:16-11-08-2017] Clear run [1] result [1] files...OK
+[16:33:16-11-08-2017] Call solver=C:\Moldex3D\R16\bin\MDXSolverLauncher.exe...OK
+[16:33:17-11-08-2017] Run Analysis Start: 1  1  SolidInjection_ValveGate_SC.mfe ABS_POLYFLAMRABS90950UV5_1.mtr TestCase1_Solid_Flow_1.pro 1 Flow  @16:33:17-11-08-2017
+[16:34:17-11-08-2017] Update Flow Result...OK
+[16:34:28-11-08-2017] Run Analysis End:  @16:34:28-11-08-2017 [Processing Time=00:01:10.953]...OK
+[16:34:28-11-08-2017] Update Flow Result...OK
+[16:34:28-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:34:28-11-08-2017] Before Running Process...OK
+[16:34:28-11-08-2017] Update Flow Result...OK
+[16:34:28-11-08-2017] After Running Process...OK
+[16:34:30-11-08-2017] Capture Screen To File=[TestCase1_Solid_Flow.png]...OK
+[16:34:30-11-08-2017] Save project data...OK
+[16:34:30-11-08-2017] Clear mesh data [SolidInjection_ValveGate_SC.mfe]...OK
+[16:34:30-11-08-2017] Terminat process : ...OK
+[16:34:30-11-08-2017] Close log file.
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Porsche@DESKTOP-1F0OJ3G
+[16:47:49-11-08-2017] Load Solid project [TestCase1_Solid_Flow] (No. runs=[1]) by [R16] Build [160.0]
+[16:47:50-11-08-2017] Set log file path to []...OK
+[16:47:50-11-08-2017] Load run [1]...OK
+[16:47:50-11-08-2017] Check limitation for [SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:47:50-11-08-2017] Load MFE file [SolidInjection_ValveGate_SC.mfe]...OK
+[16:47:50-11-08-2017] Load mesh file [SolidInjection_ValveGate_SC.mfe] of run [1]...OK
+[16:47:50-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:47:50-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Load material file [ABS_POLYFLAMRABS90950UV5_1.mtr] of run [1]...OK
+[16:47:50-11-08-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[16:47:50-11-08-2017] Clear result data...OK
+[16:47:50-11-08-2017] Change run to [1]...OK
+[16:47:50-11-08-2017] Load project file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:47:50-11-08-2017] Load file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:47:50-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:47:50-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:47:50-11-08-2017] Change result to [0],[0]...OK
+[16:47:50-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:47:50-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Change Result= [0/0]...OK
+[16:47:50-11-08-2017] Reset Display Range...OK
+[16:47:50-11-08-2017] Stop Play Animation...OK
+[16:47:50-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Change Display Item= [0]...OK
+[16:47:50-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:47:50-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:47:50-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:51-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:47:51-11-08-2017] Change result to [0],[0]...OK
+[16:47:51-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:47:51-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:51-11-08-2017] Change Result= [0/0]...OK
+[16:47:51-11-08-2017] Reset Display Range...OK
+[16:47:51-11-08-2017] Stop Play Animation...OK
+[16:47:51-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:51-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:47:51-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:51-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:51-11-08-2017] Change Display Item= [0]...OK
+[16:47:51-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:51-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:47:51-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:51-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:51-11-08-2017] Reset Display Range...OK
+[16:47:51-11-08-2017] Stop Play Animation...OK
+[16:47:51-11-08-2017] Change result to [0],[0]...OK
+[16:47:52-11-08-2017] Change result to [0],[0]...OK
+[16:47:52-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:47:52-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:52-11-08-2017] Change Result= [0/0]...OK
+[16:47:52-11-08-2017] Update Flow Result...OK
+[16:47:52-11-08-2017] Change result to [0],[0]...OK
+[16:47:52-11-08-2017] Change result to [0],[0]...OK
+[16:47:52-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:47:52-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:52-11-08-2017] Change Result= [0/0]...OK
+[16:47:52-11-08-2017] Reset Display Range...OK
+[16:47:52-11-08-2017] Stop Play Animation...OK
+[16:47:52-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:52-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:47:52-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:52-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:47:52-11-08-2017] Change Display Item= [0]...OK
+[16:47:52-11-08-2017] Reset Display Range...OK
+[16:47:52-11-08-2017] Stop Play Animation...OK
+[16:47:52-11-08-2017] Reset Display Range...OK
+[16:47:52-11-08-2017] Stop Play Animation...OK
+[16:47:53-11-08-2017] Set Run Batch Job:MDXBatchRun.dat...OK
+[16:47:53-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:47:53-11-08-2017] Run [Flow] analysis for run [1]...OK
+[16:47:53-11-08-2017] Clear run [1] result [1] files...OK
+[16:47:53-11-08-2017] Call solver=C:\Moldex3D\R16\bin\MDXSolverLauncher.exe...OK
+[16:47:54-11-08-2017] Run Analysis Start: 1  1  SolidInjection_ValveGate_SC.mfe ABS_POLYFLAMRABS90950UV5_1.mtr TestCase1_Solid_Flow_1.pro 1 Flow  @16:47:54-11-08-2017
+[16:48:54-11-08-2017] Update Flow Result...OK
+[16:49:06-11-08-2017] Run Analysis End:  @16:49:06-11-08-2017 [Processing Time=00:01:11.656]...OK
+[16:49:06-11-08-2017] Update Flow Result...OK
+[16:49:06-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:49:06-11-08-2017] Before Running Process...OK
+[16:49:06-11-08-2017] Update Flow Result...OK
+[16:49:06-11-08-2017] After Running Process...OK
+[16:49:08-11-08-2017] Capture Screen To File=[TestCase1_Solid_Flow.png]...OK
+[16:49:08-11-08-2017] Save project data...OK
+[16:49:08-11-08-2017] Clear mesh data [SolidInjection_ValveGate_SC.mfe]...OK
+[16:49:08-11-08-2017] Terminat process : ...OK
+[16:49:08-11-08-2017] Close log file.
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Porsche@DESKTOP-1F0OJ3G
+[16:54:56-11-08-2017] Load Solid project [TestCase1_Solid_Flow] (No. runs=[1]) by [R16] Build [160.0]
+[16:54:57-11-08-2017] Set log file path to []...OK
+[16:54:57-11-08-2017] Load run [1]...OK
+[16:54:57-11-08-2017] Check limitation for [SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:54:58-11-08-2017] Load MFE file [SolidInjection_ValveGate_SC.mfe]...OK
+[16:54:58-11-08-2017] Load mesh file [SolidInjection_ValveGate_SC.mfe] of run [1]...OK
+[16:54:58-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:54:58-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Load material file [ABS_POLYFLAMRABS90950UV5_1.mtr] of run [1]...OK
+[16:54:58-11-08-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[16:54:58-11-08-2017] Clear result data...OK
+[16:54:58-11-08-2017] Change run to [1]...OK
+[16:54:58-11-08-2017] Load project file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:54:58-11-08-2017] Load file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[16:54:58-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:54:58-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:54:58-11-08-2017] Change result to [0],[0]...OK
+[16:54:58-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:54:58-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Change Result= [0/0]...OK
+[16:54:58-11-08-2017] Reset Display Range...OK
+[16:54:58-11-08-2017] Stop Play Animation...OK
+[16:54:58-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Change Display Item= [0]...OK
+[16:54:58-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:54:58-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:58-11-08-2017] Set Display Item= [0/0/0]...OK
+[16:54:59-11-08-2017] Change result to [0],[0]...OK
+[16:54:59-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:54:59-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:59-11-08-2017] Change Result= [0/0]...OK
+[16:54:59-11-08-2017] Reset Display Range...OK
+[16:54:59-11-08-2017] Stop Play Animation...OK
+[16:54:59-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:59-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:54:59-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:59-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:59-11-08-2017] Change Display Item= [0]...OK
+[16:54:59-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:59-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:54:59-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:59-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:59-11-08-2017] Reset Display Range...OK
+[16:54:59-11-08-2017] Stop Play Animation...OK
+[16:54:59-11-08-2017] Change result to [0],[0]...OK
+[16:54:59-11-08-2017] Change result to [0],[0]...OK
+[16:54:59-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:54:59-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:54:59-11-08-2017] Change Result= [0/0]...OK
+[16:54:59-11-08-2017] Update Flow Result...OK
+[16:55:00-11-08-2017] Change result to [0],[0]...OK
+[16:55:00-11-08-2017] Change result to [0],[0]...OK
+[16:55:00-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[16:55:00-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:55:00-11-08-2017] Change Result= [0/0]...OK
+[16:55:00-11-08-2017] Reset Display Range...OK
+[16:55:00-11-08-2017] Stop Play Animation...OK
+[16:55:00-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:55:00-11-08-2017] Compute statistics for result [0], item [0]...OK
+[16:55:00-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:55:00-11-08-2017] Set statistics for result [0], item [0]...OK
+[16:55:00-11-08-2017] Change Display Item= [0]...OK
+[16:55:00-11-08-2017] Reset Display Range...OK
+[16:55:00-11-08-2017] Stop Play Animation...OK
+[16:55:00-11-08-2017] Reset Display Range...OK
+[16:55:00-11-08-2017] Stop Play Animation...OK
+[16:55:01-11-08-2017] Set Run Batch Job:MDXBatchRun.dat...OK
+[16:55:01-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:55:01-11-08-2017] Run [Flow] analysis for run [1]...OK
+[16:55:01-11-08-2017] Clear run [1] result [1] files...OK
+[16:55:01-11-08-2017] Call solver=C:\Moldex3D\R16\bin\MDXSolverLauncher.exe...OK
+[16:55:02-11-08-2017] Run Analysis Start: 1  1  SolidInjection_ValveGate_SC.mfe ABS_POLYFLAMRABS90950UV5_1.mtr TestCase1_Solid_Flow_1.pro 1 Flow  @16:55:02-11-08-2017
+[16:56:02-11-08-2017] Update Flow Result...OK
+[16:56:13-11-08-2017] Run Analysis End:  @16:56:13-11-08-2017 [Processing Time=00:01:11.297]...OK
+[16:56:13-11-08-2017] Update Flow Result...OK
+[16:56:13-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[16:56:13-11-08-2017] Before Running Process...OK
+[16:56:14-11-08-2017] Update Flow Result...OK
+[16:56:14-11-08-2017] After Running Process...OK
+[16:56:15-11-08-2017] Capture Screen To File=[TestCase1_Solid_Flow.png]...OK
+[16:56:15-11-08-2017] Save project data...OK
+[16:56:15-11-08-2017] Clear mesh data [SolidInjection_ValveGate_SC.mfe]...OK
+[16:56:15-11-08-2017] Terminat process : ...OK
+[16:56:15-11-08-2017] Close log file.
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Porsche@DESKTOP-1F0OJ3G
+[17:01:27-11-08-2017] Load Solid project [TestCase1_Solid_Flow] (No. runs=[1]) by [R16] Build [160.0]
+[17:01:28-11-08-2017] Set log file path to []...OK
+[17:01:28-11-08-2017] Load run [1]...OK
+[17:01:28-11-08-2017] Check limitation for [SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[17:01:28-11-08-2017] Load MFE file [SolidInjection_ValveGate_SC.mfe]...OK
+[17:01:28-11-08-2017] Load mesh file [SolidInjection_ValveGate_SC.mfe] of run [1]...OK
+[17:01:28-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[17:01:28-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:28-11-08-2017] Compute statistics for result [0], item [0]...OK
+[17:01:28-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:28-11-08-2017] Load material file [ABS_POLYFLAMRABS90950UV5_1.mtr] of run [1]...OK
+[17:01:28-11-08-2017] Load process condition data [TestCase1_Solid_Flow_1.pro]...OK
+[17:01:28-11-08-2017] Clear result data...OK
+[17:01:29-11-08-2017] Change run to [1]...OK
+[17:01:29-11-08-2017] Load project file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[17:01:29-11-08-2017] Load file [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\TestCase1_Solid_Flow.m3j]...OK
+[17:01:29-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Compute statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Set Display Item= [0/0/0]...OK
+[17:01:29-11-08-2017] Change result to [0],[0]...OK
+[17:01:29-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Change Result= [0/0]...OK
+[17:01:29-11-08-2017] Reset Display Range...OK
+[17:01:29-11-08-2017] Stop Play Animation...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Compute statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Change Display Item= [0]...OK
+[17:01:29-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Compute statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Set Display Item= [0/0/0]...OK
+[17:01:29-11-08-2017] Change result to [0],[0]...OK
+[17:01:29-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Change Result= [0/0]...OK
+[17:01:29-11-08-2017] Reset Display Range...OK
+[17:01:29-11-08-2017] Stop Play Animation...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Compute statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Change Display Item= [0]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Compute statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:29-11-08-2017] Reset Display Range...OK
+[17:01:29-11-08-2017] Stop Play Animation...OK
+[17:01:30-11-08-2017] Change result to [0],[0]...OK
+[17:01:30-11-08-2017] Change result to [0],[0]...OK
+[17:01:30-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[17:01:30-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:30-11-08-2017] Change Result= [0/0]...OK
+[17:01:30-11-08-2017] Update Flow Result...OK
+[17:01:30-11-08-2017] Change result to [0],[0]...OK
+[17:01:30-11-08-2017] Change result to [0],[0]...OK
+[17:01:30-11-08-2017] Compute statistics for result [0], item [-1]...OK
+[17:01:30-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:30-11-08-2017] Change Result= [0/0]...OK
+[17:01:30-11-08-2017] Reset Display Range...OK
+[17:01:30-11-08-2017] Stop Play Animation...OK
+[17:01:30-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:30-11-08-2017] Compute statistics for result [0], item [0]...OK
+[17:01:30-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:30-11-08-2017] Set statistics for result [0], item [0]...OK
+[17:01:30-11-08-2017] Change Display Item= [0]...OK
+[17:01:30-11-08-2017] Reset Display Range...OK
+[17:01:30-11-08-2017] Stop Play Animation...OK
+[17:01:30-11-08-2017] Reset Display Range...OK
+[17:01:30-11-08-2017] Stop Play Animation...OK
+[17:01:32-11-08-2017] Set Run Batch Job:MDXBatchRun.dat...OK
+[17:01:32-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[17:01:32-11-08-2017] Run [Flow] analysis for run [1]...OK
+[17:01:32-11-08-2017] Clear run [1] result [1] files...OK
+[17:01:32-11-08-2017] Call solver=C:\Moldex3D\R16\bin\MDXSolverLauncher.exe...OK
+[17:01:33-11-08-2017] Run Analysis Start: 1  1  SolidInjection_ValveGate_SC.mfe ABS_POLYFLAMRABS90950UV5_1.mtr TestCase1_Solid_Flow_1.pro 1 Flow  @17:01:33-11-08-2017
+[17:02:33-11-08-2017] Update Flow Result...OK
+[17:02:44-11-08-2017] Run Analysis End:  @17:02:44-11-08-2017 [Processing Time=00:01:11.563]...OK
+[17:02:44-11-08-2017] Update Flow Result...OK
+[17:02:44-11-08-2017] Check limitation for [C:\WorkingFolder\testCase\testModel\TestCase1_Solid_Flow\Mesh\SolidInjection_ValveGate_SC.mfe] OK
+...OK
+[17:02:44-11-08-2017] Before Running Process...OK
+[17:02:45-11-08-2017] Update Flow Result...OK
+[17:02:45-11-08-2017] After Running Process...OK
+[17:02:46-11-08-2017] Capture Screen To File=[TestCase1_Solid_Flow.png]...OK
+[17:02:46-11-08-2017] Save project data...OK
+[17:02:46-11-08-2017] Clear mesh data [SolidInjection_ValveGate_SC.mfe]...OK
+[17:02:46-11-08-2017] Terminat process : ...OK
+[17:02:46-11-08-2017] Close log file.
+----------------------------------------------------------------
+

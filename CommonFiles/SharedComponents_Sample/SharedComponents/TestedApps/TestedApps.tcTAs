@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="workfolder" type="S" value="C:\Moldex3D\R16.0\Bin\"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="MDXDesigner.exe"/>
+							<Prp name="filepath" type="S" value="C:\Moldex3D\R16\Bin\"/>
+							<Prp name="workfolder" type="S" value="C:\Moldex3D\R16.0\Bin\"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="MDXDesigner"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{E7A6B2C7-9BC3-4E0A-B351-D0104D084714}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item1">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="workfolder" type="S" value="C:\Program Files\Rhinoceros 5 (64-bit)\System"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="Rhino.exe"/>
+							<Prp name="filepath" type="S" value="C:\Program Files\Rhinoceros 5 (64-bit)\System\"/>
+							<Prp name="workfolder" type="S" value="C:\Program Files\Rhinoceros 5 (64-bit)\System"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="Rhino"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{26C4A2E2-E373-4CE8-B989-D89BF25CED4F}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item2">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="workfolder" type="S" value="C:\Moldex3D\R16\Bin\"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="MDXProject.exe"/>
+							<Prp name="filepath" type="S" value="C:\Moldex3D\R16\Bin\"/>
+							<Prp name="workfolder" type="S" value="C:\Moldex3D\R16\Bin\"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="MDXProject"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{EC242F7A-2956-484D-96F9-E6067ED3DEE2}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Prp name="item count" type="I" value="3"/>
+		</Node>
+		<Node name="config">
+			<Prp name="node name" type="S" value="TestedApps"/>
+		</Node>
+		<Node name="data"/>
+		<Node name="folders"/>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{2BD6CCCE-5DA1-4AF7-9840-85BF456184C2}"/>
+		<Prp name="signature" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="typename" type="S" value="Tested Applications"/>
+		<Prp name="version" type="I" value="910"/>
+	</Node>
+</Nodes>

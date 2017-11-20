@@ -1,0 +1,4485 @@
+[eDesign IC]
+[_Cool]
+Temperature
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Conversion
+Density
+Melt Front Temperature
+Viscosity (log)
+Reactive Heat Generation
+Viscous Heat Generation
+Total Velocity
+Velocity Vector
+Welding Angle
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Average Velocity Vector
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Mold Preheat]
+Temperature
+Mold Temperature Difference
+Mold Preheat-Animation
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_Pack]
+Melt Front Time
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Conversion
+Density
+Viscosity (log)
+Total Velocity
+Velocity Vector
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Average Velocity Vector
+Curing-Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Pack]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Curing Kinetics
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Encapsulation
+Process - Cooling Settings
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Temperature
+Conversion
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Density
+Flatness
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[_WireSweep]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Wire Sweep Index
+Wire Sweep Index(by wire)
+Wire Crossover
+X-Drag Force
+Y-Drag Force
+Z-Drag Force
+Total Drag Force
+Distance to Closest Wire
+Distance to Closest Wire(by wire)
+[End_WireSweep]
+
+[End_eDesign IC]
+
+[eDesignAHR]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Cooling Efficiency
+Molten Core
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Max. Volume Shrinkage
+Average Velocity Vector
+Fiber Orientation in X Direction
+Fiber Orientation in Y Direction
+Fiber Orientation in Z Direction
+Fiber Orientation
+Fiber Orientation (Skin)
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Particle tracer Flow Length
+Particle tracer Total Velocity
+Particle tracer Pressure
+Particle tracer Temperature
+Particle tracer Elapsed Time
+Particle tracer Release Time
+Particle tracer Gate ID
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Mold Preheat]
+Temperature
+Cooling Efficiency
+Mold Temperature Difference
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_Pack]
+Melt Front Time
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Particle tracer Flow Length
+Particle tracer Total Velocity
+Particle tracer Pressure
+Particle tracer Temperature
+Particle tracer Elapsed Time
+Particle tracer Release Time
+Particle tracer Gate ID
+Packing-Animation
+Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Pack]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Structure VE
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Packing Pressure Profile
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+Total Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_eDesignAHR]
+
+[eDesignCM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Cooling Efficiency
+Molten Core
+Re-melted Area Temperature
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Fiber Orientation in X Direction
+Fiber Orientation in Y Direction
+Fiber Orientation in Z Direction
+Fiber Orientation
+Fiber Orientation (Skin)
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Particle tracer Flow Length
+Particle tracer Total Velocity
+Particle tracer Pressure
+Particle tracer Temperature
+Particle tracer Charge ID
+Filling-Animation
+XY_Clamping Force
+XY_Volume Fraction
+XY_Compression Force
+XY_Total Weight
+XY_Cavity Weight#1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Mold Preheat]
+Temperature
+Cooling Efficiency
+Mold Temperature Difference
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Structure VE
+Material Mechanical Properties
+Material Optics
+Material Content
+Process - Project Settings
+Process - Compression
+Process - Cooling Settings
+Process - Summary
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+Total Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_eDesignCM]
+
+[eDesignPIM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Cooling Efficiency
+Molten Core
+Re-melted Area Temperature
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Max. Volume Shrinkage
+Average Velocity Vector
+Powder Concentration
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Pack]
+Melt Front Time
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Powder Concentration
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Packing-Animation
+Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Pack]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Mechanical Properties
+Material Powder Information
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Packing Pressure Profile
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_eDesignPIM]
+
+[eDN-CFM]
+[_Cool]
+Temperature
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Weld Line Meeting Angle
+Weld Line Temperature
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Conversion
+Foaming Conversion
+Density
+Melt Front Temperature
+Viscosity (log)
+Reactive Heat Generation
+Viscous Heat Generation
+Total Velocity
+Velocity Vector
+Welding Angle
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Max. Volume Shrinkage
+Average Velocity Vector
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Gas Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+XY_Flow Rate Gate 1-2
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Curing Kinetics
+Material Foaming Kinetics
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Filling Settings
+Process - Foaming Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_eDN-CFM]
+
+[eDN-ICCM]
+[_Cool]
+Temperature
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Conversion
+Density
+Melt Front Temperature
+Viscosity (log)
+Reactive Heat Generation
+Viscous Heat Generation
+Total Velocity
+Velocity Vector
+Welding Angle
+Filling-Animation
+XY_Clamping Force
+XY_Volume Fraction
+XY_Compression Force
+XY_Total Weight
+XY_Cavity Weight#1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Mold Preheat]
+Temperature
+Mold Temperature Difference
+Mold Preheat-Animation
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Curing Kinetics
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Compression
+Process - Cooling Settings
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Density
+Flatness
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[_WireSweep]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Wire Sweep Index
+Wire Sweep Index(by wire)
+Wire Crossover
+X-Drag Force
+Y-Drag Force
+Z-Drag Force
+Total Drag Force
+Distance to Closest Wire
+Distance to Closest Wire(by wire)
+[End_WireSweep]
+
+[End_eDN-ICCM]
+
+[eDN-IM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Cooling Efficiency
+Molten Core
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Weld Line Meeting Angle
+Weld Line Temperature
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Max. Volume Shrinkage
+Average Velocity Vector
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+XY_Flow Rate Gate 1-2
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Mold Preheat]
+Temperature
+Cooling Efficiency
+Mold Temperature Difference
+Mold Preheat-Animation
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_Pack]
+Melt Front Time
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Packing-Animation
+Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+XY_Flow Rate Gate 1-2
+[End_Pack]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Structure VE
+Material Mechanical Properties
+Material Optics
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Packing Pressure Profile
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_eDN-IM]
+
+[eDN-MCIM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Cooling Efficiency
+Molten Core
+Re-melted Area Temperature
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Weld Line Meeting Angle
+Weld Line Temperature
+Gate Contribution
+Cell Size
+Cell Density
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Fiber Orientation in X Direction
+Fiber Orientation in Y Direction
+Fiber Orientation in Z Direction
+Fiber Orientation
+Fiber Orientation (Skin)
+Filling_Packing-Animation
+Filling_Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Gas Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Foaming Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Packing Pressure Profile
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+Total Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_eDN-MCIM]
+
+[eDN-RIM]
+[_Cool]
+Temperature
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Cure]
+Melt Front Time
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Conversion
+Density
+Viscosity (log)
+Total Velocity
+Velocity Vector
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Average Velocity Vector
+Curing-Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Cure]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Conversion
+Density
+Melt Front Temperature
+Viscosity (log)
+Reactive Heat Generation
+Viscous Heat Generation
+Total Velocity
+Velocity Vector
+Welding Angle
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Average Velocity Vector
+Fiber Orientation in X Direction
+Fiber Orientation in Y Direction
+Fiber Orientation in Z Direction
+Fiber Orientation
+Fiber Orientation (Skin)
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Mold Preheat]
+Temperature
+Mold Temperature Difference
+Mold Preheat-Animation
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Curing Kinetics
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Filling/Curing Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Curing Pressure Profile
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Density
+Flatness
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+Total Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_eDN-RIM]
+
+[Shell_GAIM]
+[_Cool]
+Time to Reach Ejection Temperature
+Avg. Part Temperature
+Avg. Part Temperature (Front)
+Avg. Part Temperature (Back)
+Avg. Mold Temp. Difference
+Avg. Heat Flux (Front)
+Avg. Heat Flux (Back)
+Heat Load (Front)
+Heat Load (Back)
+Heating Efficiency
+Cooling Efficiency
+Center Temperature
+Max. Temperature
+Frozen Layer (Front)
+Frozen Layer (Back)
+Frozen Layer Difference
+Frozen Layer Ratio
+EOC Part Temperature (Front)
+EOC Part Temperature (Back)
+EOC Mold Temperature (Front)
+EOC Mold Temperature (Back)
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Pressure
+Center Temperature
+Average Temperature
+Bulk Temperature
+Mass Flow Rate
+Volumetric Shrinkage
+Shear Stress
+Shear Rate
+Gas Front Time
+Skin Ratio
+Density
+Melt Front Temperature
+Frozen Layer Ratio
+Temperature Rise (Viscous Heating)
+Velocity Vector
+Fiber Orientation (Average)
+Fiber Orientation of Layer1(Core)
+Fiber Orientation of Layer2
+Fiber Orientation of Layer3
+Fiber Orientation of Layer4
+Fiber Orientation of Layer5
+Fiber Orientation of Layer6
+Fiber Orientation of Layer7
+Fiber Orientation of Layer8
+Fiber Orientation of Layer9
+Fiber Orientation of Layer10
+Fiber Orientation of Layer11
+Fiber Orientation of Layer12
+Fiber Orientation of Layer13(Skin)
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Flow Rate
+XY_Volume Fraction
+XY_Filled Volume
+XY_Clamping Force
+XY_Melt Front Node
+XY_Weight Reduction
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Pack]
+Melt Front Time
+Pressure
+Center Temperature
+Average Temperature
+Bulk Temperature
+Mass Flow Rate
+Volumetric Shrinkage
+Shear Stress
+Shear Rate
+Gas Front Time
+Skin Ratio
+Density
+Frozen Layer Ratio
+Temperature Rise (Viscous Heating)
+Velocity Vector
+Fiber Orientation (Average)
+Fiber Orientation of Layer1(Core)
+Fiber Orientation of Layer2
+Fiber Orientation of Layer3
+Fiber Orientation of Layer4
+Fiber Orientation of Layer5
+Fiber Orientation of Layer6
+Fiber Orientation of Layer7
+Fiber Orientation of Layer8
+Fiber Orientation of Layer9
+Fiber Orientation of Layer10
+Fiber Orientation of Layer11
+Fiber Orientation of Layer12
+Fiber Orientation of Layer13(Skin)
+Packing-Animation
+Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Flow Rate
+XY_Volume Fraction
+XY_Filled Volume
+XY_Clamping Force
+XY_Melt Front Node
+XY_Weight Reduction
+[End_Pack]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Structure VE
+Material Mechanical Properties
+Material Optics
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - GasIn
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Packing Pressure Profile
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+X-Thermal Displacement
+Y-Thermal Displacement
+Z-Thermal Displacement
+Volumetric Shrinkage
+Flatness
+Final Thickness
+Sink Mark Index
+Sink Mark Value
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Major Modulus
+Minor Modulus
+Major CLTE
+Minor CLTE
+X-Modulus
+Y-Modulus
+Z-Modulus
+X-CLTE
+Y-CLTE
+Z-CLTE
+X-Differential Area Shrinkage Displacement(PVT Effect)
+Y-Differential Area Shrinkage Displacement(PVT Effect)
+Z-Differential Area Shrinkage Displacement(PVT Effect)
+Total Displacement
+Total Thermal Displacement
+Total Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+Total Differential Area Shrinkage Displacement(PVT Effect)
+Warpage-Animation
+[End_Warp]
+
+[End_Shell_GAIM]
+
+[Shell_IM]
+[_Cool]
+Time to Reach Ejection Temperature
+Avg. Part Temperature
+Avg. Part Temperature (Front)
+Avg. Part Temperature (Back)
+Avg. Mold Temp. Difference
+Avg. Heat Flux (Front)
+Avg. Heat Flux (Back)
+Heat Load (Front)
+Heat Load (Back)
+Heating Efficiency
+Cooling Efficiency
+Center Temperature
+Max. Temperature
+Frozen Layer (Front)
+Frozen Layer (Back)
+Frozen Layer Difference
+Frozen Layer Ratio
+EOC Part Temperature (Front)
+EOC Part Temperature (Back)
+EOC Mold Temperature (Front)
+EOC Mold Temperature (Back)
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Gate Contribution
+Pressure
+Center Temperature
+Average Temperature
+Bulk Temperature
+Mass Flow Rate
+Volumetric Shrinkage
+Shear Stress
+Shear Rate
+Density
+Melt Front Temperature
+Frozen Layer Ratio
+Temperature Rise (Viscous Heating)
+Velocity Vector
+Fiber Orientation (Average)
+Fiber Orientation of Layer1(Core)
+Fiber Orientation of Layer2
+Fiber Orientation of Layer3
+Fiber Orientation of Layer4
+Fiber Orientation of Layer5
+Fiber Orientation of Layer6
+Fiber Orientation of Layer7
+Fiber Orientation of Layer8
+Fiber Orientation of Layer9
+Fiber Orientation of Layer10
+Fiber Orientation of Layer11
+Fiber Orientation of Layer12
+Fiber Orientation of Layer13(Skin)
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Flow Rate
+XY_Volume Fraction
+XY_Filled Volume
+XY_Clamping Force
+XY_Melt Front Node
+XY_Weight Reduction
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Pack]
+Melt Front Time
+Gate Contribution
+Pressure
+Center Temperature
+Average Temperature
+Bulk Temperature
+Mass Flow Rate
+Volumetric Shrinkage
+Shear Stress
+Shear Rate
+Density
+Frozen Layer Ratio
+Temperature Rise (Viscous Heating)
+Velocity Vector
+Fiber Orientation (Average)
+Fiber Orientation of Layer1(Core)
+Fiber Orientation of Layer2
+Fiber Orientation of Layer3
+Fiber Orientation of Layer4
+Fiber Orientation of Layer5
+Fiber Orientation of Layer6
+Fiber Orientation of Layer7
+Fiber Orientation of Layer8
+Fiber Orientation of Layer9
+Fiber Orientation of Layer10
+Fiber Orientation of Layer11
+Fiber Orientation of Layer12
+Fiber Orientation of Layer13(Skin)
+Packing-Animation
+Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Flow Rate
+XY_Volume Fraction
+XY_Filled Volume
+XY_Clamping Force
+XY_Melt Front Node
+XY_Weight Reduction
+[End_Pack]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Structure VE
+Material Mechanical Properties
+Material Optics
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Packing Pressure Profile
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+X-Thermal Displacement
+Y-Thermal Displacement
+Z-Thermal Displacement
+Volumetric Shrinkage
+Flatness
+Final Thickness
+Sink Mark Index
+Sink Mark Value
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Major Modulus
+Minor Modulus
+Major CLTE
+Minor CLTE
+X-Modulus
+Y-Modulus
+Z-Modulus
+X-CLTE
+Y-CLTE
+Z-CLTE
+X-Differential Area Shrinkage Displacement(PVT Effect)
+Y-Differential Area Shrinkage Displacement(PVT Effect)
+Z-Differential Area Shrinkage Displacement(PVT Effect)
+Total Displacement
+Total Thermal Displacement
+Total Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+Total Differential Area Shrinkage Displacement(PVT Effect)
+Warpage-Animation
+[End_Warp]
+
+[End_Shell_IM]
+
+[Shell_RIM]
+[_Cure]
+Melt Front Time
+Gate Contribution
+Pressure
+Center Temperature
+Average Temperature
+Bulk Temperature
+Mass Flow Rate
+Volumetric Shrinkage
+Shear Stress
+Shear Rate
+Conversion
+Density
+Temperature Rise
+Velocity Vector
+Curing-Animation
+XY_Sprue Pressure
+XY_Flow Rate
+XY_Volume Fraction
+XY_Filled Volume
+XY_Clamping Force
+[End_Cure]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Gate Contribution
+Pressure
+Center Temperature
+Average Temperature
+Bulk Temperature
+Mass Flow Rate
+Volumetric Shrinkage
+Shear Stress
+Shear Rate
+Conversion
+Density
+Melt Front Temperature
+Temperature Rise (Viscous Heating)
+Velocity Vector
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Flow Rate
+XY_Volume Fraction
+XY_Filled Volume
+XY_Clamping Force
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Thickness
+[End_Mesh]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Curing Kinetics
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Filling/Curing Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Curing Pressure Profile
+[End_Report]
+
+[End_Shell_RIM]
+
+[SolidAHR]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Molten Core
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Max. Volume Shrinkage
+Average Velocity Vector
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Hot Runner Steady]
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Total Velocity
+Velocity Vector
+Density
+Viscosity (log)
+[End_Hot Runner Steady]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Mold Preheat]
+Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Mold Temperature Difference
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_Optic]
+Flow-induced Birefringence in Filling stage
+Flow-induced Birefringence in Packing stage
+Flow-induced Birefringence in Cooling stage
+Flow-induced Retardation
+Flow-induced Fringed_Order
+Flow-induced Fringed_Pattern
+Thermally-induced Birefringence
+Thermally-induced Retardation
+Thermally-induced Fringed Order
+Thermally-induced Fringed Pattern
+Total Birefringence
+Total Retardation
+Total Fringed Order
+Total Fringed Pattern
+Refractive Index
+[End_Optic]
+
+[_Pack]
+Melt Front Time
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Packing-Animation
+Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Pack]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Structure VE
+Material Mechanical Properties
+Material Optics
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Packing Pressure Profile
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidAHR]
+
+[SolidBiIM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Molten Core
+Re-melted Area Temperature
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time (EM 1)
+Melt Front Time (EM 2)
+Air Trap
+Weld Line
+Weld Line Meeting Angle
+Weld Line Temperature
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Max. Volume Shrinkage
+Average Velocity Vector
+Particle tracer Flow Length
+Particle tracer Total Velocity
+Particle tracer Pressure
+Particle tracer Temperature
+Particle tracer Elapsed Time
+Particle tracer Release Time
+Particle tracer Gate ID
+Filling_Packing-Animation
+Filling_Packing-XY Curve Animation
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Sprue Pressure-EM#1
+XY_Sprue Pressure-EM#2
+XY_Total Weight from EM#1
+XY_Total Weight from EM#2
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+XY_Flow Rate Gate 1-2
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Bi-Injection Molding_EM1
+Process - Bi-Injection Molding_EM2
+Process - Cooling Settings
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X-In-Mold Constraint Effect Displacement
+Y-In-Mold Constraint Effect Displacement
+Z-In-Mold Constraint Effect Displacement
+Total In-Mold Constraint Effect Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidBiIM]
+
+[SolidCFM]
+[_Cool]
+Temperature
+Heat Flux
+Heat Load
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Weld Line Meeting Angle
+Weld Line Temperature
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Conversion
+Foaming Conversion
+Density
+Melt Front Temperature
+Viscosity (log)
+Reactive Heat Generation
+Viscous Heat Generation
+Total Velocity
+Velocity Vector
+Welding Angle
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Max. Volume Shrinkage
+Average Velocity Vector
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Gas Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+XY_Flow Rate Gate 1-2
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Curing Kinetics
+Material Foaming Kinetics
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Filling Settings
+Process - Foaming Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidCFM]
+
+[SolidCM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Molten Core
+Re-melted Area Temperature
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Fiber Orientation in X Direction
+Fiber Orientation in Y Direction
+Fiber Orientation in Z Direction
+Fiber Orientation
+Fiber Orientation (Skin)
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Filling-Animation
+XY_Clamping Force
+XY_Volume Fraction
+XY_Compression Force
+XY_Total Weight
+XY_Cavity Weight#1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Mold Preheat]
+Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Mold Temperature Difference
+Mold Preheat-Animation
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_Optic]
+Flow-induced Birefringence in Filling stage
+Flow-induced Birefringence in Cooling stage
+Flow-induced Retardation
+Flow-induced Fringed_Order
+Flow-induced Fringed_Pattern
+Thermally-induced Birefringence
+Thermally-induced Retardation
+Thermally-induced Fringed Order
+Thermally-induced Fringed Pattern
+Total Birefringence
+Total Retardation
+Total Fringed Order
+Total Fringed Pattern
+Refractive Index
+[End_Optic]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Structure VE
+Material Mechanical Properties
+Material Optics
+Material Content
+Process - Project Settings
+Process - Compression
+Process - Cooling Settings
+Process - Summary
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+Total Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+Major Modulus
+Mean Modulus
+Minor Modulus
+X-Modulus
+Y-Modulus
+Z-Modulus
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidCM]
+
+[SolidCoIM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Molten Core
+Re-melted Area Temperature
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time (Skin)
+Melt Front Time (Skin)_1
+Melt Front Time (Skin)_2
+Melt Front Time (Skin)_3
+Melt Front Time (Skin)_4
+Melt Front Time (Skin)_5
+Melt Front Time (Skin)_6
+Melt Front Time (Skin)_7
+Melt Front Time (Skin)_8
+Melt Front Time (Skin)_9
+Melt Front Time (Skin)_10
+Melt Front Time (Core)
+Air Trap
+Weld Line
+Weld Line Meeting Angle
+Weld Line Temperature
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Skin Ratio
+Skin Thickness
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Filling_Packing-Animation
+Filling_Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Co-Injection Molding_Core
+Process - Co-Injection Molding_Skin
+Process - Cooling Settings
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X-In-Mold Constraint Effect Displacement
+Y-In-Mold Constraint Effect Displacement
+Z-In-Mold Constraint Effect Displacement
+Total In-Mold Constraint Effect Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidCoIM]
+
+[SolidEncapsulation]
+[_Cool]
+Temperature
+Heat Flux
+Heat Load
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Conversion
+Density
+Melt Front Temperature
+Viscosity (log)
+Reactive Heat Generation
+Viscous Heat Generation
+Total Velocity
+Velocity Vector
+Welding Angle
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Average Velocity Vector
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Mold Preheat]
+Temperature
+Heat Flux
+Heat Load
+Mold Temperature Difference
+Mold Preheat-Animation
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_Pack]
+Melt Front Time
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Conversion
+Density
+Viscosity (log)
+Total Velocity
+Velocity Vector
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Average Velocity Vector
+Curing-Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Pack]
+
+[_PaddleShift]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+XZ Shear Stress
+Von Mises Stress
+[End_PaddleShift]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Curing Kinetics
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Encapsulation
+Process - Cooling Settings
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Temperature
+Conversion
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Density
+Flatness
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[_WireSweep]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Wire Sweep Index
+Wire Sweep Index(by wire)
+Wire Crossover
+X-Drag Force
+Y-Drag Force
+Z-Drag Force
+Total Drag Force
+Distance to Closest Wire
+Distance to Closest Wire(by wire)
+[End_WireSweep]
+
+[End_SolidEncapsulation]
+
+[SolidGAIM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Molten Core
+Re-melted Area Temperature
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+Gas Front Time
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Skin Ratio
+Skin Thickness
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Fiber Orientation in X Direction
+Fiber Orientation in Y Direction
+Fiber Orientation in Z Direction
+Fiber Orientation
+Fiber Orientation (Skin)
+Filling_Packing-Animation
+Filling_Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Structure VE
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Cooling Settings
+Process - Summary
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+Total Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+Major Modulus
+Mean Modulus
+Minor Modulus
+X-Modulus
+Y-Modulus
+Z-Modulus
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidGAIM]
+
+[SolidICCM]
+[_Cool]
+Temperature
+Heat Flux
+Heat Load
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Weld Line Meeting Angle
+Weld Line Temperature
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Conversion
+Density
+Melt Front Temperature
+Viscosity (log)
+Reactive Heat Generation
+Viscous Heat Generation
+Total Velocity
+Velocity Vector
+Welding Angle
+Particle tracer Flow Length
+Particle tracer Total Velocity
+Particle tracer Pressure
+Particle tracer Temperature
+Particle tracer Charge ID
+Filling-Animation
+XY_Clamping Force
+XY_Volume Fraction
+XY_Compression Force
+XY_Total Weight
+XY_Cavity Weight#1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Mold Preheat]
+Temperature
+Heat Flux
+Heat Load
+Mold Temperature Difference
+Mold Preheat-Animation
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_PaddleShift]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+XZ Shear Stress
+Von Mises Stress
+[End_PaddleShift]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Curing Kinetics
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Compression
+Process - Cooling Settings
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Density
+Flatness
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+X-Differential Temperature Effect Displacement
+Y-Differential Temperature Effect Displacement
+Z-Differential Temperature Effect Displacement
+Total Differential Temperature Effect Displacement
+X-Differential Shrinkage Effect Displacement
+Y-Differential Shrinkage Effect Displacement
+Z-Differential Shrinkage Effect Displacement
+Total Differential Shrinkage Effect Displacement
+Warpage-Animation
+[End_Warp]
+
+[_WireSweep]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Wire Sweep Index
+Wire Sweep Index(by wire)
+Wire Crossover
+X-Drag Force
+Y-Drag Force
+Z-Drag Force
+Total Drag Force
+Distance to Closest Wire
+Distance to Closest Wire(by wire)
+[End_WireSweep]
+
+[End_SolidICCM]
+
+[SolidICM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Cooling Channel Flow Rate
+Cooling Channel Reynolds Number
+Cooling Channel Pressure
+Cooling Channel Coolant Temperature
+Molten Core
+Re-melted Area Temperature
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Fiber Orientation in X Direction
+Fiber Orientation in Y Direction
+Fiber Orientation in Z Direction
+Fiber Orientation
+Fiber Orientation (Skin)
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Core Shift X-Displacement
+Core Shift Y-Displacement
+Core Shift Z-Displacement
+Core Shift Total Displacement
+Core Shift X Stress Component
+Core Shift Y Stress Component
+Core Shift Z Stress Component
+Core Shift XY Shear Stress
+Core Shift YZ Shear Stress
+Core Shift ZX Shear Stress
+Core Shift Von Mises Stress
+Core Shift Pressure
+Particle tracer Flow Length
+Particle tracer Total Velocity
+Particle tracer Pressure
+Particle tracer Temperature
+Particle tracer Elapsed Time
+Particle tracer Release Time
+Particle tracer Gate ID
+Filling_Packing-Animation
+Filling_Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Compression Force
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Optic]
+Flow-induced Birefringence in Filling stage
+Flow-induced Birefringence in Cooling stage
+Flow-induced Retardation
+Flow-induced Fringed_Order
+Flow-induced Fringed_Pattern
+Thermally-induced Birefringence
+Thermally-induced Retardation
+Thermally-induced Fringed Order
+Thermally-induced Fringed Pattern
+Total Birefringence
+Total Retardation
+Total Fringed Order
+Total Fringed Pattern
+Refractive Index
+[End_Optic]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Structure VE
+Material Mechanical Properties
+Material Optics
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Compression
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Packing Pressure Profile
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+Total Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+Major Modulus
+Mean Modulus
+Minor Modulus
+X-Modulus
+Y-Modulus
+Z-Modulus
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidICM]
+
+[SolidIM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Molten Core
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Weld Line Meeting Angle
+Weld Line Temperature
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Max. Volume Shrinkage
+Average Velocity Vector
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+XY_Flow Rate Gate 1-2
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Mold Deformation]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Mold Deformation]
+
+[_Mold Preheat]
+Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Mold Temperature Difference
+Mold Preheat-Animation
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_Optic]
+Flow-induced Birefringence in Filling stage
+Flow-induced Birefringence in Packing stage
+Flow-induced Birefringence in Cooling stage
+Flow-induced Retardation
+Flow-induced Fringed_Order
+Flow-induced Fringed_Pattern
+Thermally-induced Birefringence
+Thermally-induced Retardation
+Thermally-induced Fringed Order
+Thermally-induced Fringed Pattern
+Total Birefringence
+Total Retardation
+Total Fringed Order
+Total Fringed Pattern
+Refractive Index
+[End_Optic]
+
+[_Pack]
+Melt Front Time
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Flow Induced Residual Stress XX
+Flow Induced Residual Stress YY
+Flow Induced Residual Stress ZZ
+Flow Induced Residual Stress XY
+Flow Induced Residual Stress XZ
+Flow Induced Residual Stress YZ
+Flow Induced Residual Stress Von Mises Stress
+Flow Induced Residual Stress Maximum Shear Stress
+Flow Induced Residual Stress Relaxation Time
+Flow Induced Residual Stress Maximum Principal Stress Total
+Flow Induced Residual Stress Maximum Principal Stress Vector
+Packing-Animation
+Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+XY_Flow Rate Gate 1-2
+[End_Pack]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Structure VE
+Material Mechanical Properties
+Material Optics
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Packing Pressure Profile
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidIM]
+
+[SolidMCIM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Molten Core
+Re-melted Area Temperature
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Weld Line Meeting Angle
+Weld Line Temperature
+Gate Contribution
+Cell Size
+Cell Density
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Fiber Orientation in X Direction
+Fiber Orientation in Y Direction
+Fiber Orientation in Z Direction
+Fiber Orientation
+Fiber Orientation (Skin)
+Filling_Packing-Animation
+Filling_Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Gas Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Foaming Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Packing Pressure Profile
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+Total Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+Major Modulus
+Mean Modulus
+Minor Modulus
+X-Modulus
+Y-Modulus
+Z-Modulus
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidMCIM]
+
+[SolidPIM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Coolant Reynolds Number
+Coolant Temperature
+Coolant Pressure
+Coolant X-Velocity
+Coolant Y-Velocity
+Coolant Z-Velocity
+Coolant Total Velocity
+Coolant Velocity Vector
+Molten Core
+Re-melted Area Temperature
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Stream Line Flow Length
+Stream Line Total Velocity
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Max. Volume Shrinkage
+Average Velocity Vector
+Powder Concentration
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Pack]
+Melt Front Time
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Powder Concentration
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Packing-Animation
+Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Pack]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Mechanical Properties
+Material Powder Information
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Packing Pressure Profile
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidPIM]
+
+[SolidRIM]
+[_Cool]
+Temperature
+Heat Flux
+Heat Load
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Cure]
+Melt Front Time
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Conversion
+Density
+Viscosity (log)
+Total Velocity
+Velocity Vector
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Average Velocity Vector
+Curing-Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Cure]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Conversion
+Density
+Melt Front Temperature
+Viscosity (log)
+Reactive Heat Generation
+Viscous Heat Generation
+Total Velocity
+Velocity Vector
+Welding Angle
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Average Velocity Vector
+Fiber Orientation in X Direction
+Fiber Orientation in Y Direction
+Fiber Orientation in Z Direction
+Fiber Orientation
+Fiber Orientation (Skin)
+Fiber Average Fiber Length (by Number)
+Fiber Average Fiber Length (by Weight)
+Fiber Concentration (Volume Percentage)
+Fiber Concentration (Weight Percentage)
+Core Shift X-Displacement
+Core Shift Y-Displacement
+Core Shift Z-Displacement
+Core Shift Total Displacement
+Core Shift X Stress Component
+Core Shift Y Stress Component
+Core Shift Z Stress Component
+Core Shift XY Shear Stress
+Core Shift YZ Shear Stress
+Core Shift ZX Shear Stress
+Core Shift Von Mises Stress
+Core Shift Pressure
+Filling-Animation
+Filling-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+XY_Flow Rate Gate 1-1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Mold Preheat]
+Temperature
+Heat Flux
+Heat Load
+Mold Temperature Difference
+Mold Preheat-Animation
+XY_Cavity Surface Average Temperature
+[End_Mold Preheat]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Curing Kinetics
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Filling/Curing Settings
+Process - Cooling Settings
+Process - Summary
+Process - Flow Rate Profile
+Process - Injection Pressure Profile
+Process - Curing Pressure Profile
+[End_Report]
+
+[_Stress]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+[End_Stress]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Density
+Flatness
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+Total Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+Major Modulus
+Mean Modulus
+Minor Modulus
+X-Modulus
+Y-Modulus
+Z-Modulus
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidRIM]
+
+[SolidRTM]
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Weld Line Meeting Angle
+Weld Line Temperature
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+X-Velocity
+Y-Velocity
+Z-Velocity
+Conversion
+Density
+Melt Front Temperature
+Viscosity (log)
+Reactive Heat Generation
+Viscous Heat Generation
+Total Velocity
+Velocity Vector
+Welding Angle
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Average Velocity Vector
+Particle tracer Flow Length
+Particle tracer Total Velocity
+Particle tracer Pressure
+Particle tracer Temperature
+Particle tracer Elapsed Time
+Particle tracer Release Time
+Filling_Curing-Animation
+Filling_Curing-XY Curve Animation
+XY_Inlet Pressure EM#1
+XY_Inlet Pressure EM#2
+XY_Inlet Pressure EM#3
+XY_Inlet Flow Rate EM#1
+XY_Inlet Flow Rate EM#2
+XY_Inlet Flow Rate EM#3
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Curing Kinetics
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Filling Settings
+Process - Curing Setting
+[End_Report]
+
+[End_SolidRTM]
+
+[SolidWAIM]
+[_Cool]
+Temperature
+Time to Reach Ejection Temperature
+Heat Flux
+Heat Load
+Cooling Efficiency
+Molten Core
+Re-melted Area Temperature
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Mold Temperature Difference
+Max. Cooling Time
+Cooling-Animation
+XY_Cavity Surface Average Temperature
+[End_Cool]
+
+[_Flow]
+Melt Front Time
+Melt Front Time_1
+Melt Front Time_2
+Melt Front Time_3
+Melt Front Time_4
+Melt Front Time_5
+Melt Front Time_6
+Melt Front Time_7
+Melt Front Time_8
+Melt Front Time_9
+Melt Front Time_10
+Air Trap
+Weld Line
+Gate Contribution
+Pressure
+Temperature
+Shear Stress
+Max. Shear Stress
+Shear Rate
+Max. Shear Rate
+Water Front Time
+X-Velocity
+Y-Velocity
+Z-Velocity
+Volumetric Shrinkage
+Density
+Melt Front Temperature
+Viscosity (log)
+Molten Core
+Total Velocity
+Velocity Vector
+Welding Angle
+Frozen Layer Ratio
+Max. Temperature
+Center Temperature
+Average Temperature
+Bulk Temperature
+Skin Ratio
+Skin Thickness
+Sink Mark Indicator
+Sink Mark Displacement
+Max. Volume Shrinkage
+Average Velocity Vector
+Fiber Orientation in X Direction
+Fiber Orientation in Y Direction
+Fiber Orientation in Z Direction
+Fiber Orientation
+Fiber Orientation (Skin)
+Filling_Packing-Animation
+Filling_Packing-XY Curve Animation
+XY_Sprue Pressure
+XY_Clamping Force
+XY_Flow Rate
+XY_Volume Fraction
+XY_Total Weight
+XY_Cavity Weight#1
+[End_Flow]
+
+[_Mesh]
+Shaded Model
+Wireframe Model 1
+Wireframe Model 2
+Node
+Mesh quality
+Thickness
+[End_Mesh]
+
+[_Report]
+1.1. Summary
+1.2. Summary of the Mesh
+1.3. Summary of the Material
+1.4. Summary of the Process Condition
+Material Viscosity
+Material PVT
+Material Heat Capacity
+Material Thermal Conductivity
+Material Viscoelasticity
+Material Structure VE
+Material Mechanical Properties
+Material Content
+Process - Project Settings
+Process - Filling/Packing Settings
+Process - Cooling Settings
+Process - Summary
+[End_Report]
+
+[_Warp]
+X-Displacement
+Y-Displacement
+Z-Displacement
+Total Displacement
+Volumetric Shrinkage
+Density
+Flatness
+X-Fiber Orientation Effect Displacement
+Y-Fiber Orientation Effect Displacement
+Z-Fiber Orientation Effect Displacement
+Total Fiber Orientation Effect Displacement
+X-Random Fiber Orientation Effect Displacement
+Y-Random Fiber Orientation Effect Displacement
+Z-Random Fiber Orientation Effect Displacement
+Total Random Fiber Orientation Effect Displacement
+Major Modulus
+Mean Modulus
+Minor Modulus
+X-Modulus
+Y-Modulus
+Z-Modulus
+X Stress Component
+Y Stress Component
+Z Stress Component
+XY Shear Stress
+YZ Shear Stress
+ZX Shear Stress
+Von Mises Stress
+Warpage-Animation
+[End_Warp]
+
+[End_SolidWAIM]
+

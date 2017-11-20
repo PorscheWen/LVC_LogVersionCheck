@@ -1,0 +1,40 @@
+1005       // version
+0			// Analysis Mode
+1			// Inertia Flag
+1			// Non-Isothermal Flag
+1			// Non Newtonian Flag
+1			// Viscous Heating Flag
+0			// Stablize Flag
+0.0 0.0 0.0	// GravX GravY  GravZ
+0			// No. Output step
+0 0 0 0	// lTec lFMP lHM lHMAVI
+0          // lCoolEst
+0          // lFiber
+1          // Solver Acceleration
+[LAYER]
+6
+[FILL_OUTPUT_TIMES]
+0
+[PACK_OUTPUT_TIMES]
+0
+[VER] 1013
+2 2 2 2 2 2
+1 1 1 10
+1
+20 10 2 2 1 1
+100000 50 5.0e-004   0.0
+1.00e-002
+8.0e-001 8.0e-001 8.0e-001 1.0e+000 0.0e+000 8.0e-001 
+5 5 5 100 10 5 
+1.0e-001 1.0e-001 1.0e-001 1.0e-001 1.0e-004 1.0e-003 
+7.0e-001 7.0e-001 7.0e-001 6.0e-001 1.0e+000 9.0e-001 
+1  2  0.9995
+0
+100
+1.00  1.00
+0
+14 2 0.500000
+1 1
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+[EOF]

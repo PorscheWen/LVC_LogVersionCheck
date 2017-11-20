@@ -1,0 +1,87 @@
+﻿ModelPath = r"C:\WorkingFolder\testCase\testModel"
+sec = 1000
+
+with open(ModelPath + r"\ProjectInfo.txt", "r") as file:
+    data = file.read().split("\n")
+    Mode = data[0]
+    ProjectName = data[1]
+    ProjectType = data[2]
+    AppModule = data[3]
+
+def Main():
+    app = TestedApps.MDXProject
+    app.Params.SimpleParams.CommandLineParameters = ""
+    app.Run(1, True)
+    Aliases.MDXProject.wndAfx.WaitProperty("Visible", True, 60*sec)
+    Aliases.MDXProject.wndAfx.AfxControlBarTop.ProjRelated.Click(18, 13)
+    if Mode == "Classic":
+        Aliases.MDXProject.dlgNewProjectMode.radioClassicMode.ClickButton()
+        Aliases.MDXProject.dlgNewProjectMode.btnOK.ClickButton()
+        Step1()
+        Step2()
+        Step3()
+        Step45()
+    elif Mode == "Simple":
+        Aliases.MDXProject.dlgNewProjectMode.radioSimpleMode.ClickButton()
+        Aliases.MDXProject.dlgNewProjectMode.btnOK.ClickButton()
+    
+def Step1():
+    #Setting Project Name
+    Aliases.MDXProject.dlgProjWizard.page32770.Edit.SetText(ProjectName)
+    #Setting Project Direction
+    Aliases.MDXProject.dlgProjWizard.page32770.btnBrowse.ClickButton()
+    Aliases.MDXProject.dlgBrowseForFolder.SHBrowseForFolderShellNameSpaceControl.SysTreeView32.ClickItem("|Desktop|Computer|Local Disk (C:)|WorkingFolder|testCase|testModel")
+    Aliases.MDXProject.dlgBrowseForFolder.btn_OK.ClickButton()
+    #Step 1 -> 2
+    Aliases.MDXProject.dlgProjWizard.btn_Next.ClickButton()
+  
+def Step2():  
+    #Setting Solver
+    if ProjectType == "2D":
+        Aliases.MDXProject.dlgProjWizard.page327702.Set_Solver.ClickItem("2.5D Shell Model Solver[2.5D]")
+    elif ProjectType == "3DSolid":
+        Aliases.MDXProject.dlgProjWizard.page327702.Set_Solver.ClickItem("3D Solid Model Solver")
+    elif ProjectType == "3DeDN":
+        Aliases.MDXProject.dlgProjWizard.page327702.Set_Solver.ClickItem("3D Solid Model Solver[eDesign]")
+    #Step 2 -> 3
+    Aliases.MDXProject.dlgProjWizard.btn_Next.ClickButton()
+def Step3():
+    #Setting Application Type
+    if AppModule == "IM":    
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Injection Molding")
+    elif AppModule == "RIM":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Reaction Injection Molding")
+    elif AppModule == "GAIM":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Gas-Assisted Injection Molding")
+    elif AppModule == "WAIM":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Water-Assisted Injection Molding")
+    elif AppModule == "Co-IM":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Co-Injection Molding")
+    elif AppModule == "Bi-IM":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Bi-Injection Molding")
+    elif AppModule == "PIM":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Powder Injection Molding")
+    elif AppModule == "MCIM":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Microcellular Injection Molding")
+    elif AppModule == "ICM":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Injection Compression Molding")
+    elif AppModule == "CM":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Compression Molding")
+    elif AppModule == "IC":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Encapsulation")
+    elif AppModule == "RTM":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Resin Transfer Molding")
+    elif AppModule == "CFM":
+        Aliases.MDXProject.dlgProjWizard.page327703.Set_Module.ClickItem("Chemical Foaming Molding")
+    #Step 3 -> 4
+    Aliases.MDXProject.dlgProjWizard.btn_Next.ClickButton()
+    
+def Step45():    
+    #Step 4 -> 5
+    Aliases.MDXProject.dlgProjWizard.btn_Next.ClickButton()
+    #Step 5 -> Finish
+    Aliases.MDXProject.dlgProjWizard.btn_Finish.ClickButton()
+    
+def Close_MDXProject():
+    Aliases.MDXProject.wndAfx.close()
+    Aliases.MDXProject.dlgConfirm.btn_Yes.ClickButton()

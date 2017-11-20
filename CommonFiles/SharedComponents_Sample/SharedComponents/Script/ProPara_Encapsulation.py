@@ -1,0 +1,180 @@
+﻿ModelPath = r"C:\WorkingFolder\testCase\testModel"
+sec = 1000
+
+
+class Encapsulation:
+
+    def __init__(self, AnalysisType):
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetBasic.ICAnalysisType.ClickItem(
+            AnalysisType)
+        Aliases.MdxPro.wndAfx.btn_Next.ClickButton()
+
+
+class EncapsTM(Encapsulation):
+
+    def Set_Other(self, lstValue):
+        obj = Aliases.MdxPro.wndAfx.SysTabControl32.SetEncapsulation.Other
+        obj.Click(246, 12)
+        for val in lstValue:
+            obj.Keys("[F2]")
+            obj.Edit.SetText(str(val))
+            obj.Keys("[Enter]")
+            obj.Keys("[Down]")
+
+    def Set_InitConvers(self, Item="Constant"):
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetEncapsulation.InitConvers.ClickItem(
+            Item)
+
+
+class ProfileSetting:
+
+    def __init__(self, ProfileTag, RefCurePr=None):
+        # Project.Variables.ProfileWndCaption = "*prfile*"
+        if RefCurePr:
+            Aliases.MdxPro.wndAfx.SysTabControl32.SetEncapsulation.RefPressure.ClickItem(
+                RefCurePr)
+        dicProfile = {
+            "FlowRate": lambda: Aliases.MdxPro.wndAfx.SysTabControl32.SetEncapsulation.ProfileFlowRate.ClickButton(),
+            "TransferPressure": lambda: Aliases.MdxPro.wndAfx.SysTabControl32.SetEncapsulation.ProfileTransferPressure.ClickButton(),
+            "CurePressure": lambda: Aliases.MdxPro.wndAfx.SysTabControl32.SetEncapsulation.ProfileCuringPressure.ClickButton(),
+        }.get(ProfileTag)()
+
+    def Set_CAEProfile(self, tupTime=None, tupValue=None, **dicProfile):
+        tupParaKey = ("TypeTag", "SectionNo", "ptTypeTag")
+        valTypeTag = dicProfile.get(tupParaKey[0])
+        valSectionNo = dicProfile.get(tupParaKey[1])
+        valptType = dicProfile.get(tupParaKey[2])
+        if valTypeTag != None:
+            Aliases.MdxPro.dlgProfile.Type.ClickItem(valTypeTag)
+        if valSectionNo != None:
+            Aliases.MdxPro.dlgProfile.SectionNo.SetText(str(valSectionNo))
+        if valptType == "Stepwise":
+            Aliases.MdxPro.dlgProfile.ptStepwise.ClickButton()
+        elif valptType == "Polyline":
+            Aliases.MdxPro.dlgProfile.ptPolyline.ClickButton()
+        self.modify_ProfileValue(tupTime, tupValue)
+        Aliases.MdxPro.dlgProfile.btn_OK.ClickButton()
+
+    def modify_ProfileValue(self, tupTime, tupValue, Obj=Aliases.MdxPro.dlgProfile.TableEdit):
+        if tupTime and tupValue:
+            # Obj = Aliases.MdxPro.dlgProfile.TableEdit
+            Obj.Click(473, 47)
+            i = 0
+            while i < len(tupTime) - 1:
+                Obj.Keys("[F2]")
+                Obj.Edit.SetText(str(tupTime[i]))
+                Obj.Edit.Keys("[Enter]")
+                Obj.Keys("[Left]")
+                i += 1
+            Obj.Click(473, 74)
+            i = 0
+            while i < len(tupValue) - 1:
+                Obj.Keys("[F2]")
+                Obj.Edit.SetText(str(tupValue[i]))
+                Obj.Edit.Keys("[Enter]")
+                Obj.Keys("[Left]")
+                i += 1
+
+
+def CoolPara(MBFlag, **dicParaValue):
+    def Action():
+        i = 0
+        for k in tupParaKey:
+            l = dicParaValue.get(k)
+            if l != None:
+                Obj.Click(cp1st[0], cp1st[1] + i)
+                Obj.Keys("[F2]")
+                Obj.Edit.SetText(str(l))
+                Obj.Edit.Keys("[Enter]")
+            i += 23
+    Obj = Aliases.MdxPro.wndAfx.SysTabControl32.SetCool.Custom1
+    if MBFlag == 1:
+        cp1st = (285, 82)
+        tupParaKey = ("AirTemp", "EjTemp", "tCool", "tMBOpen")
+        Action()
+    elif MBFlag == 0:
+        cp1st = (285, 36)
+        tupParaKey = ("AirTemp", "tMBOpen")
+        Action()
+
+
+class CoolPara_Adv():
+
+    def __init__(self):
+        pass
+
+    def CC(self, iEC, lstT=None, lstQ=None, lstCCCoolant=None):
+        self.iCont = iEC
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetCool.CoolingChannelHeatingRod.ClickButton()
+        self.objCustom = Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page32770.CC
+        if lstT:
+            self.lstValue = lstT
+            self.custom_Edit((136, 36))
+        if lstQ:
+            self.lstValue = lstQ
+            self.custom_Edit((210, 36))
+        if lstCCCoolant:
+            self.lstItem = lstCCCoolant
+            self.custom_Combobox((300, 36))
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.btn_OK.ClickButton()
+
+    def HR(self, iRod, lstMethod=None, lstT=None):
+        self.iCont = iRod
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetCool.CoolingChannelHeatingRod.ClickButton()
+        self.objCustom = Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page32770.HR
+        if lstMethod:
+            self.lstItem = lstMethod
+            self.custom_Combobox((215, 36))
+        if lstValue:
+            self.lstValue = lstT
+            self.custom_Edit((342, 36))
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.btn_OK.ClickButton()
+
+    def custom_Edit(self, tupXY):
+        self.objCustom.Click(tupXY[0], tupXY[1])
+        if self.iCont > 6:
+            self.objCustom.Keys("[Up]")
+        for i in range(self.iCont):
+            self.objCustom.Keys("[F2]")
+            self.objCustom.Edit.SetText(str(self.lstValue[i]))
+            self.objCustom.Keys("[Enter]")
+            self.objCustom.Keys("[Down]")
+
+    def custom_Combobox(self, tupXY):
+        for i in range(self.iCont):
+            self.objCustom.Click(tupXY[0], tupXY[1] + i * 24)
+            self.objCustom.Keys("[F2]")
+            self.objCustom.ComboBox.ClickItem(self.lstItem[i])
+
+    def MoldMetalMTR(self, xthMTR, CutomizeMTR):
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetCool.MoldMetalMaterial.ClickButton()
+        obj = Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327702
+        obj.MoldMetalMTR.Click(362, 36 + (xthMTR - 1) * 24)
+        obj.MoldMetalMTR.Keys("[F2]")
+        obj.MoldMetalMTR.ComboBox.ClickItem(CutomizeMTR)
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.btn_OK.ClickButton()
+
+    def EjectCriteria(self, numSNID, lstCriteria):
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetCool.EjectCriteria.ClickButton()
+        obj = Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327703
+        for i in range(numSNID):
+            obj.SNID.Click(70, 36 + i * 22)
+            obj.btn_Add.ClickButton()
+        obj.Click(202, 36)
+        for i in range(numSNID):
+            obj.CriTemp.Keys("[F2]")
+            obj.CriTemp.Edit.SetText(str(lstCriteria[i]))
+            obj.CriTemp.Edit.Keys("[Enter]")
+            obj.CriTemp.Keys("[Down]")
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.btn_OK.ClickButton()
+
+    def PIInitTemp(self, lstT):
+        Aliases.MdxPro.wndAfx.SysTabControl32.SetCool.PartInsertInitialTemperature.ClickButton()
+        obj = Aliases.MdxPro.dlgCoolingAdvancedSetting.SysTabControl32.page327704.PIInitTemp
+        obj.Click(360, 36)
+        for i in range(len(lstT)):
+            obj.Keys("[F2]")
+            obj.Edit.SetText(str(lstT[i]))
+            obj.Keys("[Enter]")
+            obj.Keys("[Down]")
+        Aliases.MdxPro.dlgCoolingAdvancedSetting.btn_OK.ClickButton()

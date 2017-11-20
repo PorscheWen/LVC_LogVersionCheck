@@ -1,0 +1,124 @@
+﻿ModelPath = r"C:\WorkingFolder\testCase\testModel"
+sec = 1000
+with open(ModelPath + r"\SolverInfo.txt", "r") as file:
+    data = file.read().split("\n")
+    AnalysisSequence = data[0]
+with open(ModelPath + r"\ProjectInfo.txt", "r") as file:
+    data = file.read().split("\n")
+    pjName = data[1]
+    pjType = {"2D": "m2j",
+              "3DeDN": "mvj",
+              "3DSolid": "m3j"}.get(data[2])
+          
+dicAnalysis = {
+    "F": ["Filling -F*", "Filling"],
+    "P": ["Packing -P*", "Packing"],
+    "C": ["Curing -C*", "Curing"],
+    "F/P": ["Filling & Packing -F/P*", "Filling & Packing"],
+    "Cc": ["Cooling -C*", "Cooling(cycle-average)"],
+    "Ct": ["Transient analysis 1 -Ct*", "Cooling(transient)"],
+    "W": ["Warpage -W*", "Warpage"],
+    "S": ["Stress -S*", "Stress"]}
+    
+dicDefaulAnalysis = {}
+
+def Set_User_Analysis(RunNum = 1):
+    lstAnalysis = AnalysisSequence.split("-")
+    ActiveSetting(RunNum)
+    # Active Customize Window
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.Customize.ClickButton(cbChecked)
+    # Re Add Analysis
+    for i in lstAnalysis:
+        Aliases.MDXProject.dlgAnalysisSequenceSetting.SysListViewLeft.ClickItem(dicAnalysis.get(i)[1])
+        Aliases.MDXProject.dlgAnalysisSequenceSetting.Add.ClickButton()
+    # Delete First Analysis
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.SysListViewRight.ClickItem(0)
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.Delete.ClickButton()
+    # Rename Analysis Seqeunce
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.Edit.SetText(pjName)
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.btnPlay.ClickButton()
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.RunNow.ClickButton()
+    WaitSolved()
+
+def Set_Default_Analysis(RunNum = 1):
+    ActiveSetting(RunNum)
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.Sequence.ClickItem(AnalysisSequence)
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.RunNow.ClickButton()
+    WaitSolved()
+    
+def Set_Analysis_Batch():
+    lstAnalysisSequence = AnalysisSequence.split("-")
+    for k in lstAnalysisSequence:
+        Aliases.MDXProject.wndAfx.AfxControlBarLeft.Workspace.SysTabControl32.SysTreeView32.DblClickItem("|Cell Phone.m2j|Run 1: New run for virtual molding trial|Analysis*")
+        Log.Message(dicAnalysis.get(k))
+        Aliases.MDXProject.dlgAnalysisSequenceSetting.Sequence.ClickItem(dicAnalysis.get(k)[0])
+        Aliases.MDXProject.dlgAnalysisSequenceSetting.AddToBatchJob.ClickButton()
+        Aliases.MDXProject.dlgBatchRunManager.NotNow.ClickButton()
+        Aliases.MDXProject.dlgBatchRunManager.OK.ClickButton()
+        
+def ActiveSetting(RunNum):
+    # Active Analysis Sequence Setting Window
+    strItem = "|%s.%s|Run %s:*|Analysis*|" % (pjName, pjType, RunNum)
+    Aliases.MDXProject.wndAfx.AfxControlBarLeft.Workspace.SysTabControl32.SysTreeView32.DblClickItem(strItem)
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.Sequence.ClickItem("Filling*")
+
+def WaitSolved():
+    while not Aliases.MDXProject.WaitAliasChild("dlgConfirm", 10*sec).Exists:
+        pass
+    Aliases.MDXProject.dlgConfirm.btn_Yes.ClickButton()
+                    
+def get_Prop_Val(Obj, Prop):
+    val = aqObject.GetPropertyValue(Obj, Prop)
+    return val
+"""
+def Lunch_Batch_Run(strAnalysis, tLim):
+    Aliases.MDXProject.wndAfx.AfxControlBarLeft.Workspace.SysTabControl32.SysTreeView32.DblClickItem("|Cell Phone.m2j|Run 1:*|Analysis*")
+    Log.Message(dicAnalysis.get(strAnalysis))
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.Sequence.ClickItem(dicAnalysis.get(strAnalysis))
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.Save.ClickButton()
+    # Active_BatchRun
+    Aliases.MDXProject.wndAfx.AfxControlBarRight.ToolbarWindow32.ClickItem(32886, False)
+    # Clear All Jobs
+    Aliases.MDXProject.dlgBatchRunManager.ClearAll.ClickButton()
+    # Add Current Jobs
+    Aliases.MDXProject.dlgBatchRunManager.Add.ClickButton()
+    # Choose Run Immediately
+    Aliases.MDXProject.dlgBatchRunManager.Immediately.ClickButton()
+    Aliases.MDXProject.dlgBatchRunManager.OK.ClickButton()
+    Sys.WaitProcess("MDXSolverLauncher.exe")
+       
+def Active_BatchRun():
+    Aliases.MDXProject.wndAfx.AfxControlBarRight.ToolbarWindow32.ClickItem(32886, False)
+    
+def Active_FEA():
+    Aliases.MDXProject.wndAfx.AfxControlBarRight.ToolbarWindow32.ClickItem(33064, False)
+    
+def testt():
+    sqFirst = "Filling & Packing -F/P*"
+    #Aliases.MDXProject.dlgAnalysisSequenceSetting.SysListViewRight.ClickItem(sqFirst.split(" -")[0], 1)
+    Aliases.MDXProject.dlgAnalysisSequenceSetting.SysListViewRight.ClickItem(2)
+    
+def test():
+    Aliases.MDXProject.dlgBatchRunManager.OK.ClickButton()
+    sol = Sys.WaitProcess("MDXSolverLauncher", 1*sec)
+    #Delay(1*sec)
+    #p = Sys.Process("MDXSolverLauncher")
+    try:
+        while sol.Exists:
+            Delay(1*sec)
+            sol = Sys.WaitProcess("MDXSolverLauncher", 1*sec)
+            #p = Sys.Process("MDXSolverLauncher")
+    except:
+        pass
+    finally:        
+        Log.Message("Solved!!")
+        Aliases.MDXProject.dlgConfirm.JobFinish.ClickButton()
+
+def test33():    
+    Obj = Aliases.MDXProject.dlgAnalysisSequenceSetting.Sequence
+    aqObject.GetProperties(Obj, wText)
+    Obj = Aliases.MDXProject.dlgAnalysisSequenceSetting.SysListViewRight
+    aqObject.GetProperties(Obj, wSelectedItems)
+    aqObject.GetProperties(Obj, wText)
+    aqObject.GetPropertyValue()
+"""

@@ -1,0 +1,14 @@
+RUN DATA CHECKING REPORT
+============================
+=> OK!
+============================
+Time=04:54:18-PM-October-26-2017
+Project=C:\WorkingFolder\testCase\TestCase1_Solid_Flow
+
+Run=1
+Mesh File = SolidInjection_ValveGate_SC.mfe
+Material File = ABS_POLYFLAMRABS90950UV5_1.mtr
+Process Condition File = TestCase1_Solid_Flow_1.pro
+Computational Parameter File=TestCase1_Solid_Flow01.cmx
+============================
+
